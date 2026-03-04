@@ -1,15 +1,15 @@
 main:
   - name: "Home"
-    url: "en/"
+    url: "/en/"
     weight: 10
 
   - name: "Research"
     identifier: "research"
-    url: "en/research/"
+    url: "/en/research/"
     weight: 20
   - name: "Overview"
     parent: "research"
-    url: "en/research/"
+    url: "/en/research/"
     weight: 21
   - name: "Computer Vision"
     parent: "research"

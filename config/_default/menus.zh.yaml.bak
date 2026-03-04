@@ -1,15 +1,15 @@
 main:
   - name: "首页"
-    url: "zh/"
+    url: "/zh/"
     weight: 10
 
   - name: "研究"
     identifier: "research"
-    url: "zh/research/"
+    url: "/zh/research/"
     weight: 20
   - name: "研究方向总览"
     parent: "research"
-    url: "zh/research/"
+    url: "/zh/research/"
     weight: 21
   - name: "计算机视觉"
     parent: "research"
