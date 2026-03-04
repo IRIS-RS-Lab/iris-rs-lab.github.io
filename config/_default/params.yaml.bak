@@ -40,7 +40,7 @@ hugoblox:
 
   content:
     math:
-      enable: false
+      enable: true
     toc:
       enable: true
     reading_time:

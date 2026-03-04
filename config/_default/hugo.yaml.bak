@@ -34,3 +34,7 @@ outputs:
 caches:
   images:
     dir: :cacheDir/images
+
+module:
+  imports:
+    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5
