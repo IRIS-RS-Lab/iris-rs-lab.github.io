@@ -27,6 +27,9 @@ taxonomies:
 # 输出（搜索、RSS 等按需）
 outputs:
   home: ["HTML", "RSS", "JSON"]
+  section: ["HTML", "RSS"]
+  taxonomy: ["HTML", "RSS"]
+  term: ["HTML", "RSS"]
 
 caches:
   images:
