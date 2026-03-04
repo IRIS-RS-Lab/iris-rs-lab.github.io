@@ -4,7 +4,7 @@ type: landing
 sections:
   - block: hero
     content:
-      title: IRIS（艾瑞斯）智能遥感信息工程与应用课题组
+      title: IRIS智能遥感信息工程与应用课题组
       text: |
         Intelligent Remote-sensing Information Systems & Applications (IRIS)
         
