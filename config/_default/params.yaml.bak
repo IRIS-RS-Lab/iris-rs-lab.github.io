@@ -2,6 +2,11 @@
 hugoblox:
   schema: "2.0"
 
+  appearance:
+    mode: system
+    color_theme: default
+    font: default
+
   identity:
     # Shown in navbar/footer and SEO meta
     name: "IRIS"

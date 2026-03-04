@@ -1,0 +1,64 @@
+/* =======================================================================
+   全局样式优化 (Aesthetic Overrides for Academic Lab)
+   目标：最小侵入性缩小冗余字号、扁平化 UI、优化首屏阅读体验
+   ======================================================================= */
+
+/* 1. 基础排版：全局等比缩小，提升屏幕信息密度 */
+html {
+  font-size: 15px !important;
+}
+
+/* 2. 标题缩放控制：阻止 H1/H2 占据过大屏幕空间 */
+h1, .text-4xl, .text-5xl, .hero-title {
+  font-size: 2rem !important;
+  line-height: 1.3 !important;
+  font-weight: 700 !important;
+}
+h2, .text-3xl, .section-heading {
+  font-size: 1.5rem !important;
+  line-height: 1.4 !important;
+  font-weight: 600 !important;
+  margin-bottom: 1.25rem !important;
+}
+h3, .text-2xl {
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+}
+
+/* 3. Hero 区块优化：收敛居中，降低视觉压迫感 */
+.hero-lead {
+  font-size: 1.1rem !important;
+  font-weight: 400 !important;
+  line-height: 1.6 !important;
+  opacity: 0.85;
+  max-width: 800px;
+  margin: 0 auto !important;
+}
+
+/* 4. 卡片(Cards) 降噪：剥离厚重阴影，采用现代扁平化 1px 边框 */
+.card {
+  border: 1px solid rgba(128, 128, 128, 0.18) !important;
+  box-shadow: none !important;
+  border-radius: 8px !important;
+  background-color: var(--hb-body-bg) !important;
+  transition: all 0.2s ease-in-out;
+}
+.card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06) !important;
+  border-color: rgba(128, 128, 128, 0.35) !important;
+  transform: translateY(-2px);
+}
+
+/* 5. 导航栏与组件微调 */
+.navbar {
+  box-shadow: 0 1px 0 rgba(128,128,128,0.1) !important;
+}
+.btn {
+  border-radius: 6px !important;
+  font-weight: 500 !important;
+  text-transform: none !important;
+  letter-spacing: 0 !important;
+}
+.btn-primary {
+  box-shadow: none !important;
+}
