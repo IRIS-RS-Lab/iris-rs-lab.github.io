@@ -1,0 +1,53 @@
+# IRIS site parameters (HugoBlox schema v2)
+hugoblox:
+  schema: "2.0"
+
+  identity:
+    # Shown in navbar/footer and SEO meta
+    name: "IRIS"
+    organization: "智能遥感信息工程与应用课题组"
+    type: organization
+    tagline: "Intelligent Remote-sensing Information Systems & Applications"
+    description: "IRIS focuses on computer vision and multi-source remote sensing, building intelligent perception, analysis, and application systems—from Earth observation to eye-inspired perception."
+
+    social:
+      # Fill as needed
+      # github: "IRIS-RS-Lab"
+      # email: "contact@iris-lab.org"
+      twitter: ""
+
+  header:
+    enable: true
+    style: navbar
+    sticky: true
+    align: center
+    search: true
+    theme_toggle: true
+    theme_picker: false
+    language_switcher: true
+    cta:
+      enable: false
+      text: ""
+      url: ""
+
+  footer:
+    style: minimal
+    language_switcher: true
+    text: ""
+
+  copyright:
+    notice: "© {year} {name}."
+
+  content:
+    math:
+      enable: false
+    toc:
+      enable: true
+    reading_time:
+      enable: true
+    citations:
+      style: ieee
+
+  search:
+    enable: true
+    suggestions: ["remote sensing", "computer vision", "change detection", "SAR", "segmentation"]

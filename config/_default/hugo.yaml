@@ -1,4 +1,4 @@
-baseURL: "https://<your-github-username>.github.io/<repo-name>/"
+baseURL: "https://iris-rs-lab.github.io/site/"
 title: "IRIS | Intelligent Remote-sensing Information Systems & Applications"
 defaultContentLanguage: zh
 defaultContentLanguageInSubdir: true
