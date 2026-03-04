@@ -97,7 +97,7 @@ sections:
       sort_by: "Date"
       sort_ascending: false
     design:
-      view: compact
+      view: card
   - block: markdown
     content:
       title: Contact

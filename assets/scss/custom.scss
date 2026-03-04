@@ -1,0 +1,60 @@
+/* =======================================================================
+   全局学术化排版重置 (Surgical UI Overrides)
+   强制干预 Tailwind 默认的 "大字号+大留白" 博客风渲染
+   ======================================================================= */
+
+// 1. 强制重置根字号 (抑制全局的臃肿感)
+html {
+  font-size: 14px !important;
+}
+
+// 2. 剥夺 Hero 区域的霸屏全屏高度
+.wg-hero {
+  min-height: 0 !important;
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important;
+}
+
+// 3. 压平所有巨大的标题 (H1-H3)
+h1, .text-4xl, .text-5xl, .text-6xl {
+  font-size: 2.2rem !important;
+  line-height: 1.3 !important;
+  font-weight: 700 !important;
+  margin-bottom: 1rem !important;
+}
+
+h2, .text-3xl {
+  font-size: 1.6rem !important;
+  margin-bottom: 0.8rem !important;
+}
+
+h3, .text-2xl {
+  font-size: 1.3rem !important;
+}
+
+// 4. Hero 副标题/描述瘦身与居中
+.hero-lead {
+  font-size: 1.1rem !important;
+  line-height: 1.6 !important;
+  max-width: 800px;
+  margin: 0 auto !important;
+  opacity: 0.85;
+}
+
+// 5. 抹平卡片的厚重感与阴影 (Flat Design)
+.card {
+  border: 1px solid rgba(128, 128, 128, 0.2) !important;
+  box-shadow: none !important;
+  border-radius: 6px !important;
+  background-color: transparent !important;
+}
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05) !important;
+  border-color: rgba(128, 128, 128, 0.4) !important;
+}
+
+// 6. 紧凑化所有 Section 间距 (默认 padding 太过夸张)
+section {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}

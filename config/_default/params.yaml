@@ -4,8 +4,8 @@ hugoblox:
 
   appearance:
     mode: system
-    color_theme: minimal
-    font: minimal
+    color_theme: blue
+    font: inter
 
   identity:
     # Shown in navbar/footer and SEO meta

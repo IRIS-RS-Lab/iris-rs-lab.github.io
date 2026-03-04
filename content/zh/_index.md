@@ -53,7 +53,7 @@ sections:
       sort_by: "Date"
       sort_ascending: false
     design:
-      view: card
+      view: compact
   - block: collection
     id: pubs
     content:
@@ -97,7 +97,7 @@ sections:
       sort_by: "Date"
       sort_ascending: false
     design:
-      view: card
+      view: compact
   - block: markdown
     content:
       title: 联系我们
