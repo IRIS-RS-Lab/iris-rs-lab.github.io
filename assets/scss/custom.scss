@@ -11,6 +11,9 @@
   border-bottom: 3px solid var(--hb-primary);
 }
 
+// 强制触发 Hugo 的 SCSS 编译器 (修复 Concat Media Type 报错)
+$force-scss-mime-type: true;
+
 /* 屏蔽无详情页的论文链接（通过标识符 #no-detail 拦截全局点击事件） */
 a[href$="#no-detail"] {
   pointer-events: none !important;
