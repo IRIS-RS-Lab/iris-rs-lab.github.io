@@ -4,7 +4,7 @@ light:
   primary: "#00468c"     # 学术深蓝 (Academic Blue)
   link: "#0056b3"
   link_hover: "#002e5c"
-  background: "#ffffff"  # 纯白背景，提升学术干净度
+  background: "#f8f9fa"  # 微灰背景，增强卡片边缘对比度
   text: "#212529"        # 高对比度深灰
   heading: "#111827"
   menu_primary: "#ffffff"

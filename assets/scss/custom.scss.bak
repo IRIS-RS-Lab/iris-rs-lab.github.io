@@ -1,20 +1,8 @@
-/* 强制高对比度文字 (Fail Fast 策略：覆盖所有不可辨识的默认颜色) */
-body {
-  color: var(--hb-text) !important;
-  font-weight: 400;
-}
-
-h1, h2, h3, h4, h5, h6, .hb-heading {
-  color: var(--hb-heading) !important;
-  font-weight: 700;
-}
-
-/* 修复次要文本对比度过低的问题 */
+/* 修复次要文本对比度过低的问题，但不破坏主题深色区块的反色机制 */
 .text-muted, .article-metadata {
-  color: #495057 !important;
-}
-[data-theme="dark"] .text-muted,[data-theme="dark"] .article-metadata {
-  color: #94a3b8 !important;
+  color: #495057;
+}[data-theme="dark"] .text-muted, [data-theme="dark"] .article-metadata {
+  color: #94a3b8;
 }
 
 /* 导航栏立体感与 RSIDEA 风格底边线 */

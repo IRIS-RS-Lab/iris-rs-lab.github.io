@@ -10,7 +10,7 @@ except ImportError:
 
 # 目录配置 (Fail Fast 检查)
 ROOT_DIR = Path(__file__).resolve().parent.parent
-BIB_FILE = ROOT_DIR / "data/publications.bib"
+BIB_FILE = ROOT_DIR / "publications.bib"
 ZH_DIR = ROOT_DIR / "content/zh/publication"
 EN_DIR = ROOT_DIR / "content/en/publication"
 

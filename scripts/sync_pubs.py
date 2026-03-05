@@ -71,9 +71,11 @@ def generate_hugo_bundle(entry: dict, target_dir: Path, lang: str):
 title: "{title}"
 date: {date_str}
 summary: "{summary}"
-authors: [{authors_str}]
+authors:[{authors_str}]
 tags: [{tags_str}]
 featured: false
+# 🔴 如果你想为这篇论文添加详细页面，请删除下面这行 `external_link`
+external_link: "#no-detail"
 links:
   - name: PDF
     url: "{entry.get('url', '')}"
@@ -83,19 +85,22 @@ links:
     icon: brands/github
 ---
 
-## Abstract
+<!-- 
+=== 论文详情页存根 ===
+当前论文在列表中不可点击（无详情页）。
+如果需要展示详细页面，请：
+1. 删除上方的 `external_link: "#no-detail"`
+2. 取消注释下方的正文内容并填写你的介绍
+-->
+
+<!--
+## 摘要
 {abstract}
 
-## Method & Results
-<!-- Uncomment below and place 'featured.jpg' in this folder -->
-<!-- ![](featured.jpg) -->
-<!-- *Teaser or key result figure.* -->
+## 方法与结果
+(如果你有配图，将其命名为 featured.jpg 放在当前文件夹即可，引擎会自动抓取)
 
-## Code & Data
-- Code: 
-- Data: 
-
-## Citation
+## 引用格式
 ```bibtex
 @article{{{citekey},
   title={{{title}}},
@@ -104,6 +109,7 @@ links:
   year={{{year}}}
 }}
 ```
+-->
 """
     # 写入文件
     bundle_dir.mkdir(parents=True, exist_ok=True)

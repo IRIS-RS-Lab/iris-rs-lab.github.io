@@ -11,6 +11,33 @@
   border-bottom: 3px solid var(--hb-primary);
 }
 
+/* 屏蔽无详情页的论文链接（通过标识符 #no-detail 拦截全局点击事件） */
+a[href$="#no-detail"] {
+  pointer-events: none !important;
+  text-decoration: none !important;
+  color: inherit !important;
+  cursor: default;
+}
+
+/* 封面图片美化：圆角、阴影与悬浮交互（作用于首页、列表页） */
+.media.stream-item img, .hb-collection-item img, .article-banner img, .featured-image img {
+  border-radius: 8px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.media.stream-item img:hover, .hb-collection-item img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+/* 修正卡片视图（Card）的顶部图片，底部不应有圆角 */
+.card img {
+  border-radius: 8px 8px 0 0 !important;
+  box-shadow: none !important;
+  transform: none !important;
+}
+
 /* 卡片容器：物理隔离，避免背景色混杂导致文字发虚 */
 .card {
   background-color: var(--hb-body-bg);
