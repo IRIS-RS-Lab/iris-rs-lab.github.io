@@ -2,146 +2,192 @@
 $force-scss-mime-type: true;
 
 /* ==========================================================================
-   1. 核弹级：彻底摧毁所有深色背景 (Scorched Earth on Dark Mode)
+   1. 核弹级：彻底摧毁所有 Tailwind 深色属性 (Scorched Earth on Dark Mode)
    ========================================================================== */
 html, body, .hb-page-wrapper, main, section, .page-body {
   background-color: #ffffff !important;
-  background: #ffffff !important;
   color: #333333 !important;
 }
 
-/* 暴力剥夺 Bootstrap/Tailwind 的深色工具类属性 */[data-theme="dark"], [data-bs-theme="dark"], .dark, .bg-dark {
+/* 暴力剥夺 Tailwind 的深色工具类原子属性 */[data-theme="dark"], .dark, [class*="dark:bg-"] {
   background-color: #ffffff !important;
-  color: #333333 !important;
+}
+[class*="dark:border-"] {
+  border-color: rgba(0, 0, 0, 0.04) !important;
+}[class*="dark:text-white"] {
+  color: #111827 !important;
+}[class*="dark:text-gray-"] {
+  color: #555555 !important;
 }
 
-h1, h2, h3, h4, h5, h6, .hb-heading, 
-.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+h1, h2, h3, h4, h5, h6, .hb-heading {
   color: #111827 !important;
 }
-
 p, span, div, li, .text-muted, .article-metadata {
   color: #555555; 
-}
-
-/* 强行覆盖 text-muted 在深色模式下的反色 */
-.dark .text-muted, .dark .article-metadata {
-  color: #555555 !important;
 }
 
 /* ==========================================================================
    2. 导航栏纯白与 Logo 约束
    ========================================================================== */
-.hb-header, .navbar, .dark .navbar, .dark .hb-header {
+.hb-header, .navbar {
   background-color: #ffffff !important;
-  background: #ffffff !important;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05) !important;
   border-bottom: none !important;
-}
-.navbar-light .navbar-nav .nav-link, .navbar-brand,
-.dark .navbar-nav .nav-link {
-  color: #333333 !important;
-  font-weight: 500;
-}
-.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link.active {
-  color: #00468c !important;
 }
 .navbar-brand img {
   height: 48px !important;
   width: auto !important;
   object-fit: contain;
-  /* 混合模式：消除 Logo 白色背景与导航栏间的微小色差 */
   mix-blend-mode: multiply !important; 
+}
+.navbar-nav .nav-link {
+  color: #333333 !important;
+  font-weight: 500;
+}
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link.active {
+  color: #00468c !important;
 }
 
 /* ==========================================================================
-   3. 列表页 RSIDEA 风格精美卡片 (左图右文 + 圆角悬浮)
+   3. 首页网格卡片 Crowther Lab 风格 (作用于动态、项目模块的 Card 视图)
    ========================================================================== */
-.media.stream-item, .hb-collection-item {
+.group.cursor-pointer, .card {
+  background-color: #ffffff !important;
+  border: 1px solid rgba(0, 0, 0, 0.04) !important;
+  border-radius: 20px !important; /* 大圆角呈现现代感 */
+  box-shadow: 0 10px 30px -10px rgba(0,0,0,0.08) !important; /* 柔和的底层阴影 */
+  overflow: hidden !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.group.cursor-pointer:hover, .card:hover {
+  transform: translateY(-6px) !important; /* 悬浮上浮 */
+  box-shadow: 0 20px 40px -10px rgba(0,0,0,0.12) !important;
+}
+
+/* 顶部全宽图片 */
+.group.cursor-pointer img, .card img {
+  width: 100% !important;
+  height: 220px !important;
+  object-fit: cover !important;
+  border-radius: 0 !important; /* 依赖父元素的 overflow: hidden 裁剪 */
+  margin: 0 !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+/* 底部文本区域留白与呼吸感 */
+.group.cursor-pointer > div:not(:first-child), .card-body {
+  padding: 28px 24px !important;
+  background: #ffffff !important;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.group.cursor-pointer h3, .card-title {
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+  color: #111827 !important;
+  margin-top: 0 !important;
+  margin-bottom: 12px !important;
+}
+.group.cursor-pointer h3 a, .card-title a {
+  color: #111827 !important;
+  text-decoration: none !important;
+}
+.group.cursor-pointer h3 a:hover, .card-title a:hover {
+  color: #00468c !important;
+}
+.group.cursor-pointer p, .card-text {
+  color: #555555 !important;
+  font-size: 0.95rem !important;
+  line-height: 1.6 !important;
+  margin-bottom: 0 !important;
+}
+
+/* ==========================================================================
+   4. 列表页 RSIDEA 风格精美紧凑卡片 (作用于论文模块的 Compact 视图)
+   ========================================================================== */
+.media.stream-item {
   display: flex !important;
   align-items: center !important;
   background-color: #ffffff !important;
-  background: #ffffff !important;
   border: 1px solid rgba(0, 0, 0, 0.08) !important;
-  border-radius: 12px !important;
-  padding: 20px !important;
+  border-radius: 16px !important;
+  padding: 24px !important;
   margin-bottom: 24px !important;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03) !important;
   transition: transform 0.3s ease, box-shadow 0.3s ease !important;
 }
 
-.media.stream-item:hover, .hb-collection-item:hover {
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08) !important;
-  transform: translateY(-3px) !important;
+.media.stream-item:hover {
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08) !important;
+  transform: translateY(-4px) !important;
 }
 
-.media.stream-item .article-title a, 
-.hb-collection-item .article-title a,
-.media.stream-item h3 a, 
-.hb-collection-item h3 a {
-  color: #00468c !important; 
+.media.stream-item h3 a {
+  color: #111827 !important; 
   font-weight: 700 !important;
+  font-size: 1.25rem !important;
   text-decoration: none !important;
 }
-.media.stream-item .article-title a:hover, 
-.hb-collection-item .article-title a:hover,
-.media.stream-item h3 a:hover, 
-.hb-collection-item h3 a:hover {
-  color: #002e5c !important; 
+.media.stream-item h3 a:hover {
+  color: #00468c !important; 
 }
 
-.media.stream-item .media-body, .hb-collection-item .media-body {
+.media.stream-item .media-body {
   order: 2;
   flex: 1;
-  padding-left: 24px;
+  padding-left: 30px;
 }
-.media.stream-item a:not(.media-body a), .hb-collection-item a:not(.media-body a) {
+.media.stream-item a:not(.media-body a) {
   order: 1;
   flex-shrink: 0;
 }
-.media.stream-item img, .hb-collection-item img {
-  width: 240px !important;
-  height: 160px !important;
+.media.stream-item img {
+  width: 260px !important;
+  height: 170px !important;
   object-fit: cover !important;
-  border-radius: 8px !important;
+  border-radius: 12px !important;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05) !important;
-  background-color: #f0f0f0 !important;
 }
 
 @media (max-width: 768px) {
-  .media.stream-item, .hb-collection-item { 
+  .media.stream-item { 
     flex-direction: column !important; 
     align-items: stretch !important; 
+    padding: 16px !important;
   }
-  .media.stream-item .media-body, .hb-collection-item .media-body { 
-    order: 2; 
+  .media.stream-item .media-body { 
     padding-left: 0 !important; 
-    padding-top: 16px !important; 
+    padding-top: 20px !important; 
   }
-  .media.stream-item a:not(.media-body a), .hb-collection-item a:not(.media-body a) { 
-    order: 1; 
-  }
-  .media.stream-item img, .hb-collection-item img { 
+  .media.stream-item img { 
     width: 100% !important; 
     height: auto !important; 
-    aspect-ratio: 3/2;
+    aspect-ratio: 16/9;
   }
 }
 
 /* ==========================================================================
-   4. 按钮与组件色彩修正
+   5. 按钮色彩修正
    ========================================================================== */
-.btn-outline-primary {
+.btn-outline-primary, .btn-primary {
   color: #00468c !important;
   border-color: #00468c !important;
+  border-radius: 50px !important;
+  padding: 6px 16px !important;
 }
-.btn-outline-primary:hover {
+.btn-outline-primary:hover, .btn-primary:hover {
   background-color: #00468c !important;
   color: #ffffff !important;
 }
 
 /* ==========================================================================
-   5. 阻断无详情页论文的点击跳转 (Fail Fast)
+   6. 阻断无详情页论文的点击跳转 (Fail Fast)
    ========================================================================== */
 a[href$="#no-detail"] {
   pointer-events: none !important;
@@ -150,5 +196,5 @@ a[href$="#no-detail"] {
   text-decoration: none !important;
 }
 a[href$="#no-detail"] h3 {
-  color: #00468c !important;
+  color: #111827 !important;
 }
