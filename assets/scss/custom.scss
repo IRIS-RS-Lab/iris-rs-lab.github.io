@@ -2,25 +2,37 @@
 $force-scss-mime-type: true;
 
 /* ==========================================================================
-   1. 终极亮色模式锁定 (消灭深色模式干扰，全局漂白)
+   1. 彻底抹杀系统级黑夜模式 (Global Light Mode Override)
    ========================================================================== */
-:root, [data-theme="dark"], [data-theme="light"], body {
+:root, [data-theme="dark"], body.dark {
   --hb-body-bg: #ffffff !important;
   --hb-background: #ffffff !important;
   --hb-text: #333333 !important;
   --hb-heading: #111827 !important;
-  background-color: #ffffff !important;
-  color: #333333 !important;
 }
 
-/* 摧毁所有暗色区块（例如 Hero 区域的暗色底纹），统一为极其克制的浅灰 */
-.bg-dark, .dark {
-  background-color: #f8f9fa !important;
-  color: #333333 !important;
+/* 防御操作系统的 prefers-color-scheme 暗色介入 */
+@media (prefers-color-scheme: dark) {
+  body, .bg-dark, .dark {
+    background-color: #ffffff !important;
+    color: #333333 !important;
+  }
+  h1, h2, h3, h4, h5, h6, .article-title, .hb-heading {
+    color: #111827 !important;
+  }
+  .text-muted, .article-metadata {
+    color: #555555 !important;
+  }
+  .navbar, .hb-header {
+    background-color: #ffffff !important;
+  }
+  .navbar-nav .nav-link {
+    color: #333333 !important;
+  }
 }
 
 /* ==========================================================================
-   2. 导航栏与 Logo 协调美化 (白底黑字)
+   2. 导航栏与 Logo 协调美化 (纯白底色)
    ========================================================================== */
 .hb-header, .navbar {
   background-color: #ffffff !important;
@@ -105,7 +117,7 @@ $force-scss-mime-type: true;
   object-fit: cover !important;
   border-radius: 8px !important;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-  background-color: #f0f0f0; /* 当没有图片时的占位背景色 */
+  background-color: #f0f0f0;
 }
 
 /* 移动端自适应：改为上下结构 */
@@ -130,7 +142,7 @@ $force-scss-mime-type: true;
 }
 
 /* ==========================================================================
-   4. 按钮与标签色彩修正
+   4. 按钮与组件色彩修正
    ========================================================================== */
 .btn-outline-primary {
   color: #00468c !important;

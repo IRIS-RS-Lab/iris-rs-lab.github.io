@@ -22,10 +22,6 @@ sections:
         link:
           text: Cross-disciplinary research
           url: /en/research/cross/
-    design:
-      background:
-        color: '#00468c'
-        text_color_light: true
   - block: markdown
     content:
       title: What we do
