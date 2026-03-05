@@ -72,8 +72,9 @@ title: "{title}"
 date: {date_str}
 summary: "{summary}"
 authors: [{authors_str}]
-tags: [{tags_str}]
+tags:[{tags_str}]
 featured: false
+# 🔴 核心机制：此行代码会让这篇论文在列表中不可点击。若要为其添加详细页面，请删除这行代码！
 external_link: "#no-detail"
 links:
   - name: PDF
@@ -84,22 +85,19 @@ links:
     icon: brands/github
 ---
 
-<!-- 
-=== 论文详情页存根 ===
-状态：当前论文在列表中不可点击。
-若需为其添加详细页面，请执行以下两步：
-1. 删掉上方 Front Matter 中的 `external_link: "#no-detail"` 行。
-2. 取消下方内容的注释，并补充详细信息。
+<!--
+================ 详情页隐藏区 ================
+如果你删除了上方的 external_link 激活了详情页，
+可以取消下方内容的注释，放入你的成果展示。
+(若有配图，直接将图片命名为 featured.jpg 放在本文件夹)
+==============================================
 -->
 
 <!--
 ## 摘要
 {abstract}
 
-## 方法与结果
-（若有相关配图，将图片命名为 featured.jpg 放置于当前文件夹，主页列表将自动抓取该图展示）
-
-## 引用
+## 引用格式
 ```bibtex
 @article{{{citekey},
   title={{{title}}},

@@ -7,6 +7,8 @@ tags: ["Remote Sensing", "Segmentation"]
 # image:
 #   filename: "my-custom-image.jpg"
 featured: true
+# 🔴 如果你不想让这篇论文有详细页面（仅在列表中展示并不可点击），取消下面这行的注释：
+# external_link: "#no-detail"
 links:
   - name: PDF
     url: "https://arxiv.org/"

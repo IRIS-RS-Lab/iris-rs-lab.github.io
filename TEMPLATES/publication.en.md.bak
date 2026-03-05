@@ -7,6 +7,8 @@ tags: ["Remote Sensing", "Segmentation"]
 # image:
 #   filename: "my-custom-image.jpg"
 featured: true
+# 🔴 If you DO NOT want a detail page (list item unclickable), uncomment the line below:
+# external_link: "#no-detail"
 links:
   - name: PDF
     url: "https://arxiv.org/"
