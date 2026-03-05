@@ -1,0 +1,16 @@
+---
+title: "何国金研究团队研发的30米全球火烧迹地产品支撑Nature论文成果"
+date: 2026-01-13
+summary: "IRIS website is live. We will keep updating publications, projects, resources, and news."
+tags: ["Announcement"]
+---
+
+1月7日，《自然》（Nature）期刊在线发表了题为“小规模持续的湿润森林损失主导了热带森林生物量损失”（Small persistent humid forest clearings drive tropical forest biomass losses）的论文。该成果基于高分辨率的森林扰动和生物量数据，构建了格点尺度的森林扰动植被恢复数据库，并在此基础上开发了一个集成高分辨率遥感数据和森林扰动恢复数据库的森林碳簿记模型。利用该模型估算了1990－2020年间森林扰动导致的植被碳储量时空变化动态，明确了不同干扰类型和扰动斑块大小对森林植被碳储量及碳密度变化的具体贡献。该模型突破了传统簿记模型长期依赖区域尺度响应曲线的方法瓶颈，通过引入空间明确的碳库恢复曲线，显著提升了对森林空间异质性和扰动响应过程的刻画能力。法国气候与环境科学实验室（LSCE）博士后徐伊迪为论文第一作者，清华大学地球系统科学系副教授李伟与法国气候与环境科学实验室教授菲利普·西亚斯（Philippe Ciais）为论文共同通讯作者，中国科学院空天信息创新研究院研究员何国金为论文的合作作者之一。
+
+何国金研究团队（研究员张兆明、副研究员龙腾飞等）研发的30米分辨率长时序全球火烧迹地产品（GABAM）作为该论文的重要支撑数据，用以精确表征过去30年热带森林火烧（尤其是小面积火烧）的干扰历史，进而助力热带森林碳损失的精确量化。
+
+自2016年起，在国家重点研发计划课题等支持下，何国金研究团队研发共享了国际首套/唯一30米分辨率全球火烧迹地产品（1990-2024），该产品是目前空间分辨率最高的全球火烧迹地产品。研究成果在《ISPRS Journal of Photogrammetry and Remote Sensing》《Earth’s Future》《Geo-spatial Information Science》《Photogrammetric Engineering & Remote Sensing》《Remote Sensing》《Remote Sensing Letters》《遥感学报》等国内外期刊发表论文11篇，论文被《Nature》《Science》《PNAS》等顶级期刊引用，单篇论文最高引用达到287次。
+
+
+![用户界面](W020260113582931496576.jpg "用户界面演示")
+小尺度热带森林损失造成显著碳损失
