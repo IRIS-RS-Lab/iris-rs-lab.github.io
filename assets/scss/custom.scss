@@ -2,58 +2,56 @@
 $force-scss-mime-type: true;
 
 /* ==========================================================================
-   1. 彻底抹杀系统级黑夜模式 (Global Light Mode Override)
+   1. 核弹级：彻底摧毁所有深色背景 (Scorched Earth on Dark Mode)
    ========================================================================== */
-:root, [data-theme="dark"], body.dark {
-  --hb-body-bg: #ffffff !important;
-  --hb-background: #ffffff !important;
-  --hb-text: #333333 !important;
-  --hb-heading: #111827 !important;
+html, body, .hb-page-wrapper, main, section, .page-body {
+  background-color: #ffffff !important;
+  background: #ffffff !important;
+  color: #333333 !important;
 }
 
-/* 防御操作系统的 prefers-color-scheme 暗色介入 */
-@media (prefers-color-scheme: dark) {
-  body, .bg-dark, .dark {
-    background-color: #ffffff !important;
-    color: #333333 !important;
-  }
-  h1, h2, h3, h4, h5, h6, .article-title, .hb-heading {
-    color: #111827 !important;
-  }
-  .text-muted, .article-metadata {
-    color: #555555 !important;
-  }
-  .navbar, .hb-header {
-    background-color: #ffffff !important;
-  }
-  .navbar-nav .nav-link {
-    color: #333333 !important;
-  }
+/* 暴力剥夺 Bootstrap/Tailwind 的深色工具类属性 */[data-theme="dark"], [data-bs-theme="dark"], .dark, .bg-dark {
+  background-color: #ffffff !important;
+  color: #333333 !important;
+}
+
+h1, h2, h3, h4, h5, h6, .hb-heading, 
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+  color: #111827 !important;
+}
+
+p, span, div, li, .text-muted, .article-metadata {
+  color: #555555; 
+}
+
+/* 强行覆盖 text-muted 在深色模式下的反色 */
+.dark .text-muted, .dark .article-metadata {
+  color: #555555 !important;
 }
 
 /* ==========================================================================
-   2. 导航栏与 Logo 协调美化 (纯白底色)
+   2. 导航栏纯白与 Logo 约束
    ========================================================================== */
-.hb-header, .navbar {
+.hb-header, .navbar, .dark .navbar, .dark .hb-header {
   background-color: #ffffff !important;
+  background: #ffffff !important;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05) !important;
   border-bottom: none !important;
 }
-.navbar-light .navbar-nav .nav-link, .navbar-brand {
+.navbar-light .navbar-nav .nav-link, .navbar-brand,
+.dark .navbar-nav .nav-link {
   color: #333333 !important;
   font-weight: 500;
 }
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link.active {
-  color: #00468c !important; /* 交互时呈现主题蓝 */
+  color: #00468c !important;
 }
-
-/* Logo 约束，防止过大并垂直居中。使用正片叠底消除可能残留的白边杂色 */
 .navbar-brand img {
   height: 48px !important;
   width: auto !important;
   object-fit: contain;
-  mix-blend-mode: multiply; 
-  padding-bottom: 4px;
+  /* 混合模式：消除 Logo 白色背景与导航栏间的微小色差 */
+  mix-blend-mode: multiply !important; 
 }
 
 /* ==========================================================================
@@ -61,7 +59,8 @@ $force-scss-mime-type: true;
    ========================================================================== */
 .media.stream-item, .hb-collection-item {
   display: flex !important;
-  align-items: center;
+  align-items: center !important;
+  background-color: #ffffff !important;
   background: #ffffff !important;
   border: 1px solid rgba(0, 0, 0, 0.08) !important;
   border-radius: 12px !important;
@@ -76,12 +75,11 @@ $force-scss-mime-type: true;
   transform: translateY(-3px) !important;
 }
 
-/* 强制卡片内文本颜色绝对可见 */
 .media.stream-item .article-title a, 
 .hb-collection-item .article-title a,
 .media.stream-item h3 a, 
 .hb-collection-item h3 a {
-  color: #00468c !important; /* 标题采用学术深蓝 */
+  color: #00468c !important; 
   font-weight: 700 !important;
   text-decoration: none !important;
 }
@@ -91,22 +89,12 @@ $force-scss-mime-type: true;
 .hb-collection-item h3 a:hover {
   color: #002e5c !important; 
 }
-.media.stream-item .article-style, 
-.hb-collection-item .article-style,
-.media.stream-item .text-muted, 
-.hb-collection-item .text-muted {
-  color: #555555 !important;
-  font-size: 0.95rem;
-}
 
-/* 强制图片在左侧 (Flexbox 重排) */
 .media.stream-item .media-body, .hb-collection-item .media-body {
   order: 2;
   flex: 1;
   padding-left: 24px;
 }
-
-/* 封面图片美化：统一尺寸、圆角、裁切 */
 .media.stream-item a:not(.media-body a), .hb-collection-item a:not(.media-body a) {
   order: 1;
   flex-shrink: 0;
@@ -116,11 +104,10 @@ $force-scss-mime-type: true;
   height: 160px !important;
   object-fit: cover !important;
   border-radius: 8px !important;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-  background-color: #f0f0f0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05) !important;
+  background-color: #f0f0f0 !important;
 }
 
-/* 移动端自适应：改为上下结构 */
 @media (max-width: 768px) {
   .media.stream-item, .hb-collection-item { 
     flex-direction: column !important; 
