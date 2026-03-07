@@ -1,0 +1,135 @@
+{{ $page := .page }}
+{{ $columns := .columns | default "2" }}
+{{ $isZh := eq site.Language.Lang "zh" }}
+{{ $people := slice }}
+{{ with site.GetPage "Section" "authors" }}
+  {{ $people = .Pages }}
+{{ end }}
+
+{{ $groupMeta := slice
+  (dict "key" "advisor" "title" (cond $isZh "学术指导" "Academic Advisors"))
+  (dict "key" "leader" "title" (cond $isZh "负责人" "Leadership"))
+  (dict "key" "member" "title" (cond $isZh "成员" "Members"))
+  (dict "key" "collaborator" "title" (cond $isZh "合作导师" "Collaborators"))
+}}
+
+{{ $groups := dict
+  "advisor" (slice)
+  "leader" (slice)
+  "member" (slice)
+  "collaborator" (slice)
+}}
+
+{{ range $person := $people }}
+  {{ $groupKey := "member" }}
+  {{ $explicit := lower ($person.Params.people_group | default "") }}
+  {{ $role := lower ($person.Params.role | default "") }}
+
+  {{ if or (eq $explicit "advisor") (eq $explicit "学术指导") (in $role "advisor") (in $role "学术") }}
+    {{ $groupKey = "advisor" }}
+  {{ else if or (eq $explicit "leader") (eq $explicit "负责人") (eq $explicit "pi") (in $role "principal investigator") (in $role "group leader") (in $role "pi") }}
+    {{ $groupKey = "leader" }}
+  {{ else if or (eq $explicit "collaborator") (eq $explicit "合作导师") (eq $explicit "collaborator mentor") (in $role "collaborator") (in $role "合作") }}
+    {{ $groupKey = "collaborator" }}
+  {{ end }}
+
+  {{ $bucket := index $groups $groupKey | default (slice) }}
+  {{ $personName := $person.Params.display_name | default $person.Title }}
+  {{ $personWeight := int ($person.Params.people_weight | default 9999) }}
+  {{ $bucket = $bucket | append (dict "person" $person "name" $personName "weight" $personWeight) }}
+  {{ $groups = merge $groups (dict $groupKey $bucket) }}
+{{ end }}
+
+<div class="col-12 {{ if eq $columns "2" }}col-lg-8{{ end }} iris-people-col">
+  <div class="iris-people-directory">
+    <aside class="iris-people-sidebar" aria-label="{{ cond $isZh "成员导航" "People navigation" }}">
+      {{ range $groupMeta }}
+        {{ $items := index $groups .key | default (slice) }}
+        {{ $items = sort $items "name" "asc" }}
+        {{ $items = sort $items "weight" "asc" }}
+        {{ if gt (len $items) 0 }}
+          <section class="iris-people-sidebar-group">
+            <h3>{{ .title }}</h3>
+            {{ range $entry := $items }}
+              {{ $person := $entry.person }}
+              {{ $personName := $entry.name }}
+              {{ $personID := printf "person-%s" ($personName | anchorize) }}
+              <a href="#{{ $personID }}">{{ $personName }}</a>
+            {{ end }}
+          </section>
+        {{ end }}
+      {{ end }}
+    </aside>
+
+    <div class="iris-people-content">
+      {{ range $groupMeta }}
+        {{ $items := index $groups .key | default (slice) }}
+        {{ $items = sort $items "name" "asc" }}
+        {{ $items = sort $items "weight" "asc" }}
+        {{ if gt (len $items) 0 }}
+          <section class="iris-people-group" id="group-{{ .key }}">
+            {{ range $entry := $items }}
+              {{ $person := $entry.person }}
+              {{ $personName := $entry.name }}
+              {{ $personID := printf "person-%s" ($personName | anchorize) }}
+              {{ $avatarParam := $person.Params.avatar }}
+              {{ $avatarURL := "" }}
+              {{ if $avatarParam }}
+                {{ if reflect.IsMap $avatarParam }}
+                  {{ $avatarURL = $avatarParam.url | default "" }}
+                  {{ if and (not $avatarURL) ($avatarParam.filename) }}
+                    {{ $avatarFilename := printf "%v" $avatarParam.filename }}
+                    {{ if or (hasPrefix $avatarFilename "http://") (hasPrefix $avatarFilename "https://") }}
+                      {{ $avatarURL = $avatarFilename }}
+                    {{ end }}
+                  {{ end }}
+                {{ else }}
+                  {{ $avatarValue := printf "%v" $avatarParam }}
+                  {{ if or (hasPrefix $avatarValue "http://") (hasPrefix $avatarValue "https://") }}
+                    {{ $avatarURL = $avatarValue }}
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+              {{ $avatar := $person.Resources.GetMatch "avatar*" }}
+              {{ if not $avatar }}{{ $avatar = $person.Resources.GetMatch "featured*" }}{{ end }}
+              {{ if not $avatar }}{{ $avatar = $person.Resources.GetMatch "*.{jpg,jpeg,png,webp,avif}" }}{{ end }}
+              {{ $profileURL := $person.Params.profile_url | default "" }}
+              {{ $linkInternal := $person.Params.profile_link | default false }}
+              {{ $nameURL := "" }}
+              {{ if $profileURL }}
+                {{ $nameURL = $profileURL }}
+              {{ else if $linkInternal }}
+                {{ $nameURL = $person.RelPermalink }}
+              {{ end }}
+              <article class="iris-people-card" id="{{ $personID }}">
+                <div class="iris-people-photo">
+                  {{ if $avatarURL }}
+                    <img src="{{ $avatarURL }}" alt="{{ $personName }}">
+                  {{ else }}
+                    {{ with $avatar }}
+                      <img src="{{ .RelPermalink }}" alt="{{ $personName }}">
+                    {{ else }}
+                      <div class="iris-people-photo-placeholder">{{ substr ($personName | plainify) 0 1 }}</div>
+                    {{ end }}
+                  {{ end }}
+                </div>
+                <div class="iris-people-body">
+                  <div class="iris-people-name">
+                    {{ if $nameURL }}
+                      <a href="{{ $nameURL }}"{{ if $profileURL }} target="_blank" rel="noopener"{{ end }}>{{ $personName }}</a>
+                    {{ else }}
+                      <span class="iris-people-name-text">{{ $personName }}</span>
+                    {{ end }}
+                  </div>
+                  <div class="iris-people-bio">
+                    {{ $person.Content }}
+                  </div>
+                </div>
+              </article>
+            {{ end }}
+          </section>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</div>

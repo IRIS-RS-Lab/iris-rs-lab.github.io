@@ -1,0 +1,62 @@
+{{ $entry := .entry }}
+{{ $detail := .detail }}
+{{ $hasDetail := and $detail (ne ($detail.Params.external_link | default "") "#no-detail") }}
+{{ $titleLink := "" }}
+{{ if $hasDetail }}
+  {{ $titleLink = $detail.RelPermalink }}
+{{ end }}
+
+{{ $dateText := $entry.date | default "" }}
+{{ with $entry.date }}
+  {{ $pubTime := time.AsTime . }}
+  {{ if eq site.Language.Lang "zh" }}
+    {{ $dateText = $pubTime.Format "2006年1月" }}
+  {{ else }}
+    {{ $dateText = $pubTime.Format "Jan 2006" }}
+  {{ end }}
+{{ end }}
+
+{{ $badges := $entry.badges | default (slice) }}
+{{ with $detail }}
+  {{ with .Params.publication_badges }}
+    {{ if reflect.IsSlice . }}
+      {{ range . }}
+        {{ $badges = $badges | append . }}
+      {{ end }}
+    {{ else }}
+      {{ $badges = $badges | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<div class="media stream-item view-compact iris-publication-item">
+  <div class="media-body">
+    <div class="section-subheading article-title mb-0 mt-0">
+      {{ if $titleLink }}
+        <a href="{{ $titleLink }}">{{ $entry.title }}</a>
+      {{ else }}
+        <span class="iris-publication-title-text">{{ $entry.title }}</span>
+      {{ end }}
+    </div>
+
+    {{ with $entry.authors_text }}
+      <div class="iris-publication-authors">{{ . }}</div>
+    {{ end }}
+
+    {{ if or $entry.venue $dateText }}
+      <div class="iris-publication-venue">
+        {{ with $entry.venue }}<span class="publication-venue">{{ . }}</span>{{ end }}
+        {{ if and $entry.venue $dateText }}<span class="publication-sep"> · </span>{{ end }}
+        {{ with $dateText }}<span class="publication-date">{{ . }}</span>{{ end }}
+      </div>
+    {{ end }}
+
+    {{ if gt (len $badges) 0 }}
+      <div class="iris-publication-badges">
+        {{ range $badges }}
+          <span class="iris-publication-badge">{{ . }}</span>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+</div>

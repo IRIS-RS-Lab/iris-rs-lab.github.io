@@ -1,0 +1,37 @@
+{{- $page := .Page -}}
+{{- $parent := $page.Parent -}}
+{{- if $parent -}}
+  {{- $items := sort (where $parent.Pages "Kind" "section") "Weight" "asc" -}}
+  {{- if gt (len $items) 0 -}}
+    {{- $segments := split (trim $parent.RelPermalink "/") "/" -}}
+    {{- $root := index $segments (sub (len $segments) 1) -}}
+    {{- $isZh := eq $page.Site.Language.Lang "zh" -}}
+    {{- $zhLabels := dict
+      "research" "研究方向"
+      "publication" "论文栏目"
+      "project" "项目栏目"
+      "post" "动态栏目"
+      "resources" "资源分类"
+      "impact" "影响力栏目"
+      "people" "成员栏目"
+    -}}
+    {{- $enLabels := dict
+      "research" "Research"
+      "publication" "Publications"
+      "project" "Projects"
+      "post" "News"
+      "resources" "Resources"
+      "impact" "Impact"
+      "people" "People"
+    -}}
+    {{- $defaultLabel := cond $isZh "子栏目" "Sections" -}}
+    {{- $heading := cond $isZh (index $zhLabels $root) (index $enLabels $root) | default $defaultLabel -}}
+
+<div class="iris-float-nav" data-auto-nav="shortcode">
+  <h3>{{ $heading }}</h3>
+  {{- range $items -}}
+    <a href="{{ .RelPermalink }}" class="{{ if eq .RelPermalink $page.RelPermalink }}active{{ end }}">{{ .Title }}</a>
+  {{- end -}}
+</div>
+  {{- end -}}
+{{- end -}}

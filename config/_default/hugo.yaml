@@ -4,6 +4,15 @@ canonifyURLs: false
 title: "IRIS | Intelligent Remote-sensing Information Systems & Applications"
 defaultContentLanguage: zh
 defaultContentLanguageInSubdir: true
+ignoreFiles:
+  - '\.bak$'
+ignoreLogs:
+  - warning-goldmark-raw-html
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 languages:
   zh:

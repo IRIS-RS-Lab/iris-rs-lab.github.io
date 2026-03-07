@@ -1,6 +1,7 @@
 ---
 title: "<Title>"
 date: <YYYY-MM-DD>
+abstract: "Card abstract shown only in list cards. Optional."
 summary: "IRIS website is live. We will keep updating publications, projects, resources, and news."
 tags: ["Announcement"]
 # If 'featured.jpg' exists in this folder, it is auto-used. To specify another image, uncomment below:

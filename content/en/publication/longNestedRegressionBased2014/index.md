@@ -5,6 +5,7 @@ summary: "Published in Photogrammetric Engineering & Remote Sensing."
 authors: ["Long, Tengfei", "Jiao, Weili", "He, Guojin"]
 tags: ["notion"]
 featured: false
+external_link: "#no-detail"
 links:
   - name: PDF
     url: ""
@@ -35,3 +36,5 @@ links:
   year={2014}
 }
 ```
+
+

@@ -5,6 +5,7 @@ summary: "Published in Sensors."
 authors: ["Long, Tengfei", "Xu, Yi", "Zou, Haidong", "Lu, Lina", "Yuan, Tianyi", "Dong, Zhou", "Dong, Jiqun", "Ke, Xin", "Ling, Saiguang", "Ma, Yingyan"]
 tags: ["notion"]
 featured: false
+external_link: "#no-detail"
 links:
   - name: PDF
     url: ""
@@ -35,3 +36,5 @@ Pixel pitch calibration is an essential step to make the fundus structures in th
   year={2022}
 }
 ```
+
+

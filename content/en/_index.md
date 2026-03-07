@@ -6,10 +6,9 @@ sections:
     content:
       title: IRIS Lab
       text: |
-        Intelligent Remote-sensing Information Systems & Applications (IRIS)
+        **IRIS Lab** develops intelligent remote-sensing information systems for perception, analysis, and application.
         
-        We work on computer vision and multi-source remote sensing to build end-to-end intelligent perception and application systems.
-        From Earth to Eye: extending remote sensing beyond Earth observation with cross-disciplinary vision.
+        We work across ready-to-use remote-sensing products, representation learning, geospatial intelligence, and human-centered applications to connect observation, understanding, and deployment.
       primary_action:
         text: Publications
         url: /en/publication/

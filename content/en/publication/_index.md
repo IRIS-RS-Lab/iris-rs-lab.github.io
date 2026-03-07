@@ -6,9 +6,11 @@ sections:
     content:
       title: Publications
       text: |
-        A complete list of IRIS publications and detail pages.
+        A curated list of IRIS publications.
         
-        - Tip: Export `publications.bib` from Zotero periodically and generate/refresh pages automatically.
+        - Detail pages are optional and only enabled for selected papers.
+        - If a paper has no detail page, its list title is intentionally non-clickable.
+        - Tip: export `publications.bib` from Zotero and sync metadata with scripts.
   - block: collection
     id: all_pubs
     content:

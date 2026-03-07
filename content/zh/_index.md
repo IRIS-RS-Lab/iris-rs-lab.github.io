@@ -1,35 +1,26 @@
 ---
-title: 首页
+title: 智能遥感信息工程与应用研究组
 type: landing
 sections:
   - block: hero
     content:
-      title: IRIS智能遥感信息工程与应用课题组
+      title: 智能遥感信息工程与应用
       text: |
-        Intelligent Remote-sensing Information Systems & Applications (IRIS)
-        
-        面向计算机视觉与多源遥感，构建“感知—理解—应用”一体化的智能信息系统。
-        从地球到眼球：以遥感的“慧眼”连接更广阔的跨学科愿景。
+        **IRIS 研究组**聚焦遥感智能感知、信息处理与应用服务，面向科研问题、数据产品与真实场景需求，构建从观测、理解到应用的完整技术链条。
+
+        “IRIS”是 **I**ntelligent **R**emote-sensing **I**nformation **S**ystems & Applications 的缩写。团队围绕遥感数据即得即用（RTU）产品与服务、遥感数据智能处理与信息挖掘、人居福祉遥感、遥感大数据工程与应用等方向开展研究，致力于推动遥感技术的智能化、工程化与应用化发展。
       primary_action:
         text: 查看论文
-        url: /zh/publication/
+        url: /zh/publication/paper/
         icon: hero/sparkles
       secondary_action:
         text: 资源共享
-        url: /zh/resources/
+        url: /zh/resources/datasets/
       announcement:
-        text: IRIS = Iris（虹膜）｜对地观测的慧眼 × 生命科学的温度
+        text: IRIS = Iris（虹膜）｜对地观测的慧眼 × 智能感知的系统方法
         link:
           text: 了解交叉研究
-          url: /zh/research/cross/
-  - block: markdown
-    content:
-      title: 我们做什么
-      subtitle: Research Themes
-      text: |
-        - **遥感智能解译**：变化检测、目标/场景识别、语义分割、SAR/光学融合。
-        - **计算机视觉**：表征学习、跨域泛化、多模态理解与可靠评估。
-        - **系统与应用**：数据集/基准、开源工具链、行业落地与可解释性。
+          url: /zh/research/rtu/
   - block: collection
     id: news
     content:

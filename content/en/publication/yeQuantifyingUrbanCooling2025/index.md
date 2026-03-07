@@ -5,6 +5,7 @@ summary: "Published in The 46th Asian Conference on Remote Sensing 2025."
 authors: ["Ye, Long", "Long, Tengfei", "Jiao, Weili", "Adam, Elhadi"]
 tags: []
 featured: false
+external_link: "#no-detail"
 links:
   - name: PDF
     url: ""
@@ -35,3 +36,5 @@ links:
   year={2025}
 }
 ```
+
+

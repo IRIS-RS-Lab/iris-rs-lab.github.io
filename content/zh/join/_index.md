@@ -12,3 +12,7 @@ title: 加入我们
 
 > 提示：也可以把“开放课题清单”做成一个表格，便于更新。
 
+## 联系方式
+- 邮箱：`contact@iris-lab.org`
+- 地址：`XXX University / XXX Building`
+- 社交：GitHub / Scholar / X（可选）

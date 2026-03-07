@@ -5,6 +5,7 @@ summary: "Published in 中国科学数据(中英文网络版)."
 authors: ["温, 春晖", "龙, 腾飞"]
 tags: ["", "No DOI found"]
 featured: false
+external_link: "#no-detail"
 links:
   - name: PDF
     url: ""
@@ -35,3 +36,5 @@ links:
   year={2024}
 }
 ```
+
+

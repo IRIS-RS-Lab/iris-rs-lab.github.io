@@ -5,6 +5,7 @@ summary: "Published in ISPRS Journal of Photogrammetry and Remote Sensing."
 authors: ["Huang, Shunguo", "Long, Tengfei", "Zhang, Zhaoming", "He, Guojin", "Wang, Guizhou"]
 tags: []
 featured: false
+external_link: "#no-detail"
 links:
   - name: PDF
     url: ""
@@ -35,3 +36,5 @@ links:
   year={2025}
 }
 ```
+
+

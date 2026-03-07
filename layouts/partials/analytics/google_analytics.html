@@ -1,0 +1,47 @@
+{{/* Hugo v0.157+ compatibility: avoid deprecated site.GoogleAnalytics access. */}}
+{{- $ga := .Site.Params.marketing.analytics.google_analytics | default "" -}}
+{{- if not $ga -}}
+  {{- with .Site.Config.Services.GoogleAnalytics.ID -}}
+    {{- $ga = . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if and hugo.IsProduction $ga -}}
+  {{- $privacy := false -}}
+  {{- with .Site.Params.features.privacy_pack.enable -}}
+    {{- $privacy = . -}}
+  {{- end -}}
+  {{- $gtag_config := cond $privacy "{ 'anonymize_ip': true }" "{}" -}}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ $ga }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+
+    function trackOutboundLink(url, target) {
+      gtag('event', 'click', {
+        'event_category': 'outbound',
+        'event_label': url,
+        'transport_type': 'beacon',
+        'event_callback': function () {
+          if (target !== '_blank') {
+            document.location = url;
+          }
+        }
+      });
+      console.debug("Outbound link clicked: " + url);
+    }
+
+    function onClickCallback(event) {
+      if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+        return;
+      }
+      trackOutboundLink(event.target, event.target.getAttribute('target'));
+    }
+
+    gtag('js', new Date());
+    gtag('config', '{{ $ga }}', {{ $gtag_config | safeJS }});
+    gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+    document.addEventListener('click', onClickCallback, false);
+  </script>
+{{- end -}}

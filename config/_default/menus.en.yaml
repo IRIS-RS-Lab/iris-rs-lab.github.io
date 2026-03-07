@@ -4,25 +4,8 @@ main:
     weight: 10
 
   - name: "Research"
-    identifier: "research"
-    url: "en/research/"
+    url: "en/research/cv/"
     weight: 20
-  - name: "Overview"
-    parent: "research"
-    url: "en/research/"
-    weight: 21
-  - name: "Computer Vision"
-    parent: "research"
-    url: "/en/research/cv/"
-    weight: 22
-  - name: "Remote Sensing"
-    parent: "research"
-    url: "/en/research/rs/"
-    weight: 23
-  - name: "Cross-disciplinary"
-    parent: "research"
-    url: "/en/research/cross/"
-    weight: 24
 
   - name: "Publications"
     url: "/en/publication/"
@@ -33,50 +16,16 @@ main:
     weight: 40
 
   - name: "Resources"
-    identifier: "resources"
-    url: "/en/resources/"
-    weight: 50
-  - name: "Datasets"
-    parent: "resources"
     url: "/en/resources/datasets/"
-    weight: 51
-  - name: "Code"
-    parent: "resources"
-    url: "/en/resources/code/"
-    weight: 52
-  - name: "Models"
-    parent: "resources"
-    url: "/en/resources/models/"
-    weight: 53
-  - name: "Demos/Tools"
-    parent: "resources"
-    url: "/en/resources/demos/"
-    weight: 54
+    weight: 50
 
   - name: "News"
     url: "/en/post/"
     weight: 60
 
   - name: "Impact"
-    identifier: "impact"
-    url: "/en/impact/"
-    weight: 70
-  - name: "Awards"
-    parent: "impact"
     url: "/en/impact/awards/"
-    weight: 71
-  - name: "Patents"
-    parent: "impact"
-    url: "/en/impact/patents/"
-    weight: 72
-  - name: "Media"
-    parent: "impact"
-    url: "/en/impact/media/"
-    weight: 73
-  - name: "Metrics"
-    parent: "impact"
-    url: "/en/impact/metrics/"
-    weight: 74
+    weight: 70
 
   - name: "People"
     url: "/en/people/"
@@ -85,7 +34,3 @@ main:
   - name: "Join"
     url: "/en/join/"
     weight: 90
-
-  - name: "Contact"
-    url: "/en/contact/"
-    weight: 100

@@ -5,6 +5,7 @@ summary: "Published in Sensors."
 authors: ["Dong, Yunyun", "Jiao, Weili", "Long, Tengfei", "Liu, Lanfa", "He, Guojin"]
 tags: []
 featured: false
+external_link: "#no-detail"
 links:
   - name: PDF
     url: ""
@@ -35,3 +36,5 @@ In the remote sensing community, accurate image registration is the prerequisite
   year={2019}
 }
 ```
+
+

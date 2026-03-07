@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
+import argparse
+import json
 import re
 import sys
+from datetime import datetime
 from pathlib import Path
 
 try:
@@ -13,6 +16,8 @@ ROOT_DIR = Path(__file__).resolve().parent.parent
 BIB_FILE = ROOT_DIR / "publications.bib"
 ZH_DIR = ROOT_DIR / "content/zh/publication"
 EN_DIR = ROOT_DIR / "content/en/publication"
+DATA_DIR = ROOT_DIR / "data/publications"
+DATA_FILE = DATA_DIR / "generated.json"
 
 def clean_bib_text(text: str) -> str:
     """清理 BibTeX 特殊字符和换行"""
@@ -37,6 +42,87 @@ def parse_tags(keywords_field: str) -> str:
     tags = [t.strip() for t in keywords_field.split(',')]
     return ", ".join([f'"{clean_bib_text(t)}"' for t in tags])
 
+def normalize_month(month: str) -> str:
+    month = clean_bib_text(month or "")
+    month_map = {
+        "jan": "01", "feb": "02", "mar": "03", "apr": "04",
+        "may": "05", "jun": "06", "jul": "07", "aug": "08",
+        "sep": "09", "oct": "10", "nov": "11", "dec": "12",
+    }
+    if not month:
+        return "01"
+    if month.isdigit():
+        return month.zfill(2)
+    return month_map.get(month.lower()[:3], "01")
+
+def normalize_badges(entry: dict) -> list[str]:
+    badges: list[str] = []
+
+    for field in ("badges", "badge", "award", "awards", "special", "highlight"):
+        raw = clean_bib_text(entry.get(field, ""))
+        if not raw:
+            continue
+        parts = [p.strip() for p in re.split(r"[;,|/]", raw) if p.strip()]
+        badges.extend(parts)
+
+    truthy = {"true", "yes", "1"}
+    if clean_bib_text(entry.get("cover", "")).lower() in truthy:
+        badges.append("Cover Paper")
+    if clean_bib_text(entry.get("bestpaper", "")).lower() in truthy:
+        badges.append("Best Paper")
+
+    deduped = []
+    seen = set()
+    for badge in badges:
+        key = badge.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(badge)
+    return deduped
+
+def build_publication_record(entry: dict) -> dict | None:
+    citekey = clean_bib_text(entry.get("ID", ""))
+    if not citekey:
+        return None
+
+    title = clean_bib_text(entry.get("title", "Untitled"))
+    authors = [clean_bib_text(a) for a in entry.get("author", "").split(" and ") if a.strip()]
+    year = clean_bib_text(entry.get("year", "2000"))
+    month_num = normalize_month(entry.get("month", "01"))
+    date_str = f"{year}-{month_num}-01"
+    venue = clean_bib_text(entry.get("journal", entry.get("booktitle", "")))
+    keywords = [clean_bib_text(t) for t in entry.get("keywords", "").split(",") if t.strip()]
+
+    return {
+        "citekey": citekey,
+        "entry_type": clean_bib_text(entry.get("ENTRYTYPE", "")),
+        "title": title,
+        "authors": authors,
+        "authors_text": ", ".join(authors),
+        "venue": venue,
+        "date": date_str,
+        "year": year,
+        "month": month_num,
+        "abstract": clean_bib_text(entry.get("abstract", "")),
+        "doi": clean_bib_text(entry.get("doi", "")),
+        "url": clean_bib_text(entry.get("url", "")),
+        "keywords": keywords,
+        "badges": normalize_badges(entry),
+    }
+
+def write_publication_data(entries: list[dict]):
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "source": str(BIB_FILE.relative_to(ROOT_DIR)).replace("\\", "/"),
+        "updated_at": datetime.now().isoformat(timespec="seconds"),
+        "entries": sorted(entries, key=lambda item: item["date"], reverse=True),
+    }
+    with open(DATA_FILE, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+    print(f"[*] Wrote data: {DATA_FILE}")
+
 def generate_hugo_bundle(entry: dict, target_dir: Path, lang: str):
     citekey = entry.get('ID')
     if not citekey:
@@ -52,11 +138,7 @@ def generate_hugo_bundle(entry: dict, target_dir: Path, lang: str):
     # 提取并清洗数据
     title = clean_bib_text(entry.get('title', 'Untitled'))
     year = clean_bib_text(entry.get('year', '2000'))
-    month = clean_bib_text(entry.get('month', '01'))
-    # 简单处理月份映射 (Jan -> 01)
-    month_map = {"jan":"01", "feb":"02", "mar":"03", "apr":"04", "may":"05", "jun":"06",
-                 "jul":"07", "aug":"08", "sep":"09", "oct":"10", "nov":"11", "dec":"12"}
-    month_num = month_map.get(month.lower()[:3], "01") if not month.isdigit() else month.zfill(2)
+    month_num = normalize_month(entry.get('month', '01'))
     date_str = f"{year}-{month_num}-01"
 
     abstract = clean_bib_text(entry.get('abstract', ''))
@@ -115,6 +197,10 @@ links:
     print(f"[+] Created ({lang}): {citekey}")
 
 def main():
+    parser = argparse.ArgumentParser(description="Sync publication metadata from publications.bib.")
+    parser.add_argument("--skip-bundles", action="store_true", help="Only generate structured publication data.")
+    args = parser.parse_args()
+
     if not BIB_FILE.exists():
         print(f"Warning: {BIB_FILE} not found. Skipping sync.")
         sys.exit(0)
@@ -123,10 +209,16 @@ def main():
     with open(BIB_FILE, 'r', encoding='utf-8') as bibtex_file:
         bib_database = bibtexparser.load(bibtex_file)
 
+    data_entries = []
     for entry in bib_database.entries:
-        generate_hugo_bundle(entry, ZH_DIR, "zh")
-        generate_hugo_bundle(entry, EN_DIR, "en")
+        record = build_publication_record(entry)
+        if record:
+            data_entries.append(record)
+        if not args.skip_bundles:
+            generate_hugo_bundle(entry, ZH_DIR, "zh")
+            generate_hugo_bundle(entry, EN_DIR, "en")
 
+    write_publication_data(data_entries)
     print("[*] Sync complete. Remember to commit the generated files.")
 
 if __name__ == "__main__":

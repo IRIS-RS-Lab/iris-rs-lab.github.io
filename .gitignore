@@ -37,3 +37,5 @@ index.html.bak
 project_context.txt
 .gitignore
 prompts.txt
+public/
+serve.bat

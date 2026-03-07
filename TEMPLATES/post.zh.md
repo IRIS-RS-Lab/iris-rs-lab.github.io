@@ -1,6 +1,7 @@
 ---
 title: "<标题>"
 date: <YYYY-MM-DD>
+abstract: "卡片摘要：仅用于列表卡片显示，可留空。"
 summary: "IRIS 课题组官网上线，后续将持续更新论文、项目、资源与动态。"
 tags: ["Announcement"]
 # 若文件夹内存在 featured.jpg 则自动作为封面。如需指定其他名称图片，取消下方注释：

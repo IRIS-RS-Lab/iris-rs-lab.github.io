@@ -5,6 +5,7 @@ summary: "Published in IEEE Transactions on Geoscience and Remote Sensing."
 authors: ["Dong, Yunyun", "Long, Tengfei", "Jiao, Weili", "He, Guojin", "Zhang, Zhaoming"]
 tags: ["notion"]
 featured: false
+external_link: "#no-detail"
 links:
   - name: PDF
     url: ""
@@ -35,3 +36,5 @@ links:
   year={2018}
 }
 ```
+
+

@@ -5,6 +5,7 @@ summary: "Published in Remote Sensing."
 authors: ["Long, Tengfei", "Zhang, Zhaoming", "He, Guojin", "Jiao, Weili", "Tang, Chao", "Wu, Bingfang", "Zhang, Xiaomei", "Wang, Guizhou", "Yin, Ranyu"]
 tags: ["global burned area", "Google Earth Engine", "Landsat", "temporal filtering", "time-series"]
 featured: false
+external_link: "#no-detail"
 links:
   - name: PDF
     url: ""
@@ -35,3 +36,5 @@ Heretofore, global Burned Area (BA) products have only been available at coarse 
   year={2019}
 }
 ```
+
+

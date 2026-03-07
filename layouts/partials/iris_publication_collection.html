@@ -1,0 +1,109 @@
+{{ $page := .page }}
+{{ $content := .content }}
+{{ $columns := .columns | default "2" }}
+{{ $itemsCount := .items_count | default 65535 }}
+{{ $itemsOffset := .items_offset | default 0 }}
+{{ $archivePage := .archive_page }}
+
+{{ $entries := site.Data.publications.generated.entries | default (slice) }}
+{{ $detailMap := dict }}
+
+{{ range $detailPage := where site.RegularPages "Section" "publication" }}
+  {{ with $detailPage.File }}
+    {{ $citekey := replaceRE "^publication/([^/]+)/index\\.[^.]+$" "$1" .Path }}
+    {{ if and $citekey (ne $citekey .Path) }}
+      {{ $detailMap = merge $detailMap (dict $citekey $detailPage) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $authorFilter := lower ($content.filters.author | default "") }}
+{{ $tagFilter := lower ($content.filters.tag | default "") }}
+{{ $featuredOnly := $content.filters.featured_only | default false }}
+{{ $excludeFeatured := $content.filters.exclude_featured | default false }}
+{{ $excludeFuture := $content.filters.exclude_future | default false }}
+{{ $excludePast := $content.filters.exclude_past | default false }}
+
+{{ $filtered := slice }}
+{{ range $entries }}
+  {{ $entry := . }}
+  {{ $detail := index $detailMap $entry.citekey }}
+  {{ $isFeatured := and $detail ($detail.Params.featured | default false) }}
+  {{ $matches := true }}
+
+  {{ if and $matches $featuredOnly (not $isFeatured) }}
+    {{ $matches = false }}
+  {{ end }}
+  {{ if and $matches $excludeFeatured $isFeatured }}
+    {{ $matches = false }}
+  {{ end }}
+  {{ if and $matches (gt (len $authorFilter) 0) (not (in (lower ($entry.authors_text | default "")) $authorFilter)) }}
+    {{ $matches = false }}
+  {{ end }}
+  {{ if and $matches (gt (len $tagFilter) 0) }}
+    {{ $keywordBlob := lower (delimit ($entry.keywords | default (slice)) " ") }}
+    {{ if not (in $keywordBlob $tagFilter) }}
+      {{ $matches = false }}
+    {{ end }}
+  {{ end }}
+  {{ with $entry.date }}
+    {{ $entryTime := time.AsTime . }}
+    {{ if and $matches $excludeFuture (not ($entryTime.Before now)) }}
+      {{ $matches = false }}
+    {{ end }}
+    {{ if and $matches $excludePast (not ($entryTime.After now)) }}
+      {{ $matches = false }}
+    {{ end }}
+  {{ end }}
+
+  {{ if $matches }}
+    {{ $filtered = $filtered | append $entry }}
+  {{ end }}
+{{ end }}
+
+{{ $sortBy := lower (printf "%v" ($content.sort_by | default "Date")) }}
+{{ $sortAscending := $content.sort_ascending | default (eq $content.order "asc") | default false }}
+{{ $sortOrder := cond $sortAscending "asc" "desc" }}
+{{ if eq $sortBy "title" }}
+  {{ $filtered = sort $filtered "title" $sortOrder }}
+{{ else }}
+  {{ $filtered = sort $filtered "date" $sortOrder }}
+{{ end }}
+
+{{ $count := len $filtered }}
+{{ if gt $itemsOffset 0 }}
+  {{ $filtered = after $itemsOffset $filtered }}
+{{ end }}
+{{ if gt $itemsCount 0 }}
+  {{ $filtered = first $itemsCount $filtered }}
+{{ end }}
+
+<div class="col-12 {{ if eq $columns "2" }}col-lg-8{{ end }}">
+  {{ with $content.text }}{{ . | emojify | $page.RenderString }}{{ end }}
+
+  {{ range $index, $entry := $filtered }}
+    {{ partial "iris_publication_item" (dict
+      "entry" $entry
+      "detail" (index $detailMap $entry.citekey)
+      "index" $index
+    ) }}
+  {{ end }}
+
+  {{ $showArchiveLink := $content.archive.enable | default (gt $count $itemsCount) }}
+  {{ if and $showArchiveLink $archivePage }}
+    {{ $archiveLink := "" }}
+    {{ if $content.archive.link }}
+      {{ $archiveLink = $content.archive.link | relLangURL }}
+    {{ else }}
+      {{ $archiveLink = $archivePage.RelPermalink }}
+    {{ end }}
+
+    {{ $archiveText := $content.archive.text | default (i18n "more_publications") | default "See all" }}
+    <div class="see-all">
+      <a href="{{ $archiveLink }}">
+        {{ $archiveText | emojify }}
+        <i class="fas fa-angle-right"></i>
+      </a>
+    </div>
+  {{ end }}
+</div>

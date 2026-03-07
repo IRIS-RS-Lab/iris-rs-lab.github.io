@@ -5,6 +5,7 @@ summary: "Published in ISPRS Journal of Photogrammetry and Remote Sensing."
 authors: ["Long, Tengfei", "Jiao, Weili", "He, Guojin", "Zhang, Zhaoming", "Cheng, Bo", "Wang, Wei"]
 tags: []
 featured: false
+external_link: "#no-detail"
 links:
   - name: PDF
     url: ""
@@ -35,3 +36,5 @@ links:
   year={2015}
 }
 ```
+
+

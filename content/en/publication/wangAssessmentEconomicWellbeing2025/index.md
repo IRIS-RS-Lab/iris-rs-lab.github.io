@@ -5,6 +5,7 @@ summary: "Published in The International Archives of the Photogrammetry, Remote 
 authors: ["Wang, Longfei", "Long, Tengfei", "Adam, Elhadi"]
 tags: []
 featured: false
+external_link: "#no-detail"
 links:
   - name: PDF
     url: ""
@@ -35,3 +36,5 @@ Abstract. Persistent socio-economic and environmental inequalities pose major ch
   year={2025}
 }
 ```
+
+

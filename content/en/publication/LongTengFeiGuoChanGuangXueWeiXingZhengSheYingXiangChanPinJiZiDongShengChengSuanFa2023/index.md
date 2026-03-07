@@ -5,6 +5,7 @@ summary: "Published in 遥感学报."
 authors: ["龙腾飞", "焦伟利", "何国金", "王桂周", "张兆明"]
 tags: ["notion"]
 featured: false
+external_link: "#no-detail"
 links:
   - name: PDF
     url: ""
@@ -35,3 +36,5 @@ links:
   year={2023}
 }
 ```
+
+

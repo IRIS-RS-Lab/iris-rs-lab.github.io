@@ -5,6 +5,7 @@ summary: "Published in Remote Sensing."
 authors: ["Dong, Yunyun", "Jiao, Weili", "Long, Tengfei", "He, Guojin", "Gong, Chengjuan"]
 tags: []
 featured: false
+external_link: "#no-detail"
 links:
   - name: PDF
     url: ""
@@ -35,3 +36,5 @@ Image registration is a core technology of many different image processing areas
   year={2018}
 }
 ```
+
+

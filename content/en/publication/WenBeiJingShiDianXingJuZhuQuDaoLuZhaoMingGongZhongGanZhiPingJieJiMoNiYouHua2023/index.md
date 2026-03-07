@@ -5,6 +5,7 @@ summary: "Published in 照明工程学报."
 authors: ["温, 春晖", "龙, 腾飞", "焦, 伟利", "林, 子镕", "刘, 永坤", "刘, 慧婵", "刘, 鸣", "何, 国金"]
 tags: ["", "ambient illuminance", "comfort", "notion", "optimal design", "public lighting", "public perception", "safety"]
 featured: false
+external_link: "#no-detail"
 links:
   - name: PDF
     url: ""
@@ -35,3 +36,5 @@ links:
   year={2023}
 }
 ```
+
+

@@ -5,6 +5,7 @@ summary: "Published in IEEE Journal of Selected Topics in Applied Earth Observat
 authors: ["Long, Tengfei", "Jiao, Weili", "He, Guojin", "Wang, Wei"]
 tags: []
 featured: false
+external_link: "#no-detail"
 links:
   - name: PDF
     url: ""
@@ -35,3 +36,5 @@ links:
   year={2014}
 }
 ```
+
+

@@ -5,6 +5,7 @@ summary: "Published in International Journal of Digital Earth."
 authors: ["Wang, Longfei", "Long, Tengfei", "Jiang, Wei", "Adam, Elhadi", "Wen, Chunhui", "Jiao, Weili", "He, Guojin"]
 tags: []
 featured: false
+external_link: "#no-detail"
 links:
   - name: PDF
     url: ""
@@ -35,3 +36,5 @@ This paper reviews the evolution of economic well-being assessment, examining tr
   year={2025}
 }
 ```
+
+

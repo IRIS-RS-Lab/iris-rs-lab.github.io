@@ -5,6 +5,7 @@ summary: "Published in 测绘学报."
 authors: ["龙, 腾飞", "焦, 伟利", "王, 威"]
 tags: ["", "areal feature", "distance", "geometric correction model", "remotely sensed images"]
 featured: false
+external_link: "#no-detail"
 links:
   - name: PDF
     url: ""
@@ -35,3 +36,5 @@ links:
   year={2013}
 }
 ```
+
+

@@ -5,6 +5,7 @@ summary: "Published in Remote Sensing."
 authors: ["Jiang, Wei", "He, Guojin", "Long, Tengfei", "Liu, Huichan"]
 tags: []
 featured: false
+external_link: "#no-detail"
 links:
   - name: PDF
     url: ""
@@ -35,3 +36,5 @@ links:
   year={2017}
 }
 ```
+
+

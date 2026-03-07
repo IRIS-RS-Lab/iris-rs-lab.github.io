@@ -5,6 +5,7 @@ summary: "Published in Sustainable Cities and Society."
 authors: ["Jiang, Wei", "Liu, Jie", "Long, Tengfei", "Liu, Ming", "Kawasaki, Akiyuki", "Pang, Zhiguo", "Yan, Denghua", "Shang, Yizi", "Adam, Elhadi", "Ding, Xiaohui", "Cui, Shiai"]
 tags: []
 featured: false
+external_link: "#no-detail"
 links:
   - name: PDF
     url: ""
@@ -35,3 +36,5 @@ links:
   year={2026}
 }
 ```
+
+

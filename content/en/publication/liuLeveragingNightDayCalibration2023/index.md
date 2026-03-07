@@ -5,6 +5,7 @@ summary: "Published in IEEE Transactions on Geoscience and Remote Sensing."
 authors: ["Liu, Yongkun", "Long, Tengfei", "Jiao, Weili", "Chen, Bo", "Cheng, Bo", "Du, Yihong", "He, Guojin", "Huang, Peng"]
 tags: ["notion"]
 featured: false
+external_link: "#no-detail"
 links:
   - name: PDF
     url: ""
@@ -35,3 +36,5 @@ links:
   year={2023}
 }
 ```
+
+

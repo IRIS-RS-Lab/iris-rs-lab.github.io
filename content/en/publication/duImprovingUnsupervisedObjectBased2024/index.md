@@ -5,6 +5,7 @@ summary: "Published in Remote Sensing."
 authors: ["Du, Yihong", "He, Xiaoming", "Chen, Liujia", "Wang, Duo", "Jiao, Weili", "Liu, Yongkun", "He, Guojin", "Long, Tengfei"]
 tags: ["notion"]
 featured: false
+external_link: "#no-detail"
 links:
   - name: PDF
     url: ""
@@ -35,3 +36,5 @@ Change detection in remote sensing enables identifying alterations in surface ch
   year={2024}
 }
 ```
+
+

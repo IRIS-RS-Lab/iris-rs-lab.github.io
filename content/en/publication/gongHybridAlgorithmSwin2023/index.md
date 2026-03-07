@@ -5,6 +5,7 @@ summary: "Published in Remote Sensing."
 authors: ["Gong, Chengjuan", "Long, Tengfei", "Yin, Ranyu", "Jiao, Weili", "Wang, Guizhou"]
 tags: ["notion"]
 featured: false
+external_link: "#no-detail"
 links:
   - name: PDF
     url: ""
@@ -35,3 +36,5 @@ Cloud detection is critical in remote sensing image processing, and convolutiona
   year={2023}
 }
 ```
+
+

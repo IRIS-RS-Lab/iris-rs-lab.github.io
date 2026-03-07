@@ -5,6 +5,7 @@ summary: "Published in 中国科学数据(中英文网络版)."
 authors: ["龙, 腾飞", "郭, 燕滔", "焦, 伟利", "张, 晓美"]
 tags: ["", "No DOI found", "Sentine-1", "Sentinel-2"]
 featured: false
+external_link: "#no-detail"
 links:
   - name: PDF
     url: ""
@@ -35,3 +36,5 @@ links:
   year={2024}
 }
 ```
+
+

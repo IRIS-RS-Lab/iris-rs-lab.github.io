@@ -5,6 +5,7 @@ summary: "Published in The Egyptian Journal of Remote Sensing and Space Sciences
 authors: ["Liu, Yongkun", "Long, Tengfei", "Jiao, Weili", "Du, Yihong", "He, Guojin", "Chen, Bo", "Huang, Peng"]
 tags: ["notion"]
 featured: false
+external_link: "#no-detail"
 links:
   - name: PDF
     url: ""
@@ -35,3 +36,5 @@ links:
   year={2023}
 }
 ```
+
+

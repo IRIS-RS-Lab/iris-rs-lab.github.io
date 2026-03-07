@@ -1,0 +1,342 @@
+{{- $favicon := "favicon.ico" | relURL -}}
+<link rel="icon" href="{{ $favicon }}?v=20260305" sizes="any">
+<link rel="icon" type="image/x-icon" href="{{ $favicon }}?v=20260305">
+<link rel="shortcut icon" type="image/x-icon" href="{{ $favicon }}?v=20260305">
+<link rel="apple-touch-icon" href="{{ $favicon }}?v=20260305">
+
+{{- $isZh := eq $.Site.Language.Lang "zh" -}}
+{{- $navTargets := slice
+  (dict "root" "/research/" "label" (cond $isZh "研究方向" "Research") "redirect" true)
+  (dict "root" "/publication/" "label" (cond $isZh "论文栏目" "Publications") "redirect" true)
+  (dict "root" "/project/" "label" (cond $isZh "项目栏目" "Projects") "redirect" true)
+  (dict "root" "/post/" "label" (cond $isZh "动态栏目" "News") "redirect" true)
+  (dict "root" "/resources/" "label" (cond $isZh "资源分类" "Resources") "redirect" true)
+  (dict "root" "/impact/" "label" (cond $isZh "影响力栏目" "Impact") "redirect" true)
+  (dict "root" "/people/" "label" (cond $isZh "成员栏目" "People") "redirect" true)
+-}}
+{{- $navConfigs := slice -}}
+{{- range $target := $navTargets -}}
+  {{- $root := index $target "root" -}}
+  {{- $rootPage := $.Site.GetPage $root -}}
+  {{- if $rootPage -}}
+    {{- $children := sort (where $rootPage.Pages "Kind" "section") "Weight" "asc" -}}
+    {{- if gt (len $children) 0 -}}
+      {{- $items := slice -}}
+      {{- range $children -}}
+        {{- $items = $items | append (dict "title" .Title "url" .RelPermalink) -}}
+      {{- end -}}
+      {{- $firstURL := index (index $items 0) "url" -}}
+      {{- $navConfigs = $navConfigs | append (dict
+        "root" $rootPage.RelPermalink
+        "label" (index $target "label")
+        "redirect" (index $target "redirect")
+        "first" $firstURL
+        "items" $items) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if gt (len $navConfigs) 0 -}}
+<script id="iris-auto-nav-config" type="application/json">{{- $navConfigs | jsonify | safeHTML -}}</script>
+<script>
+(function () {
+  const DESKTOP_MIN = 992;
+  const CONTAINER_SELECTOR = '.universal-wrapper, .article-container, .container';
+  const findAnchor = () =>
+    window.IRIS_leftNavAnchor ||
+    document.querySelector(
+      '.hb-header .container, .hb-header .container-xl, .navbar .container, .navbar .container-xl, .page-body .container, .page-body .container-xl, #section-markdown .row.justify-content-center > .col-12:not(.section-heading), main .article-container, main .universal-wrapper'
+    );
+
+  const resolveAnchor = (candidate) => {
+    const navContainer = document.querySelector('.hb-header .container, .navbar .container');
+    if (navContainer) return navContainer;
+    const navContainerXL = document.querySelector('.hb-header .container-xl, .navbar .container-xl');
+    if (navContainerXL) return navContainerXL;
+    const pageContainer = document.querySelector('.page-body .container');
+    if (pageContainer) return pageContainer;
+    const pageContainerXL = document.querySelector('.page-body .container-xl');
+    if (pageContainerXL) return pageContainerXL;
+    if (candidate && candidate.matches && candidate.matches(CONTAINER_SELECTOR)) return candidate;
+    if (candidate && candidate.closest) return candidate.closest(CONTAINER_SELECTOR) || candidate;
+    return findAnchor();
+  };
+  window.IRIS_resolveLeftAnchor = resolveAnchor;
+
+  const updateSidebarVars = () => {
+    const header = document.querySelector('.hb-header, header.hb-header, .navbar');
+    const anchor = resolveAnchor(window.IRIS_leftNavAnchor);
+    const top = header ? Math.max(72, Math.round(header.getBoundingClientRect().bottom + 10)) : 88;
+    const left = anchor ? Math.max(12, Math.round(anchor.getBoundingClientRect().left)) : 12;
+    document.documentElement.style.setProperty('--iris-fixed-nav-top', `${top}px`);
+    document.documentElement.style.setProperty('--iris-fixed-nav-left', `${left}px`);
+  };
+
+  window.IRIS_mountLeftNav = (nav, anchor) => {
+    if (!nav || window.innerWidth < DESKTOP_MIN) {
+      document.body.classList.remove('iris-has-left-nav');
+      return false;
+    }
+
+    const existing = document.querySelector('.iris-global-left-nav');
+    if (existing && existing !== nav) existing.remove();
+
+    window.IRIS_leftNavAnchor = resolveAnchor(anchor || nav);
+
+    nav.classList.add('iris-global-left-nav');
+    nav.setAttribute('data-mounted-left', 'true');
+
+    document.body.appendChild(nav);
+    document.body.classList.add('iris-has-left-nav');
+    updateSidebarVars();
+    return true;
+  };
+
+  if (!window.IRIS_bindLeftNavUpdate) {
+    window.IRIS_bindLeftNavUpdate = true;
+    window.addEventListener('resize', updateSidebarVars);
+    window.addEventListener('scroll', updateSidebarVars, { passive: true });
+    document.addEventListener('DOMContentLoaded', updateSidebarVars);
+  }
+})();
+</script>
+<script>
+(function () {
+  const path = (window.location.pathname || '/').replace(/\/+/g, '/');
+  const homePattern = /^\/(?:[a-z]{2}\/)?$/i;
+  if (homePattern.test(path)) {
+    document.documentElement.classList.add('iris-home-page');
+    document.addEventListener('DOMContentLoaded', () => document.body.classList.add('iris-home-page'), { once: true });
+  }
+})();
+</script>
+<script>
+(function () {
+  const normalizePath = (input) => {
+    let value = (input || '/').trim();
+    if (!value.startsWith('/')) value = `/${value}`;
+    value = value.replace(/\/+/g, '/');
+    if (!value.endsWith('/')) value += '/';
+    return value;
+  };
+
+  const boot = () => {
+    const cfgNode = document.getElementById('iris-auto-nav-config');
+    if (!cfgNode) return;
+
+    let configs = [];
+    try {
+      configs = JSON.parse(cfgNode.textContent || '[]');
+      // Some builds may emit JSON text wrapped as a JSON string.
+      if (typeof configs === 'string') {
+        configs = JSON.parse(configs || '[]');
+      }
+    } catch (err) {
+      return;
+    }
+    if (!Array.isArray(configs) || configs.length === 0) return;
+
+    const current = normalizePath(window.location.pathname);
+    const section = configs.find((item) => current === normalizePath(item.root) || current.startsWith(normalizePath(item.root)));
+    if (!section) return;
+
+    document.documentElement.classList.add('iris-section-nav-page');
+    document.body.classList.add('iris-section-nav-page');
+
+    if (section.redirect !== false && current === normalizePath(section.root) && section.first && normalizePath(section.first) !== current) {
+      window.location.replace(section.first);
+      return;
+    }
+
+    const active = (section.items || [])
+      .filter((item) => current === normalizePath(item.url) || current.startsWith(normalizePath(item.url)))
+      .sort((a, b) => normalizePath(b.url).length - normalizePath(a.url).length)[0];
+
+    if (!active) return;
+
+    let target = document.querySelector('#section-markdown .row.justify-content-center > .col-12:not(.section-heading)');
+    if (!target) target = document.querySelector('main .article-container > .article-style');
+    if (!target) target = document.querySelector('main .universal-wrapper > .article-style');
+    if (!target) target = document.querySelector('.page-body .home-section .container, .page-body .container, main .universal-wrapper');
+    if (!target) return;
+
+    if (target.querySelector('.iris-float-nav')) return;
+    if (document.querySelector('.iris-float-nav[data-auto-nav="shortcode"]')) return;
+    if (document.querySelector('.iris-float-nav[data-auto-nav="true"]')) return;
+
+    const nav = document.createElement('div');
+    nav.className = 'iris-float-nav';
+    nav.setAttribute('data-auto-nav', 'true');
+
+    const heading = document.createElement('h3');
+    heading.textContent = section.label || '栏目导航';
+    nav.appendChild(heading);
+
+    (section.items || []).forEach((item) => {
+      const link = document.createElement('a');
+      link.href = item.url;
+      link.textContent = item.title;
+      if (normalizePath(item.url) === normalizePath(active.url)) {
+        link.classList.add('active');
+      }
+      nav.appendChild(link);
+    });
+
+    const anchor = resolveAnchor(target);
+    if (!(window.IRIS_mountLeftNav && window.IRIS_mountLeftNav(nav, anchor))) {
+      target.insertBefore(nav, target.firstChild);
+    }
+  };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', boot);
+  } else {
+    boot();
+  }
+})();
+</script>
+{{- end -}}
+
+<script>
+(function () {
+  const resolveAnchor = window.IRIS_resolveLeftAnchor || ((node) => node);
+  const mountShortcodeNav = () => {
+    const nav = document.querySelector('.iris-float-nav[data-auto-nav="shortcode"]');
+    if (!nav) return;
+    document.documentElement.classList.add('iris-section-nav-page');
+    document.body.classList.add('iris-section-nav-page');
+    const sourceSection = nav.closest('section.home-section');
+    const sourceColumn = nav.parentElement;
+    if (sourceSection && sourceColumn) {
+      const hasOnlyNav = Array.from(sourceColumn.children).every((node) => node === nav);
+      if (hasOnlyNav) {
+        sourceSection.classList.add('iris-nav-only-section');
+      }
+    }
+    const anchor = resolveAnchor(nav);
+    if (window.IRIS_mountLeftNav && window.IRIS_mountLeftNav(nav, anchor)) return;
+
+    // Fallback: keep sidebar fixed even when early lifecycle mounting is missed.
+    if (window.innerWidth >= 992) {
+      nav.classList.add('iris-global-left-nav');
+      nav.setAttribute('data-mounted-left', 'true');
+      if (nav.parentElement !== document.body) {
+        document.body.appendChild(nav);
+      }
+      document.body.classList.add('iris-has-left-nav');
+    }
+  };
+  const boot = () => {
+    mountShortcodeNav();
+    [80, 260, 700, 1300].forEach((delay) => {
+      window.setTimeout(mountShortcodeNav, delay);
+    });
+  };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', boot, { once: true });
+  } else {
+    boot();
+  }
+
+  window.addEventListener('load', mountShortcodeNav);
+  window.addEventListener('pageshow', mountShortcodeNav);
+})();
+</script>
+
+<script>
+(function () {
+  const resolveAnchor = window.IRIS_resolveLeftAnchor || ((node) => node);
+  const normalizePath = (input) => {
+    let value = (input || '/').trim();
+    if (!value.startsWith('/')) value = `/${value}`;
+    value = value.replace(/\/+/g, '/');
+    if (!value.endsWith('/')) value += '/';
+    return value;
+  };
+
+  const slugify = (text) =>
+    (text || '')
+      .toString()
+      .trim()
+      .toLowerCase()
+      .replace(/[^\u4e00-\u9fa5a-z0-9\s-]/g, '')
+      .replace(/\s+/g, '-');
+
+  const ensureId = (el, fallback, used) => {
+    let base = el.id && el.id.trim() ? el.id.trim() : slugify(el.textContent) || fallback;
+    let candidate = base;
+    let index = 2;
+    while (used.has(candidate)) {
+      candidate = `${base}-${index}`;
+      index += 1;
+    }
+    el.id = candidate;
+    used.add(candidate);
+    return candidate;
+  };
+
+  const boot = () => {
+    const current = normalizePath(window.location.pathname);
+    const isLikelyDetail =
+      /(\/post\/|\/publication\/|\/project\/)/.test(current) &&
+      !/(\/post\/all\/|\/post\/announcements\/|\/publication\/all\/|\/publication\/featured\/|\/project\/all\/|\/project\/featured\/)$/.test(current);
+    if (!isLikelyDetail) return;
+
+    const article = document.querySelector('article.article');
+    const content = article ? article.querySelector('.article-style') : null;
+    if (!article || !content) return;
+
+    const headings = Array.from(content.querySelectorAll('h2, h3'));
+    if (article.querySelector('.iris-article-nav')) return;
+
+    const used = new Set(Array.from(content.querySelectorAll('[id]')).map((n) => n.id));
+    const nav = document.createElement('aside');
+    nav.className = 'iris-article-nav';
+    nav.setAttribute('data-auto-outline', 'true');
+
+    const title = document.createElement('h3');
+    title.textContent = document.documentElement.lang === 'zh' ? '正文导航' : 'On This Page';
+    nav.appendChild(title);
+
+    const parts = current.split('/').filter(Boolean);
+    const langPrefix = parts[0] === 'zh' || parts[0] === 'en' ? `/${parts[0]}` : '';
+    const listLinkMap = [
+      { key: '/post/', href: `${langPrefix}/post/all/`, labelZh: '返回动态列表', labelEn: 'Back to News' },
+      { key: '/publication/', href: `${langPrefix}/publication/paper/`, labelZh: '返回论文列表', labelEn: 'Back to Publications' },
+      { key: '/project/', href: `${langPrefix}/project/all/`, labelZh: '返回项目列表', labelEn: 'Back to Projects' },
+    ];
+    const listLink = listLinkMap.find((item) => current.includes(item.key));
+    if (listLink) {
+      const back = document.createElement('a');
+      back.href = listLink.href;
+      back.textContent = document.documentElement.lang === 'zh' ? listLink.labelZh : listLink.labelEn;
+      nav.appendChild(back);
+    }
+
+    if (headings.length > 0) {
+      headings.forEach((h, i) => {
+        const id = ensureId(h, `section-${i + 1}`, used);
+        const link = document.createElement('a');
+        link.href = `#${id}`;
+        link.textContent = h.textContent.trim();
+        if (h.tagName.toLowerCase() === 'h3') link.classList.add('sub');
+        nav.appendChild(link);
+      });
+    } else {
+      article.classList.add('iris-article-compact');
+    }
+
+    const anchor = resolveAnchor(content);
+    if (!(window.IRIS_mountLeftNav && window.IRIS_mountLeftNav(nav, anchor))) {
+      content.parentNode.insertBefore(nav, content);
+    }
+    article.classList.add('iris-has-outline');
+  };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', boot);
+  } else {
+    boot();
+  }
+})();
+</script>

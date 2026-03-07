@@ -5,6 +5,7 @@ summary: "Published in Photogrammetric Engineering & Remote Sensing."
 authors: ["Zhang, Zhaoming", "Long, Tengfei", "He, Guojin", "Wei, Mingyue", "Tang, Chao", "Wang, Wei", "Wang, Guizhou", "She, Wenqing", "Zhang, Xiaomei"]
 tags: ["notion"]
 featured: false
+external_link: "#no-detail"
 links:
   - name: PDF
     url: ""
@@ -35,3 +36,5 @@ Forests are an extremely valuable natural resource for human development. Satell
   year={2020}
 }
 ```
+
+

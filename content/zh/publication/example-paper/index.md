@@ -1,7 +1,7 @@
 ---
 title: "示例论文标题"
 date: 2025-11-01
-summary: "一句话贡献：解决什么问题 + 核心结果。"
+summary: "负责人 / PI（示例）（2025）。一句话贡献：解决什么问题 + 核心结果。"
 authors: ["负责人 / PI（示例）"]
 tags: ["Remote Sensing", "Segmentation"]
 featured: true
@@ -30,3 +30,4 @@ links:
 
 ## 获奖
 - Best Paper Award, XXX 2025
+

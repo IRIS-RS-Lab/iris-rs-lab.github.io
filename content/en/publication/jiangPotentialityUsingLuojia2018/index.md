@@ -5,6 +5,7 @@ summary: "Published in Sensors."
 authors: ["Jiang, Wei", "He, Guojin", "Long, Tengfei", "Guo, Hongxiang", "Yin, Ranyu", "Leng, Wanchun", "Liu, Huichan", "Wang, Guizhou"]
 tags: []
 featured: false
+external_link: "#no-detail"
 links:
   - name: PDF
     url: ""
@@ -35,3 +36,5 @@ The successful launch of Luojia 1-01 complements the existing nighttime light da
   year={2018}
 }
 ```
+
+

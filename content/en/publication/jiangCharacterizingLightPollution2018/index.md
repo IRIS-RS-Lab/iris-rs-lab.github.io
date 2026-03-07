@@ -5,6 +5,7 @@ summary: "Published in ISPRS International Journal of Geo-Information."
 authors: ["Jiang, Wei", "He, Guojin", "Leng, Wanchun", "Long, Tengfei", "Wang, Guizhou", "Liu, Huichan", "Peng, Yan", "Yin, Ranyu", "Guo, Hongxiang"]
 tags: []
 featured: false
+external_link: "#no-detail"
 links:
   - name: PDF
     url: ""
@@ -35,3 +36,5 @@ links:
   year={2018}
 }
 ```
+
+

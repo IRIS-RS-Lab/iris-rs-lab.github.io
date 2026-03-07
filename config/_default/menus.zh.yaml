@@ -3,94 +3,34 @@ main:
     url: "zh/"
     weight: 10
 
-  - name: "研究"
-    identifier: "research"
-    url: "zh/research/"
+  - name: "研究成员"
+    url: "/zh/people/all/"
     weight: 20
-  - name: "研究方向总览"
-    parent: "research"
-    url: "zh/research/"
-    weight: 21
-  - name: "计算机视觉"
-    parent: "research"
-    url: "/zh/research/cv/"
-    weight: 22
-  - name: "遥感智能解译"
-    parent: "research"
-    url: "/zh/research/rs/"
-    weight: 23
-  - name: "交叉研究"
-    parent: "research"
-    url: "/zh/research/cross/"
-    weight: 24
 
-  - name: "论文"
-    url: "/zh/publication/"
+  - name: "研究方向"
+    url: "/zh/research/rtu/"
     weight: 30
 
-  - name: "项目"
-    url: "/zh/project/"
+  - name: "论文著作"
+    url: "/zh/publication/paper/"
     weight: 40
 
-  - name: "资源"
-    identifier: "resources"
-    url: "/zh/resources/"
+  - name: "科研项目"
+    url: "/zh/project/all/"
     weight: 50
-  - name: "数据集"
-    parent: "resources"
-    url: "/zh/resources/datasets/"
-    weight: 51
-  - name: "代码"
-    parent: "resources"
-    url: "/zh/resources/code/"
-    weight: 52
-  - name: "模型/权重"
-    parent: "resources"
-    url: "/zh/resources/models/"
-    weight: 53
-  - name: "Demo/工具"
-    parent: "resources"
-    url: "/zh/resources/demos/"
-    weight: 54
 
-  - name: "动态"
-    identifier: "news"
-    url: "/zh/post/"
+  - name: "资源共享"
+    url: "/zh/resources/datasets/"
     weight: 60
-  - name: "新闻与活动"
-    parent: "news"
-    url: "/zh/post/"
-    weight: 61
+
+  - name: "小组动态"
+    url: "/zh/post/all/"
+    weight: 70
 
   - name: "影响力"
-    identifier: "impact"
-    url: "/zh/impact/"
-    weight: 70
-  - name: "获奖"
-    parent: "impact"
     url: "/zh/impact/awards/"
-    weight: 71
-  - name: "专利"
-    parent: "impact"
-    url: "/zh/impact/patents/"
-    weight: 72
-  - name: "媒体报道"
-    parent: "impact"
-    url: "/zh/impact/media/"
-    weight: 73
-  - name: "指标/引用"
-    parent: "impact"
-    url: "/zh/impact/metrics/"
-    weight: 74
-
-  - name: "成员"
-    url: "/zh/people/"
     weight: 80
 
   - name: "加入我们"
     url: "/zh/join/"
     weight: 90
-
-  - name: "联系"
-    url: "/zh/contact/"
-    weight: 100

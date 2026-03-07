@@ -5,6 +5,7 @@ summary: "Published in Journal of Hydrology."
 authors: ["Lin, Zirong", "Long, Tengfei", "Jiao, Weili", "Ye, Zhiqiang", "Zhang, Degang", "He, Guojin"]
 tags: []
 featured: false
+external_link: "#no-detail"
 links:
   - name: PDF
     url: ""
@@ -35,3 +36,5 @@ links:
   year={2024}
 }
 ```
+
+

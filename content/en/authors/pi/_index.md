@@ -1,6 +1,13 @@
 ---
 title: "PI (Example)"
+display_name: "Example PI"
 role: "Principal Investigator"
+people_group: "leader"
+avatar:
+  url: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80"
+# Optional profile links:
+# profile_link: true
+# profile_url: "https://..."
 organizations:
   - name: "XXX University"
 social:

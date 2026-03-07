@@ -5,6 +5,7 @@ summary: "Published in Ecological Indicators."
 authors: ["Wen, Chunhui", "Long, Tengfei", "He, Guojin", "Jiao, Weili", "Jiang, Wei"]
 tags: ["Driving factors", "Ecological environment quality", "Human impact", "Spatiotemporal dynamics"]
 featured: false
+external_link: "#no-detail"
 links:
   - name: PDF
     url: ""
@@ -35,3 +36,5 @@ Protected areas are vital for preserving biodiversity and ensuring ecosystem ser
   year={2025}
 }
 ```
+
+

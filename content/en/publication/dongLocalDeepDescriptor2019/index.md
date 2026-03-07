@@ -5,6 +5,7 @@ summary: "Published in Remote Sensing."
 authors: ["Dong, Yunyun", "Jiao, Weili", "Long, Tengfei", "Liu, Lanfa", "He, Guojin", "Gong, Chengjuan", "Guo, Yantao"]
 tags: []
 featured: false
+external_link: "#no-detail"
 links:
   - name: PDF
     url: ""
@@ -35,3 +36,5 @@ Feature matching via local descriptors is one of the most fundamental problems i
   year={2019}
 }
 ```
+
+

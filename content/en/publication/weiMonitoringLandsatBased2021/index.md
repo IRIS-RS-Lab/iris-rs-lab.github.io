@@ -5,6 +5,7 @@ summary: "Published in Earth's Future."
 authors: ["Wei, Mingyue", "Zhang, Zhaoming", "Long, Tengfei", "He, Guojin", "Wang, Guizhou"]
 tags: []
 featured: false
+external_link: "#no-detail"
 links:
   - name: PDF
     url: ""
@@ -35,3 +36,5 @@ links:
   year={2021}
 }
 ```
+
+
