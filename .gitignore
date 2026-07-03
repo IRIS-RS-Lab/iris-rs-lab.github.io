@@ -32,9 +32,10 @@ run.bat
 publish.py
 upload.py
 sitemap.txt
-sitemap.txt.bak
-index.html.bak
 project_context.txt
+
+# Editor/backup files
+*.bak
 .gitignore
 prompts.txt
 public/

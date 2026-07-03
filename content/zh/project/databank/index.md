@@ -22,15 +22,15 @@ image:
 ### CASEarth Databank系统平台
 
 
-![alt text](image.png "按需计算的WebService服务模式")
+![按需计算的WebService服务模式](image.png "按需计算的WebService服务模式")
 
-![alt text](image-1.png "广东省森林覆盖信息提取")
+![广东省森林覆盖信息提取](image-1.png "广东省森林覆盖信息提取")
 
-![alt text](image-2.png "江苏省陆表水体信息提取")
+![江苏省陆表水体信息提取](image-2.png "江苏省陆表水体信息提取")
 
-![alt text](image-3.png "城市扩展动态监测")
+![城市扩展动态监测](image-3.png "城市扩展动态监测")
 
-![alt text](image-4.png "地球大数据驱动的SDG 15.1（森林覆盖比）评估新范式")
+![地球大数据驱动的SDG 15.1（森林覆盖比）评估新范式](image-4.png "地球大数据驱动的SDG 15.1（森林覆盖比）评估新范式")
 
 ### 建成了长时序多源对地观测RTU产品集
 
