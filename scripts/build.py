@@ -13,5 +13,4 @@ if os.path.exists('scripts/fix_images.py'):
 
 os.system('git add .')
 os.system('git commit -m "updated site %s"' %date)
-os.system('git config --global credential.helper wincred')
 os.system('git push')
