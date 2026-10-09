@@ -6,6 +6,9 @@
 {{ $archivePage := .archive_page }}
 
 {{ $entries := site.Data.publications.generated.entries | default (slice) }}
+{{ if eq site.Language.Lang "en" }}
+  {{ $entries = site.Data.publications.en.entries | default $entries }}
+{{ end }}
 {{ $detailMap := dict }}
 
 {{ range $detailPage := where site.RegularPages "Section" "publication" }}

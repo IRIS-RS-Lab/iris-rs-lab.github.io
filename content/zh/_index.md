@@ -17,7 +17,7 @@ sections:
         text: 资源共享
         url: /zh/resources/datasets/
       announcement:
-        text: IRIS = Iris（虹膜）｜对地观测的慧眼 × 智能感知的系统方法
+        text: IRIS
         link:
           text: 了解交叉研究
           url: /zh/research/rtu/

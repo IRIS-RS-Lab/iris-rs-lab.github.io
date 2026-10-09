@@ -41,7 +41,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install Python dependencies
-        run: pip install bibtexparser
+        run: pip install -r requirements-dev.txt -r requirements-translation.txt
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
@@ -52,6 +52,33 @@ jobs:
 
       - name: Sync publication data from publications.bib
         run: python scripts/sync_pubs.py --skip-bundles
+
+      - name: Test content synchronization
+        run: python -m unittest discover -s tests -v
+
+      - name: Restore English translations
+        id: translation_cache
+        uses: actions/cache/restore@v4
+        with:
+          path: data/translations/en.json
+          key: english-v1-${{ hashFiles('scripts/sync_en.py', 'data/translations/en.json') }}-${{ hashFiles('content/zh/**/*.md', 'data/projects/zh.yaml', 'publications.bib', 'config/_default/menus.zh.yaml') }}
+          restore-keys: |
+            english-v1-${{ hashFiles('scripts/sync_en.py', 'data/translations/en.json') }}-
+
+      - name: Sync English website
+        id: english_sync
+        continue-on-error: true
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_TRANSLATION_MODEL: ${{ vars.OPENAI_TRANSLATION_MODEL || 'gpt-4.1-mini' }}
+        run: python scripts/sync_en.py --translate
+
+      - name: Save completed English translations
+        if: steps.english_sync.outcome == 'success' && steps.translation_cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: data/translations/en.json
+          key: ${{ steps.translation_cache.outputs.cache-primary-key }}
 
       - name: Build with Hugo
         env:
