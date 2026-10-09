@@ -19,5 +19,8 @@ Publication detail pages are **optional**.
 - Optional assets: `featured.jpg`, `cite.bib`, PDF links.
 
 ## Update publications list (Zotero)
-Export BibTeX to `publications.bib` (repo root) and commit it.
-(Optional) we can add an importer workflow later to auto-generate stubs.
+Export BibTeX or BibLaTeX to `publications.bib` (repo root).
+Run `pip install -r requirements-dev.txt`, then `python scripts/sync_pubs.py --skip-bundles`.
+Commit both `publications.bib` and `data/publications/generated.json`.
+GitHub Actions repeats the sync before building and deploying the site.
+To create optional detail-page stubs without overwriting existing pages, omit `--skip-bundles`.

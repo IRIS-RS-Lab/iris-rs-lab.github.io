@@ -125,7 +125,7 @@ def build_publication_record(entry: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     if year:
         date_str = f"{year}-{month_num or '01'}-01"
         sort_date = date_str
-    venue = clean_bib_text(entry.get("journal", entry.get("booktitle", "")))
+    venue = clean_bib_text(entry.get("journal") or entry.get("journaltitle") or entry.get("booktitle", ""))
     keywords = [clean_bib_text(t) for t in entry.get("keywords", "").split(",") if t.strip()]
 
     return {
@@ -172,14 +172,14 @@ def generate_hugo_bundle(entry: Dict[str, Any], target_dir: Path, lang: str):
 
     # 提取并清洗数据
     title = clean_bib_text(entry.get('title', 'Untitled'))
-    year = clean_bib_text(entry.get('year', '2000'))
-    month_num = normalize_month(entry.get('month', '01'))
+    year = extract_year(entry) or '2000'
+    month_num = extract_month(entry) or '01'
     date_str = f"{year}-{month_num}-01"
 
     abstract = clean_bib_text(entry.get('abstract', ''))
     authors_str = parse_authors(entry.get('author', ''))
     tags_str = parse_tags(entry.get('keywords', ''))
-    venue = clean_bib_text(entry.get('journal', entry.get('booktitle', '')))
+    venue = clean_bib_text(entry.get('journal') or entry.get('journaltitle') or entry.get('booktitle', ''))
 
     summary = f"Published in {venue}." if venue else ""
 
