@@ -1,0 +1,2517 @@
+@article{CaoLandsatXiLieWeiXingDiBiaoFanSheLuChanPinYanJiuJinZhan2019,
+  title = {{Landsat系列卫星地表反射率产品研究进展}},
+  author = {曹, 小杰 and 江, 洪 and 张, 兆明 and 何, 国金 and 王, 猛猛 and 龙, 腾飞 and 王, 桂周 and 张, 晓美},
+  year = 2019,
+  journal = {测绘与空间地理信息},
+  volume = {42},
+  number = {3},
+  pages = {93--96},
+  issn = {1672-5867},
+  urldate = {2023-05-06},
+  abstract = {Landsat系列卫星为地球资源环境动态监测提供了长达40余年的中高分辨率卫星影像,近年来USGS等实施的Landsat数据共享计划使Landsat系列卫星数据成为应用最广泛的中高分辨率卫星数据。长期以来,Landsat系列卫星数据以灰度值(DN值)的形式提供给用户,受传感器波段响应、具体成像条件(太阳高度角、大气散射和吸收等)差异等的影响,不同传感器、不同时间、不同地点的卫星影像DN值不具有可比性,给Landsat系列卫星数据的定量应用造成了障碍。近年来国内外多家研究机构陆续推出了Landsat系列卫星地表反射率产品,以增强Landsat长时间系列卫星数据的可比性。本文对USGS、马里兰大学、WELD团队和中国科学院等多家机构推出的Landsat地表反射率产品进行了介绍,并对未来的研究方向进行了展望。},
+  copyright = {All rights reserved},
+  langid = {chinese},
+  keywords = {Landsat,Landsat Landsat series satellite,Landsat series satellite data,Landsat surface reflectance product},
+  annotation = {复合影响因子: 0.797\\
+综合影响因子: 0.543},
+  file = {D:\Documents\Zotero\storage\F2SRGI3P\曹 et al_2019_Landsat系列卫星地表反射率产品研究进展.pdf}
+}
+
+@article{chenHierarchicalPyramidRefined2025,
+  title = {Hierarchical Pyramid Refined {{U-net}} for Creating the First 2 m Resolution Multi-Class National-Scale Spatial Distribution Dataset of Offshore Observable Marine Aquaculture in {{China}}},
+  author = {Chen, Yanlin and He, Guojin and Yin, Ranyu and Wang, Guizhou and Peng, Xueli},
+  year = 2025,
+  month = aug,
+  journal = {International Journal of Digital Earth},
+  volume = {18},
+  number = {1},
+  pages = {2520471},
+  issn = {1753-8947, 1753-8955},
+  doi = {10.1080/17538947.2025.2520471},
+  urldate = {2025-08-26},
+  langid = {english},
+  file = {D:\Documents\Zotero\storage\KPJT8AAF\Chen 等 - 2025 - Hierarchical pyramid refined U-net for creating the first 2 m resolution multi-class national-scale.pdf}
+}
+
+@article{chenTIRVisibleAutomaticRegistration2022,
+  title = {A {{TIR-Visible Automatic Registration}} and {{Geometric Correction Method}} for {{SDGSAT-1 Thermal Infrared Image Based}} on {{Modified RIFT}}},
+  author = {Chen, Jinfen and Cheng, Bo and Zhang, Xiaoping and Long, Tengfei and Chen, Bo and Wang, Guizhou and Zhang, Degang},
+  year = 2022,
+  month = mar,
+  journal = {Remote Sensing},
+  volume = {14},
+  number = {6},
+  pages = {1393},
+  issn = {2072-4292},
+  doi = {10.3390/rs14061393},
+  urldate = {2022-12-02},
+  abstract = {High-resolution thermal infrared (TIR) remote sensing images can more accurately retrieve land surface temperature and describe the spatial pattern of urban thermal environment. The Thermal Infrared Spectrometer (TIS), which has high spatial resolution among spaceborne thermal infrared sensors at present, and global data acquisition capability, is one of the sensors equipped in the SDGSAT-1. It is an important complement to the existing international mainstream satellites. In order to produce standard data products, rapidly and accurately, the automatic registration and geometric correction method needs to be developed. Unlike visible--visible image registration, thermal infrared images are blurred in edge details and have obvious non-linear radiometric differences from visible images, which make it challenging for the TIR-visible image registration task. To address these problems, homomorphic filtering is employed to enhance TIR image details and the modified RIFT algorithm is proposed to achieve TIR-visible image registration. Different from using MIM for feature description in RIFT, the proposed modified RIFT uses the novel binary pattern string to descriptor construction. With sufficient and uniformly distributed ground control points, the two-step orthorectification framework, from SDGSAT-1 TIS L1A image to L4 orthoimage, are proposed in this study. The first experiment, with six TIR-visible image pairs, captured in different landforms, is performed to verify the registration performance, and the result indicates that the homomorphic filtering and modified RIFT greatly increase the number of corresponding points. The second experiment, with one scene of an SDGSAT-1 TIS image, is executed to test the proposed orthorectification framework. Subsequently, 52 GCPs are selected manually to evaluate the orthorectification accuracy. The result indicates that the proposed orthorectification framework is helpful to improve the geometric accuracy and guarantee for the subsequent thermal infrared applications.},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  annotation = {JCR分区: Q1\\
+中科院分区升级版: 地球科学2区\\
+影响因子: 4.2\\
+5年影响因子: 4.9\\
+EI: 是\\
+南农高质量: A},
+  file = {D:\Documents\Zotero\storage\F8PF9YSG\Chen et al_2022_A TIR-Visible Automatic Registration and Geometric Correction Method for.pdf}
+}
+
+@article{dongEliminatingEffectImage2019,
+  title = {Eliminating the {{Effect}} of {{Image Border}} with {{Image Periodic Decomposition}} for {{Phase Correlation Based Remote Sensing Image Registration}}},
+  author = {Dong, Yunyun and Jiao, Weili and Long, Tengfei and Liu, Lanfa and He, Guojin},
+  year = 2019,
+  month = may,
+  journal = {Sensors},
+  volume = {19},
+  number = {10},
+  pages = {2329},
+  issn = {1424-8220},
+  doi = {10.3390/s19102329},
+  urldate = {2022-12-02},
+  abstract = {In the remote sensing community, accurate image registration is the prerequisite of the subsequent application of remote sensing images. Phase correlation based image registration has drawn extensive attention due to its high accuracy and high efficiency. However, when the Discrete Fourier Transform (DFT) of an image is computed, the image is implicitly assumed to be periodic. In practical application, it is impossible to meet the periodic condition that opposite borders of an image are alike, and image always shows strong discontinuities across the frame border. The discontinuities cause a severe artifact in the Fourier Transform, namely the known cross structure composed of high energy coefficients along the axes. Here, this phenomenon was referred to as effect of image border. Even worse, the effect of image border corrupted its registration accuracy and success rate. Currently, the main solution is blurring out the border of the image by weighting window function on the reference and sensed image. However, the approach also inevitably filters out non-border information of an image. The existing understanding is that the design of window function should filter as little information as possible, which can improve the registration success rate and accuracy of methods based on phase correlation. In this paper, another approach of eliminating the effect of image border is proposed, namely decomposing the image into two images: one being the periodic image and the other the smooth image. Replacing the original image by the periodic one does not suffer from the effect on the image border when applying Fourier Transform. The smooth image is analogous to an error image, which has little information except at the border. Extensive experiments were carried out and showed that the novel algorithm of eliminating the image border can improve the success rate and accuracy of phase correlation based image registration in some certain cases. Additionally, we obtained a new understanding of the role of window function in eliminating the effect of image border, which is helpful for researchers to select the optimal method of eliminating the effect of image border to improve the registration success rate and accuracy.},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  annotation = {6 citations (Crossref/DOI) [2024-09-16]\\
+JCR分区: Q2\\
+中科院分区升级版: 综合性期刊3区\\
+影响因子: 3.4\\
+5年影响因子: 3.7\\
+EI: 是\\
+南农高质量: B\\
+TLDR: An approach of eliminating the effect of image border is proposed, namely decomposing the image into two images: one being the periodic image and the other the smooth image, which does not suffer from the effect on the image border when applying Fourier Transform.},
+  file = {D:\Documents\Zotero\storage\V3BQYF56\Dong et al_2019_Eliminating the Effect of Image Border with Image Periodic Decomposition for.pdf}
+}
+
+@article{dongExtensionPhaseCorrelationBased2018,
+  title = {An {{Extension}} of {{Phase Correlation-Based Image Registration}} to {{Estimate Similarity Transform Using Multiple Polar Fourier Transform}}},
+  author = {Dong, Yunyun and Jiao, Weili and Long, Tengfei and He, Guojin and Gong, Chengjuan},
+  year = 2018,
+  month = oct,
+  journal = {Remote Sensing},
+  volume = {10},
+  number = {11},
+  pages = {1719},
+  issn = {2072-4292},
+  doi = {10.3390/rs10111719},
+  urldate = {2022-12-02},
+  abstract = {Image registration is a core technology of many different image processing areas and is widely used in the remote sensing community. The accuracy of image registration largely determines the effect of subsequent applications. In recent years, phase correlation-based image registration has drawn much attention because of its high accuracy and efficiency as well as its robustness to gray difference and even slight changes in content. Many researchers have reported that the phase correlation method can acquire a sub-pixel accuracy of     1 / 10     or even     1 / 100    . However, its performance is acquired only in the case of translation, which limits the scope of the application of the method. However, there are few reports on the estimation of scales and angles based on the phase correlation method. To take advantage of the high accuracy property and other merits of phase correlation-based image registration and extend it to estimate the similarity transform, we proposed a novel algorithm, the Multilayer Polar Fourier Transform (MPFT), which uses a fast and accurate polar Fourier transform with different scaling factors to calculate the log-polar Fourier transform. The structure of the polar grids of MPFT is more similar to the one of the log-polar grid. In particular, for rotation estimation only, the polar grid of MPFT is the calculation grid. To validate its effectiveness and high accuracy in estimating angles and scales, both qualitative and quantitative experiments were carried out. The quantitative experiments included a numerical simulation as well as synthetic and real data experiments. The experimental results showed that the proposed method, MPFT, performs better than the existing phase correlation-based similarity transform estimation methods, the Pseudo-polar Fourier Transform (PPFT) and the Multilayer Fractional Fourier Transform method (MLFFT), and the classical feature-based registration method, Scale-Invariant Feature Transform (SIFT), and its variant, ms-SIFT.},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  annotation = {19 citations (Crossref/DOI) [2024-09-16]\\
+JCR分区: Q1\\
+中科院分区升级版: 地球科学2区\\
+影响因子: 4.2\\
+5年影响因子: 4.9\\
+EI: 是\\
+南农高质量: A\\
+TLDR: A novel algorithm, the Multilayer Polar Fourier Transform (MPFT), which uses a fast and accurate polar Fourier transform with different scaling factors to calculate the log-polar Fouriertransform, and performs better than the existing phase correlation-based similarity transform estimation methods.},
+  file = {D:\Documents\Zotero\storage\ZHQGM9W8\Dong et al_2018_An Extension of Phase Correlation-Based Image Registration to Estimate.pdf}
+}
+
+@article{dongLocalDeepDescriptor2019,
+  title = {Local {{Deep Descriptor}} for {{Remote Sensing Image Feature Matching}}},
+  author = {Dong, Yunyun and Jiao, Weili and Long, Tengfei and Liu, Lanfa and He, Guojin and Gong, Chengjuan and Guo, Yantao},
+  year = 2019,
+  month = feb,
+  journal = {Remote Sensing},
+  volume = {11},
+  number = {4},
+  pages = {430},
+  issn = {2072-4292},
+  doi = {10.3390/rs11040430},
+  urldate = {2022-12-02},
+  abstract = {Feature matching via local descriptors is one of the most fundamental problems in many computer vision tasks, as well as in the remote sensing image processing community. For example, in terms of remote sensing image registration based on the feature, feature matching is a vital process to determine the quality of transform model. While in the process of feature matching, the quality of feature descriptor determines the matching result directly. At present, the most commonly used descriptor is hand-crafted by the designer's expertise or intuition. However, it is hard to cover all the different cases, especially for remote sensing images with nonlinear grayscale deformation. Recently, deep learning shows explosive growth and improves the performance of tasks in various fields, especially in the computer vision community. Here, we created remote sensing image training patch samples, named Invar-Dataset in a novel and automatic way, then trained a deep learning convolutional neural network, named DescNet to generate a robust feature descriptor for feature matching. A special experiment was carried out to illustrate that our created training dataset was more helpful to train a network to generate a good feature descriptor. A qualitative experiment was then performed to show that feature descriptor vector learned by the DescNet could be used to register remote sensing images with large gray scale difference successfully. A quantitative experiment was then carried out to illustrate that the feature vector generated by the DescNet could acquire more matched points than those generated by hand-crafted feature Scale Invariant Feature Transform (SIFT) descriptor and other networks. On average, the matched points acquired by DescNet was almost twice those acquired by other methods. Finally, we analyzed the advantages of our created training dataset Invar-Dataset and DescNet and gave the possible development of training deep descriptor network.},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  annotation = {36 citations (Crossref/DOI) [2024-09-16]\\
+JCR分区: Q1\\
+中科院分区升级版: 地球科学2区\\
+影响因子: 4.2\\
+5年影响因子: 4.9\\
+EI: 是\\
+南农高质量: A\\
+TLDR: This work created remote sensing image training patch samples in a novel and automatic way, then trained a deep learning convolutional neural network, named DescNet, to generate a robust feature descriptor for feature matching, and analyzed the advantages of the created training dataset Invar-Dataset and DescNet and gave the possible development of training deep descriptor network.},
+  file = {D\:\\Documents\\Zotero\\storage\\IHQGH2SX\\Dong et al_2019_Local Deep Descriptor for Remote Sensing Image Feature Matching.pdf;I\:\\Disks\\OneDrive\\Bibliography\\Zotero\\Dong et al_2019_Local Deep Descriptor for Remote Sensing Image Feature Matching.pdf}
+}
+
+@article{dongNovelImageRegistration2018,
+  title = {A {{Novel Image Registration Method Based}} on {{Phase Correlation Using Low-Rank Matrix Factorization With Mixture}} of {{Gaussian}}},
+  author = {Dong, Yunyun and Long, Tengfei and Jiao, Weili and He, Guojin and Zhang, Zhaoming},
+  year = 2018,
+  month = jan,
+  journal = {IEEE Transactions on Geoscience and Remote Sensing},
+  volume = {56},
+  number = {1},
+  pages = {446--460},
+  issn = {0196-2892, 1558-0644},
+  doi = {10.1109/TGRS.2017.2749436},
+  urldate = {2022-12-02},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  keywords = {notion},
+  annotation = {50 citations (Crossref/DOI) [2024-09-16]\\
+JCR分区: Q1\\
+中科院分区升级版: 地球科学1区\\
+影响因子: 7.5\\
+5年影响因子: 7.6\\
+EI: 是\\
+南农高质量: A\\
+TLDR: A novel algorithm is developed that performs the rank-one matrix factorization on the phase correlation matrix by assuming its noise as mixture of Gaussian (MoG) distributions, a general approximator for any continuous distribution, and hence is able to model a wide range of noise distribution.},
+  file = {I:\Disks\OneDrive\Bibliography\Zotero\Dong et al_2018_A Novel Image Registration Method Based on Phase Correlation Using Low-Rank.pdf}
+}
+
+@article{duImprovingUnsupervisedObjectBased2024,
+  title = {Improving {{Unsupervised Object-Based Change Detection}} via {{Hierarchical Multi-Scale Binary Partition Tree Segmentation}}: {{A Case Study}} in the {{Yellow River Source Region}}},
+  shorttitle = {Improving {{Unsupervised Object-Based Change Detection}} via {{Hierarchical Multi-Scale Binary Partition Tree Segmentation}}},
+  author = {Du, Yihong and He, Xiaoming and Chen, Liujia and Wang, Duo and Jiao, Weili and Liu, Yongkun and He, Guojin and Long, Tengfei},
+  year = 2024,
+  month = feb,
+  journal = {Remote Sensing},
+  volume = {16},
+  number = {4},
+  pages = {629},
+  issn = {2072-4292},
+  doi = {10.3390/rs16040629},
+  urldate = {2024-02-18},
+  abstract = {Change detection in remote sensing enables identifying alterations in surface characteristics over time, underpinning diverse applications. However, conventional pixel-based algorithms encounter constraints in terms of accuracy when applied to medium- and high-resolution remote sensing images. Although object-oriented methods offer a step forward, they frequently grapple with missing small objects or handling complex features effectively. To bridge these gaps, this paper proposes an unsupervised object-oriented change detection approach empowered by hierarchical multi-scale segmentation for generating binary ecosystem change maps. This approach meticulously segments images into optimal sizes and leverages multidimensional features to adapt the Iteratively Reweighted Multivariate Alteration Detection (IRMAD) algorithm for GaoFen WFV data. We rigorously evaluated its performance in the Yellow River Source Region, a critical ecosystem conservation zone. The results unveil three key strengths: (1) the approach achieved excellent object-level change detection results, making it particularly suited for identifying changes in subtle features; (2) while simply increasing object features did not lead to a linear accuracy gain, optimized feature space construction effectively mitigated dimensionality issues; and (3) the scalability of our approach is underscored by its success in mapping the entire Yellow River Source Region, achieving an overall accuracy of 90.09\% and F-score of 0.8844. Furthermore, our analysis reveals that from 2015 to 2022, changed ecosystems comprised approximately 1.42\% of the total area, providing valuable insights into regional ecosystem dynamics.},
+  langid = {english},
+  keywords = {notion},
+  annotation = {0 citations (Crossref/DOI) [2024-09-16]\\
+JCR分区: Q1\\
+中科院分区升级版: 地球科学2区\\
+影响因子: 4.2\\
+5年影响因子: 4.9\\
+EI: 是\\
+南农高质量: A\\
+TLDR: An unsupervised object-oriented change detection approach empowered by hierarchical multi-scale segmentation for generating binary ecosystem change maps and leverages multidimensional features to adapt the Iteratively Reweighted Multivariate Alteration Detection (IRMAD) algorithm for GaoFen WFV data is proposed.},
+  file = {D:\Documents\Zotero\storage\DM3HG3LX\Du 等 - 2024 - Improving unsupervised object-based change detection via hierarchical multi-scale binary partition t.pdf}
+}
+
+@article{fanSentinel2ImagesBased2022,
+  title = {Sentinel-2 {{Images Based Modeling}} of {{Grassland Above-Ground Biomass Using Random Forest Algorithm}}: {{A Case Study}} on the {{Tibetan Plateau}}},
+  shorttitle = {Sentinel-2 {{Images Based Modeling}} of {{Grassland Above-Ground Biomass Using Random Forest Algorithm}}},
+  author = {Fan, Xinyue and He, Guojin and Zhang, Wenyi and Long, Tengfei and Zhang, Xiaomei and Wang, Guizhou and Sun, Geng and Zhou, Huakun and Shang, Zhanhuan and Tian, Dashuan and Li, Xiangyi and Song, Xiaoning},
+  year = 2022,
+  month = oct,
+  journal = {Remote Sensing},
+  volume = {14},
+  number = {21},
+  pages = {5321},
+  issn = {2072-4292},
+  doi = {10.3390/rs14215321},
+  urldate = {2022-12-02},
+  abstract = {Accurate information on grassland above-ground biomass (AGB) is critical to better understanding the carbon cycle and conserve grassland resources. As a climate-sensitive key ecological function area, it is important to accurately estimate the grassland AGB of the Tibetan Plateau. Sentinel-2 (S2) images have advantages in reducing mixed pixels and the scale effect for remote sensing, while the data volume is correspondingly larger. In order to improve the estimation accuracy while reducing the data volume required for AGB estimation and improving the computational efficiency, this study used the Recursive Feature Elimination (RFE) algorithm to find the optimal feature set and compared the performance of the Cubist, Gradient Boosting Regression Tree (GBRT), random forest (RF) and eXtreme Gradient Boosting (XGBoost) algorithms for estimating AGB. In this study, ten S2 bands, ten S2-derived vegetation indexes, 218 pieces of AGB field survey data, four types of meteorological data and three types of topographic data were used as the alternative input features for the AGB estimation model. The impurity and permutation importance were used as the feature importance calculation method input to the RFE, and the Cubist, GBRT, RF and XGBoost algorithms were used to construct the AGB estimation models. The results showed that the RF algorithm based on the monthly average temperature (T), elevation, Normalized Difference Phenology Index (NDPI), Normalized Difference Infrared Index (NDII) and Palmer Drought Severity Index (PDSI) performed best (R2 = 0.8838, RMSE = 35.05 g/m2, LCCC = 2.44, RPPD = 0.91). The above findings suggest that the RF model based on the features related to temperature, altitude, humidity and leaf water content is beneficial to estimate the grassland AGB on the Tibetan Plateau.},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  annotation = {JCR分区: Q1\\
+中科院分区升级版: 地球科学2区\\
+影响因子: 4.2\\
+5年影响因子: 4.9\\
+EI: 是\\
+南农高质量: A},
+  file = {D:\Documents\Zotero\storage\2Q5A9MD2\Fan et al_2022_Sentinel-2 Images Based Modeling of Grassland Above-Ground Biomass Using Random.pdf}
+}
+
+@article{gongHybridAlgorithmSwin2023,
+  title = {A Hybrid Algorithm with Swin Transformer and Convolution for Cloud Detection},
+  author = {Gong, Chengjuan and Long, Tengfei and Yin, Ranyu and Jiao, Weili and Wang, Guizhou},
+  year = 2023,
+  month = jan,
+  journal = {Remote Sensing},
+  volume = {15},
+  number = {21},
+  pages = {5264},
+  publisher = {Multidisciplinary Digital Publishing Institute},
+  issn = {2072-4292},
+  doi = {10.3390/rs15215264},
+  urldate = {2023-11-08},
+  abstract = {Cloud detection is critical in remote sensing image processing, and convolutional neural networks (CNNs) have significantly advanced this field. However, traditional CNNs primarily focus on extracting local features, which can be challenging for cloud detection due to the variability in the size, shape, and boundaries of clouds. To address this limitation, we propose a hybrid Swin transformer--CNN cloud detection (STCCD) network that combines the strengths of both architectures. The STCCD network employs a novel dual-stream encoder that integrates Swin transformer and CNN blocks. Swin transformers can capture global context features more effectively than traditional CNNs, while CNNs excel at extracting local features. The two streams are fused via a fusion coupling module (FCM) to produce a richer representation of the input image. To further enhance the network's ability in extracting cloud features, we incorporate a feature fusion module based on the attention mechanism (FFMAM) and an aggregation multiscale feature module (AMSFM). The FFMAM selectively merges global and local features based on their importance, while the AMSFM aggregates feature maps from different spatial scales to obtain a more comprehensive representation of the cloud mask. We evaluated the STCCD network on three challenging cloud detection datasets (GF1-WHU, SPARCS, and AIR-CD), as well as the L8-Biome dataset to assess its generalization capability. The results show that the STCCD network outperformed other state-of-the-art methods on all datasets. Notably, the STCCD model, trained on only four bands (visible and near-infrared) of the GF1-WHU dataset, outperformed the official Landsat-8 Fmask algorithm in the L8-Biome dataset, which uses additional bands (shortwave infrared, cirrus, and thermal).},
+  copyright = {http://creativecommons.org/licenses/by/3.0/},
+  langid = {american},
+  keywords = {notion},
+  annotation = {7 citations (Crossref/DOI) [2024-09-16]\\
+JCR分区: Q1\\
+中科院分区升级版: 地球科学2区\\
+影响因子: 4.2\\
+5年影响因子: 4.9\\
+EI: 是\\
+南农高质量: A\\
+TLDR: A hybrid Swin transformer--CNN cloud detection (STCCD) network that combines the strengths of both architectures, which outperformed other state-of-the-art methods on all datasets and incorporated a feature fusion module based on the attention mechanism and an aggregation multiscale feature module.},
+  file = {D:\Documents\Zotero\storage\NTGSKAZW\Gong 等 - 2023 - A Hybrid Algorithm with Swin Transformer and Convolution for Cloud Detection.pdf}
+}
+
+@article{gongSpatialTemporalApproach2024,
+  title = {Spatial--{{Temporal Approach}} and {{Dataset}} for {{Enhancing Cloud Detection}} in {{Sentinel-2 Imagery}}: {{A Case Study}} in {{China}}},
+  shorttitle = {Spatial--{{Temporal Approach}} and {{Dataset}} for {{Enhancing Cloud Detection}} in {{Sentinel-2 Imagery}}},
+  author = {Gong, Chengjuan and Yin, Ranyu and Long, Tengfei and Jiao, Weili and He, Guojin and Wang, Guizhou},
+  year = 2024,
+  month = mar,
+  journal = {Remote Sensing},
+  volume = {16},
+  number = {6},
+  pages = {973},
+  issn = {2072-4292},
+  doi = {10.3390/rs16060973},
+  urldate = {2024-03-14},
+  abstract = {Clouds often cause challenges during the application of optical satellite images. Masking clouds and cloud shadows is a crucial step in the image preprocessing workflow. The absence of a thermal band in products of the Sentinel-2 series complicates cloud detection. Additionally, most existing cloud detection methods provide binary results (cloud or non-cloud), which lack information on thin clouds and cloud shadows. This study attempted to use end-to-end supervised spatial--temporal deep learning (STDL) models to enhance cloud detection in Sentinel-2 imagery for China. To support this workflow, a new dataset for time-series cloud detection featuring high-quality labels for thin clouds and haze was constructed through time-series interpretation. A classification system consisting of six categories was employed to obtain more detailed results and reduce intra-class variance. Considering the balance of accuracy and computational efficiency, we constructed four STDL models based on shared-weight convolution modules and different classification modules (dense, long short-term memory (LSTM), bidirectional LSTM (Bi-LSTM), and transformer). The results indicated that spatial and temporal features were crucial for high-quality cloud detection. The STDL models with simple architectures that were trained on our dataset achieved excellent accuracy performance and detailed detection of clouds and cloud shadows, although only four bands with a resolution of 10 m were used. The STDL models that used the Bi-LSTM and that used the transformer as the classifier showed high and close overall accuracies. While the transformer classifier exhibited slightly lower accuracy than that of Bi-LSTM, it offered greater computational efficiency. Comparative experiments also demonstrated that the usable data labels and cloud detection results obtained with our workflow outperformed the results of the existing s2cloudless, MAJA, and CS+ methods.},
+  langid = {english},
+  annotation = {JCR分区: Q1\\
+中科院分区升级版: 地球科学2区\\
+影响因子: 4.2\\
+5年影响因子: 4.9\\
+EI: 是\\
+南农高质量: A\\
+TLDR: This study attempted to use end-to-end supervised spatial--temporal deep learning models to enhance cloud detection in Sentinel-2 imagery for China with excellent accuracy performance and detailed detection of clouds and cloud shadows, although only four bands with a resolution of 10 m were used.},
+  file = {D:\Documents\Zotero\storage\5G2QGUNN\Gong 等 - 2024 - Spatial–Temporal Approach and Dataset for Enhancing Cloud Detection in Sentinel-2 Imagery A Case St.pdf}
+}
+
+@article{guoGenerationForestCover2022,
+  title = {Generation of the {{Forest Cover Map}} of the {{Qinghai}}--{{Tibet Plateau Based}} on the {{Multisource Dataset}} and {{Random Forest}}},
+  author = {Guo, Yantao and Jiao, Weili and Long, Tengfei and Zhang, Xiaomei},
+  year = 2022,
+  month = jul,
+  journal = {Frontiers in Environmental Science},
+  volume = {10},
+  pages = {939151},
+  issn = {2296-665X},
+  doi = {10.3389/fenvs.2022.939151},
+  urldate = {2022-12-21},
+  abstract = {The Qinghai--Tibet Plateau (QTP) plays a significant role in global climate change and biodiversity conservation. As the third pole of the Earth, it has a wide range and complex terrain. QTP has a vertical distribution of vegetation, and its forest ecosystems play a key role in the region. Forest extraction in this region is still a comprehensive problem because of the phenological periods of different forest types in distinct regions of the QTP and the characteristics of frequent rain and cloudy weather in the south. Taking these factors into consideration, multiple features, including reflectance, spectral indices, statistical backscattering coefficients, topographic slope, and aspect, derived from a multisource dataset incorporating optical remote sensing data, synthetic radar, and digital elevation models, were applied to extract forest in the QTP based on the random forest (RF) classification method. As more than 30 features were involved, the 5-folded cross-validation method was used to determine the optimal parameters and features for the RF model. Using 14,919 forest samples and a multifeature optimized RF classification model, a 10-m resolution forest cover map of QTP in 2021 was generated based on the Sentinel series of satellite datasets and digital elevation model datasets on the Google Earth Engine (GEE) platform. After verification, the overall accuracy of the forest cover map generated in this article is 98.3\%, and the Kappa coefficient is 0.95, which is better than the European Space Agency (ESA) WorldCover forest layer.},
+  annotation = {JCR分区: Q2\\
+中科院分区升级版: 环境科学与生态学3区\\
+影响因子: 3.3\\
+5年影响因子: 3.7},
+  file = {D:\Documents\Zotero\storage\2MFFACTB\Guo et al_2022_Generation of the Forest Cover Map of the Qinghai–Tibet Plateau Based on the.pdf}
+}
+
+@article{guoSiameseDetailDifference2022,
+  title = {Siamese {{Detail Difference}} and {{Self-Inverse Network}} for {{Forest Cover Change Extraction Based}} on {{Landsat}} 8 {{OLI Satellite Images}}},
+  author = {Guo, Yantao and Long, Tengfei and Jiao, Weili and Zhang, Xiaomei and He, Guojin and Wang, Wei and Peng, Yan and Xiao, Han},
+  year = 2022,
+  month = jan,
+  journal = {Remote Sensing},
+  volume = {14},
+  number = {3},
+  pages = {627},
+  issn = {2072-4292},
+  doi = {10.3390/rs14030627},
+  urldate = {2022-12-02},
+  abstract = {In the context of carbon neutrality, forest cover change detection has become a key topic of global environmental monitoring. As a large-scale monitoring technique, remote sensing has received obvious attention in various land cover observation applications. With the rapid development of deep learning, remote sensing change detection combined with deep neural network has achieved high accuracy. In this paper, the deep neural network is used to study forest cover change with Landsat images. The main research ideas are as follows. (1) A Siamese detail difference neural network is proposed, which uses a combination of concatenate weight sharing mode and subtract weight sharing mode to improve the accuracy of forest cover change detection. (2) The self-inverse network is introduced to detect the change of forest increase by using the sample data set of forest decrease, which realizes the transfer learning of the sample data set and improves the utilization rate of the sample data set. The experimental results on Landsat 8 images show that the proposed method outperforms several Siamese neural network methods in forest cover change extraction.},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  annotation = {JCR分区: Q1\\
+中科院分区升级版: 地球科学2区\\
+影响因子: 4.2\\
+5年影响因子: 4.9\\
+EI: 是\\
+南农高质量: A\\
+TLDR: The experimental results on Landsat 8 images show that the proposed method outperforms several Siamese neural network methods in forest cover change extraction, and the self-inverse network is introduced to detect the change of forest increase by using the sample data set of forest decrease.},
+  file = {D:\Documents\Zotero\storage\XFCAECAB\Guo et al_2022_Siamese Detail Difference and Self-Inverse Network for Forest Cover Change.pdf}
+}
+
+@article{heCFRANetCrossmodalFrequencyresponsive2025,
+  title = {{{CFRANet}}: {{Cross-modal}} Frequency-Responsive Attention Network for Thermal Power Plant Detection in Multispectral High-Resolution Remote Sensing Images},
+  shorttitle = {{{CFRANet}}},
+  author = {He, Qinxue and Cheng, Bo and Zhang, Xiaoping and Gan, Yaocan},
+  year = 2025,
+  month = aug,
+  journal = {Remote Sensing},
+  volume = {17},
+  number = {15},
+  pages = {2706},
+  issn = {2072-4292},
+  doi = {10.3390/rs17152706},
+  urldate = {2025-08-26},
+  abstract = {Thermal Power Plants (TPPs), as widely used industrial facilities for electricity generation, represent a key task in remote sensing image interpretation. However, detecting TPPs remains a challenging task due to their complex and irregular composition. Many traditional approaches focus on detecting compact, small-scale objects, while existing composite object detection methods are mostly part-based, limiting their ability to capture the structural and textural characteristics of composite targets like TPPs. Moreover, most of them rely on single-modality data, failing to fully exploit the rich information available in remote sensing imagery. To address these limitations, we propose a novel Cross-Modal Frequency-Responsive Attention Network (CFRANet). Specifically, the Modality-Aware Fusion Block (MAFB) facilitates the integration of multi-modal features, enhancing inter-modal interactions. Additionally, the Frequency-Responsive Attention (FRA) module leverages both spatial and localized dual-channel information and utilizes Fourier-based frequency decomposition to separately capture high- and low-frequency components, thereby improving the recognition of TPPs by learning both detailed textures and structural layouts. Experiments conducted on our newly proposed AIR-MTPP dataset demonstrate that CFRANet achieves state-of-the-art performance, with a mAP50 of 82.41\%.},
+  copyright = {https://creativecommons.org/licenses/by/4.0/},
+  langid = {english},
+  annotation = {TLDR: A novel Cross-Modal Frequency-Responsive Attention Network (CFRANet) that facilitates the integration of multi-modal features, enhancing inter-modal interactions and improving the recognition of TPPs by learning both detailed textures and structural layouts is proposed.},
+  file = {D:\Documents\Zotero\storage\957H29SW\He 等 - 2025 - CFRANet Cross-modal frequency-responsive attention network for thermal power plant detection in mul.pdf}
+}
+
+@article{HeDuiDiGuanCeDaShuJuChuLiTiaoZhanYuSiKao2015,
+  title = {{对地观测大数据处理:挑战与思考}},
+  shorttitle = {{对地观测大数据处理}},
+  author = {何, 国金 and 王, 力哲 and 马, 艳 and 张, 兆明 and 王, 桂周 and 彭, 燕 and 龙, 腾飞 and 张, 晓美},
+  year = 2015,
+  journal = {科学通报},
+  volume = {60},
+  number = {Z1},
+  pages = {470--478},
+  issn = {0023-074X},
+  urldate = {2023-05-06},
+  abstract = {通过航天航空飞行器搭载的传感器对地球进行观测可以获得地球全面而系统的信息.随着空间信息技术的高速发展,对地观测领域步入了大数据时代.在分析对地观测数据处理与服务的全流程及其算法的基础上,总结出"大数据时代"对地观测数据处理面临的挑战------"数据密集型计算"问题,并指出解决这一问题应该在系统平台、处理算法和服务模式3个方面开展创新性的研究工作.},
+  copyright = {All rights reserved},
+  langid = {chinese},
+  keywords = {,data-intensive computing,earth observation,earth observation big data,remote sensing},
+  annotation = {CSCD: 核心库\\
+中文核心期刊/北大核心: 是\\
+复合影响因子: 3.105\\
+综合影响因子: 2.381\\
+南农高质量: 一类},
+  file = {D:\Documents\Zotero\storage\9WWESWEV\何 et al_2015_对地观测大数据处理.pdf}
+}
+
+@article{HeDuiDiGuanCeDaShuJuKaiFangGongXiangTiaoZhanYuSiKao2018,
+  title = {{对地观测大数据开放共享:挑战与思考}},
+  shorttitle = {{对地观测大数据开放共享}},
+  author = {何, 国金 and 王, 桂周 and 龙, 腾飞 and 彭, 燕 and 江, 威 and 尹, 然宇 and 焦, 伟利 and 张, 兆明},
+  year = 2018,
+  journal = {中国科学院院刊},
+  volume = {33},
+  number = {8},
+  pages = {783--790},
+  issn = {1000-3045},
+  doi = {10.16418/j.issn.1000-3045.2018.08.003},
+  urldate = {2023-05-06},
+  abstract = {对地观测数据作为国家基础性和战略性资源,在国民经济、社会发展和国家安全中发挥着不可或缺的作用。我国正面临从对地观测"数据大国"向"数据强国"转变的历史新机遇,文章阐述了当前对地观测大数据的发展态势,总结了国际对地观测数据开放共享的现状与趋势,分析了我国对地观测数据开放共享的现状及问题,最后对我国对地观测大数据的开放共享给出了3个方面的建议:\ding{172}加强数据治理体系建设,夯实对地观测数据开放共享的基础;\ding{173}制度和技术并重,构建良好的数据共享生态系统;\ding{174}创新对地观测数据共享服务模式,促进学科交叉、知识发现与综合应用。通过加强数据开放共享工作,以期能够释放我国对地观测大数据的潜在价值,充分发挥对地观测大数据的战略性作用,有效提升我国对地观测大数据的国际竞争力。},
+  copyright = {All rights reserved},
+  langid = {chinese},
+  keywords = {,data governance system,data sharing ecosystem,data sharing model,Earth observation(EO) data,opening and sharing},
+  annotation = {CSCD: 核心库\\
+中文核心期刊/北大核心: 是\\
+复合影响因子: 6.606\\
+综合影响因子: 5.145\\
+南农高质量: 三类},
+  file = {D:\Documents\Zotero\storage\B35ARLPW\何 et al_2018_对地观测大数据开放共享.pdf}
+}
+
+@article{HeGuoJinYaoGanShuJuZhiNengJinZhanYuSiKao2025,
+  title = {{遥感数据智能：进展与思考}},
+  author = {{何国金} and {刘慧婵} and {杨瑞清} and {张兆明} and {薛远} and {安诗豪} and {袁铭若} and {王桂周} and {龙腾飞} and {彭燕} and {尹然宇}},
+  year = 2025,
+  journal = {地球信息科学学报},
+  volume = {27},
+  number = {2},
+  pages = {273--284},
+  urldate = {2025-07-17},
+  abstract = {【意义】数据已成为重要的生产资料，与人工智能技术相互促进，伴生发展，并不断催生新质生产力。遥感数据智能是遥感大数据和人工智能快速发展的必然产物，不仅提高了遥感数据处理效率，还增强了应对突发事件和复杂环境变化的响应能力。【目的】本文旨在探讨遥感数据智能的发展及其在关键领域的应用潜力，分析了遥感数据智能的出现背景和技术支撑，提出了遥感数据智能技术框架，并结合具体应用案例，展示遥感数据智能在超高分辨率遥感图像中提取中国集中式和分布式光伏分布信息的应用成效。【展望】研究强调，对于遥感数据智能而言，高质量的数据是遥感数据智能的基础，应重视AI-ready的知识库建设和小数据的作用；有针对性的高效算法是实现遥感数据智能的关键，发展实用的数据智能方法是迫切需要研究的课题；通过数据智能，推进遥感数据、信息和知识的多层次服务。},
+  langid = {chinese},
+  keywords = {,AI-ready},
+  annotation = {foundation: 国家重点研发计划课题（2023YFF1304301）； 第二次青藏高原综合科学考察研究项目专题任务（2019QZKK030701）； 中国科学院A类战略性先导科技专项课题（XDA19090300）； 国家自然科学基金重点项目（61731022）\textasciitilde\textasciitilde ；\\
+download: 723\\
+album: 基础科学;工程科技II辑;信息科技\\
+CLC: TP751\\
+dbcode: CJFQ\\
+dbname: CJFDLAST2025\\
+filename: DQXX202502002},
+  file = {D:\Documents\Zotero\storage\LTLD96L7\何国金 等 - 2025 - 遥感数据智能：进展与思考.pdf}
+}
+
+@article{HeYaoGanDaShuJuFuNengQingCangGaoYuanLuBiaoShuiTiKongJianFenBuXinXiRenZhi2024,
+  title = {{遥感大数据赋能青藏高原陆表水体空间分布信息认知}},
+  author = {何, 国金 and 郑, 铠沅 and 杨, 瑞清 and 尹, 然宇 and 刘, 慧婵 and 陈, 慧玲 and 彭, 雪丽 and 彭, 燕 and 王, 桂周 and 龙, 腾飞 and 陈, 彦琳 and 陶, 浩翔 and 洪, 方舟},
+  year = 2024,
+  journal = {中国水利},
+  number = {11},
+  pages = {56--66},
+  issn = {1000-1123},
+  urldate = {2025-01-02},
+  abstract = {遥感大数据对赋能水利新质生产力发展具有显著作用，尤其在提升水资源调查、监测与管理效率方面展现出强大潜力。青藏高原被称为``亚洲水塔''，湖泊河流众多，对气候变化也最为敏感，然而由于地理位置特殊、地形环境复杂等因素，青藏高原水资源分布的精细化认知和监测一直是水利工作面临的一项挑战。针对青藏高原地区缺乏高空间分辨率陆表水体信息问题，提出分级弱监督信息挖掘策略，生成了青藏高原地区2 m分辨率陆表水体空间分布信息产品。经评估，产品总体精度为91.36\%，用户精度为85.39\%，生产者精度为91.71\%，显示出较高的准确性和可靠性。研究成果不仅有助于深化对青藏高原地区水资源分布状况的认识，也展示出遥感大数据在复杂地形区域的应用潜力和价值，为水资源管理、生态保护以及区域可持续发展提供有力的数据支撑和决策依据。},
+  langid = {chinese},
+  keywords = {,No DOI found},
+  file = {D:\Documents\Zotero\storage\E7NPGW75\何 等 - 2024 - 遥感大数据赋能青藏高原陆表水体空间分布信息认知.pdf}
+}
+
+@article{HeYaoGanShuJuJiDeJiYongReadyUseRTUChanPin2020,
+  title = {{遥感数据即得即用（Ready To Use,RTU）产品}},
+  author = {何, 国金 and 焦, 伟利 and 张, 兆明 and 龙, 腾飞 and 王, 桂周 and 彭, 燕 and 尹, 然宇},
+  year = 2020,
+  journal = {中国科学数据(中英文网络版)},
+  volume = {5},
+  number = {4},
+  pages = {6--13},
+  issn = {2096-2223},
+  urldate = {2023-08-21},
+  abstract = {遥感数据呈现大数据特征并广泛应用于资源调查、环境监测、灾害评估等领域,但其潜在的应用价值还没有被充分挖掘出来。遥感数据工程的建立将有助于遥感数据的智能分析和信息挖掘。即得即用(Ready To Use,RTU)产品具有辐射归一化、几何标准化、剖分网格化等特点,可直接用于后续的分析应用。RTU产品的研究开发是遥感数据工程的重要内容之一。以卫星遥感数据为基础,介绍了遥感数据RTU产品的定义与组成、RTU产品的标准规范、RTU地理格网剖分等,为用户使用RTU产品提供参考。多源卫星遥感数据RTU产品将持续不断地通过CASEarth DataBank系统(databank.casearth.cn)向管理工作者、行业应用者、科学研究者以及其他公众提供共享服务。},
+  copyright = {All rights reserved},
+  langid = {chinese},
+  keywords = {,(Ready To Use,geometry standardization,global gridding,radiation normalization,remote sensing data,RTU (Ready To Use) product,RTU)},
+  annotation = {复合影响因子: 0.854\\
+综合影响因子: 0.642},
+  file = {D:\Documents\Zotero\storage\BKVRCE6F\何 et al_2020_遥感数据即得即用（Ready To Use,RTU）产品.pdf}
+}
+
+@article{hongAuxTransUNetEnhancingRemote2025,
+  title = {{{AuxTransUNet}}: {{Enhancing}} Remote Sensing Image Segmentation of Open-Pit Mining Areas in Qinghai--Tibet Plateau},
+  shorttitle = {{{AuxTransUNet}}},
+  author = {Hong, Fangzhou and He, Guojin and Wang, Guizhou and Zhang, Zhaoming and Peng, Yan},
+  year = 2025,
+  journal = {IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
+  volume = {18},
+  pages = {20348--20358},
+  issn = {1939-1404, 2151-1535},
+  doi = {10.1109/JSTARS.2025.3595592},
+  urldate = {2025-08-26},
+  copyright = {https://creativecommons.org/licenses/by/4.0/legalcode},
+  annotation = {TLDR: AuxTransUNet is a hybrid deep learning framework that integrates CNNs with transformers to enhance both local detail extraction and global contextual understanding and highlights its potential as a robust and scalable solution for large-area mining monitoring using remote sensing data.},
+  file = {D:\Documents\Zotero\storage\CM2QFYXN\Hong 等 - 2025 - AuxTransUNet Enhancing remote sensing image segmentation of open-pit mining areas in qinghai–tibet.pdf}
+}
+
+@article{Huang2018NianShanDongShenggf1WfvXiangDuiFuSheGuiYiHuaShuJuJi2020,
+  title = {{2018年山东省gf-1 wfv相对辐射归一化数据集}},
+  author = {黄, 莉婷 and 焦, 伟利 and 龙, 腾飞},
+  year = 2020,
+  journal = {中国科学数据(中英文网络版)},
+  volume = {5},
+  number = {4},
+  pages = {37--46},
+  issn = {2096-2223},
+  urldate = {2025-01-02},
+  abstract = {地表反射率是遥感定量反演的一个关键参数,对于研究地表和大气间辐射能量平衡、地物识别和分类、水分与气候模型等具有十分重要的意义。本数据集采用相对辐射归一化的方法,以Landsat 8 OLI地表反射率数据产品为基准影像,对2018年山东省GF-1 WFV卫星无云影像进行辐射归一化。相对辐射归一化处理工作主要包括大气校正、数据重采样、影像配准、掩膜、选取不变特征点和求解辐射归一化系数等流程。辐射归一化后,每景GF-1 WFV影像与其基准影像的不变特征点R\textasciitilde 2为0.7295以上,RMSE低于0.0172,GF-1 WFV影像地表反射率精度得到提高,可以和Landsat数据协同应用,为遥感定量反演提供数据支持。本数据集为GeoTIFF格式,空间分辨率为16 m。},
+  langid = {chinese},
+  keywords = {,GF-1 WFV,No DOI found},
+  file = {D:\Documents\Zotero\storage\DBJPQ5Z6\黄 等 - 2020 - 2018年山东省gf-1 wfv相对辐射归一化数据集.pdf}
+}
+
+@article{huangGeneration30Resolution2025,
+  title = {Generation of 30 m Resolution Monthly Burned Area Product in Africa Based on Landsat 8/9 and Sentinel-2 Data},
+  author = {Huang, Shunguo and Long, Tengfei and Zhang, Zhaoming and He, Guojin and Wang, Guizhou},
+  year = 2025,
+  month = dec,
+  journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
+  volume = {230},
+  pages = {170--191},
+  issn = {09242716},
+  doi = {10.1016/j.isprsjprs.2025.09.012},
+  urldate = {2025-09-20},
+  langid = {english},
+  file = {D:\Documents\Zotero\storage\JP95RH9W\Huang 等 - 2025 - Generation of 30 m resolution monthly burned area product in africa based on landsat 89 and sentine.pdf}
+}
+
+@article{HuangJiYuZhengZeHuaIRMADDeGF1YingXiangFuSheGuiYiHua2020,
+  title = {{基于正则化IR-MAD的GF-1影像辐射归一化}},
+  author = {黄, 莉婷 and 焦, 伟利 and 龙, 腾飞 and 康, 传利},
+  year = 2020,
+  journal = {遥感信息},
+  volume = {35},
+  number = {3},
+  pages = {99--109},
+  issn = {1000-3177},
+  urldate = {2023-05-06},
+  abstract = {针对绝对辐射校正处理过程复杂不易实现,现有的相对辐射校正方法域值确定困难、样本点质量不稳定的问题,提出采用辐射归一化方法提高影像辐射质量。以GF-1卫星PMS和WFV数据为研究源,经过简单大气校正后进行相对辐射归一化;在正则化迭代加权多元变化检测(IR-MAD)方法的基础上,通过控制未变化集的线性关系、逐步筛选不变特征点,获得不同传感器影像(Landsat-8OLI和Sentinel-2A MSI)对应波段的反射率归一化方程。结果表明,该方法能够有效减少影像间的辐射差异,与其他方法相比具有较高的精度,为遥感信息定量化获取较高精度的地表反射率提供可参考的方法。},
+  copyright = {All rights reserved},
+  langid = {chinese},
+  keywords = {,automatic scattergram-controlled regression,canonical correlation analysis,GF-1,invariant feature,radiometric normalization},
+  annotation = {CSCD: 核心库\\
+中文核心期刊/北大核心: 是\\
+复合影响因子: 1.675\\
+综合影响因子: 1.162\\
+南农高质量: 三类},
+  file = {D:\Documents\Zotero\storage\SNC2YYHR\黄 et al_2020_基于正则化IR-MAD的GF-1影像辐射归一化.pdf}
+}
+
+@article{jiangAssessingLightPollution2017,
+  title = {Assessing {{Light Pollution}} in {{China Based}} on {{Nighttime Light Imagery}}},
+  author = {Jiang, Wei and He, Guojin and Long, Tengfei and Wang, Chen and Ni, Yuan and Ma, Ruiqi},
+  year = 2017,
+  month = feb,
+  journal = {Remote Sensing},
+  volume = {9},
+  number = {2},
+  pages = {135},
+  publisher = {Multidisciplinary Digital Publishing Institute},
+  issn = {2072-4292},
+  doi = {10/gpjnvs},
+  urldate = {2022-02-24},
+  abstract = {Rapid urbanization and economic development inevitably lead to light pollution, which has become a universal environmental issue. In order to reveal the spatiotemporal patterns and evolvement rules of light pollution in China, images from 1992 to 2012 were selected from the Defense Meteorological Satellite Program Operational Linescan System (DMSP/OLS) and systematically corrected to ensure consistency. Furthermore, we employed a linear regression trend method and nighttime light index method to demonstrate China's light pollution characteristics across national, regional, and provincial scales, respectively. We found that: (1) China's light pollution expanded significantly in provincial capital cities over the past 21 years and hot-spots of light pollution were located in the eastern coastal region. The Yangtze River Delta, Pearl River Delta, and Beijing--Tianjin--Hebei regions have formed light pollution stretch areas; (2) China's light pollution was mainly focused in areas of north China (NC) and east China (EC), which, together, accounted for over 50\% of the light pollution for the whole country. The fastest growth of light pollution was observed in northwest China (NWC), followed by southwest China (SWC). The growth rates of east China (EC), central China (CC), and northeast China (NEC) were stable, while those of north China (NC) and south China (SC) declined; (3) Light pollution at the provincial scale was mainly located in the Shandong, Guangdong, and Hebei provinces, whereas the fastest growth of light pollution was in Tibet and Hainan. However, light pollution levels in the developed provinces (Hong Kong, Macao, Shanghai, and Tianjin) were higher than those of the undeveloped provinces. Similarly, the light pollution heterogeneities of Taiwan, Beijing, and Shanghai were higher than those of undeveloped western provinces.},
+  copyright = {http://creativecommons.org/licenses/by/3.0/},
+  langid = {english},
+  keywords = {China,DMSP/OLS,light pollution,nighttime light,nighttime light index},
+  annotation = {ZSCC: 0000041 \\
+JCR分区: Q1\\
+中科院分区升级版: 地球科学2区\\
+影响因子: 4.2\\
+5年影响因子: 4.9\\
+EI: 是\\
+南农高质量: A},
+  file = {D\:\\Documents\\Zotero\\storage\\78VX5IHV\\Jiang 等。 - 2017 - Assessing Light Pollution in China Based on Nightt.pdf;D\:\\Documents\\Zotero\\storage\\UC687SP6\\Jiang et al_2017_Assessing Light Pollution in China Based on Nighttime Light Imagery.pdf;I\:\\Disks\\OneDrive\\Bibliography\\Zotero\\Jiang et al_2017_Assessing Light Pollution in China Based on Nighttime Light Imagery.pdf;D\:\\Documents\\Zotero\\storage\\EKA39UAX\\135.html}
+}
+
+@article{jiangCanNighttimeLight2026,
+  title = {Can Nighttime Light Proxy Comprehensive Economic Well-Being? {{Evidence}} from {{China}}},
+  shorttitle = {Can Nighttime Light Proxy Comprehensive Economic Well-Being?},
+  author = {Jiang, Wei and Liu, Jie and Long, Tengfei and Liu, Ming and Kawasaki, Akiyuki and Pang, Zhiguo and Yan, Denghua and Shang, Yizi and Adam, Elhadi and Ding, Xiaohui and Cui, Shiai},
+  year = 2026,
+  month = mar,
+  journal = {Sustainable Cities and Society},
+  volume = {138},
+  pages = {107191},
+  issn = {22106707},
+  doi = {10.1016/j.scs.2026.107191},
+  urldate = {2026-02-11},
+  langid = {english},
+  annotation = {0 citations (Crossref/DOI) [2026-02-11]},
+  file = {D:\Documents\Zotero\storage\XU39SGVT\Jiang 等 - 2026 - Can nighttime light proxy comprehensive economic well-being Evidence from China.pdf}
+}
+
+@article{jiangCharacterizingLightPollution2018,
+  title = {Characterizing {{Light Pollution Trends}} across {{Protected Areas}} in {{China Using Nighttime Light Remote Sensing Data}}},
+  author = {Jiang, Wei and He, Guojin and Leng, Wanchun and Long, Tengfei and Wang, Guizhou and Liu, Huichan and Peng, Yan and Yin, Ranyu and Guo, Hongxiang},
+  year = 2018,
+  month = jun,
+  journal = {ISPRS International Journal of Geo-Information},
+  volume = {7},
+  number = {7},
+  pages = {243},
+  issn = {2220-9964},
+  doi = {10.3390/ijgi7070243},
+  urldate = {2022-12-02},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  annotation = {21 citations (Crossref/DOI) [2024-09-16]\\
+JCR分区: Q2\\
+中科院分区升级版: 地球科学3区\\
+影响因子: 2.8\\
+5年影响因子: 3.0\\
+南农高质量: B\\
+TLDR: Based on the status of light pollution encroachment into PAs, strategies to control light pollution and enhance the sustainable development of PAs are recommended.},
+  file = {D:\Documents\Zotero\storage\ZCWN9A3P\Jiang et al_2018_Characterizing Light Pollution Trends across Protected Areas in China Using.pdf}
+}
+
+@article{JiangGaoFenYiHaoWeiXingWFVYingXiangQuanGuoLuDiXiangQianYuZhiTuJiShuYanJiu2017,
+  title = {{高分一号卫星WFV影像全国陆地镶嵌与制图技术研究}},
+  author = {江, 威 and 何, 国金 and 刘, 慧婵 and 龙, 腾飞 and 王, 威 and 郑, 守住 and 马, 肖肖},
+  year = 2017,
+  journal = {国土资源遥感},
+  volume = {29},
+  number = {4},
+  pages = {190--196},
+  issn = {1001-070X},
+  urldate = {2023-05-06},
+  abstract = {高分一号(GF-1)卫星是我国高空间分辨率对地观测系统重大专项中的首颗卫星,目前已正常运行4 a多,为全国中、高空间分辨率影像镶嵌提供了丰富的数据源。针对GF-1多光谱宽幅覆盖(wide field of view,WFV)影像特点,制定了影像处理的技术流程,主要包括数据选取、几何纠正、匀色镶嵌和制图4项关键技术,重点解决大幅宽影像高精度几何定位问题;在选取高质量数据基础上,自动采集控制点,控制点均方根误差(root mean square error,RMSE)不大于1个像元,平均每景影像中控制点数量为54个;应用有理函数模型(rational function model,RFM)对影像进行正射纠正,然后进行色调调整和镶嵌处理,制作全国1{$:$}500万比例尺陆地卫星影像专题地图。镶嵌结果具有空间精度高、地物色彩丰富和时效性强等特点。所采用的技术流程和方法可为高分系列卫星全国镶嵌制图提供参考,同时也将促进国产高分卫星在全国重大资源环境调查中的应用推广。},
+  copyright = {All rights reserved},
+  langid = {chinese},
+  keywords = {,GF-1,mosaic mapping,ortho-rectification,remote sensing image processing,WFV,WFV image},
+  annotation = {中文核心期刊/北大核心: 是\\
+南农高质量: 三类\\
+复合影响因子: 3.097\\
+综合影响因子: 2.046},
+  file = {D:\Documents\Zotero\storage\688B598Q\江 et al_2017_高分一号卫星WFV影像全国陆地镶嵌与制图技术研究.pdf}
+}
+
+@article{JiangJiYuBeiDouHeGPSDeGaoFenErHaoQuanSeYingXiangZhengSheJingDuYanZhengYuFenXi2017,
+  title = {{基于北斗和GPS的高分二号全色影像正射精度验证与分析}},
+  author = {江, 威 and 何, 国金 and 龙, 腾飞 and 尹, 然宇 and 宋, 小璐 and 袁, 益琴 and 凌, 赛广},
+  year = 2017,
+  journal = {国土资源遥感},
+  volume = {29},
+  number = {3},
+  pages = {211--216},
+  issn = {1001-070X},
+  urldate = {2023-05-06},
+  abstract = {高分二号(GF-2)卫星几何精纠正是其广泛应用的前提。以福州市作为实验区,选择北斗卫星导航系统(北斗)和GPS野外测量获取控制点和检查点,采用像方平移、像方漂移和像方仿射变换3种方法对有理函数模型进行误差补偿,验证分析控制点测量精度、分布、数目以及纠正方法对GF-2全色影像纠正的影响,并分析了北斗应用于GF-2全色影像正射纠正的潜力。实验结果表明:少量分布均匀的控制点就可以消除GF-2全色影像纠正后的系统几何误差;3种纠正方法中像方仿射变换方法精度最高,其中GPS控制测量下检查点平面均方根误差为1.49 m,北斗RTK控制测量下检查点平面均方根误差为1.51 m,GPS与北斗RTK控制测量下的影像纠正精度接近;北斗2种测量模式中,只有RTK模式能够满足GF-2全色影像纠正需求。上述研究表明,GF-2全色影像能够利用GPS和北斗RTK模式控制测量下的少量分布均匀高精度控制点达到较高纠正精度,满足实际应用需求。},
+  copyright = {All rights reserved},
+  langid = {chinese},
+  keywords = {,accuracy validation,Beidou satellite navigation system,GF-2 satellite image,GPS,notion,ortho-rectification,rational function model},
+  annotation = {中文核心期刊/北大核心: 是\\
+南农高质量: 三类\\
+复合影响因子: 3.097\\
+综合影响因子: 2.046},
+  file = {D:\Documents\Zotero\storage\APMCE39X\江 et al_2017_基于北斗和GPS的高分二号全色影像正射精度验证与分析.pdf}
+}
+
+@article{jiangMultilayerPerceptronNeural2018,
+  title = {Multilayer {{Perceptron Neural Network}} for {{Surface Water Extraction}} in {{Landsat}} 8 {{OLI Satellite Images}}},
+  author = {Jiang, Wei and He, Guojin and Long, Tengfei and Ni, Yuan and Liu, Huichan and Peng, Yan and Lv, Kenan and Wang, Guizhou},
+  year = 2018,
+  month = may,
+  journal = {Remote Sensing},
+  volume = {10},
+  number = {5},
+  pages = {755},
+  issn = {2072-4292},
+  doi = {10.3390/rs10050755},
+  urldate = {2022-12-02},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  annotation = {82 citations (Crossref/DOI) [2024-09-16]\\
+JCR分区: Q1\\
+中科院分区升级版: 地球科学2区\\
+影响因子: 4.2\\
+5年影响因子: 4.9\\
+EI: 是\\
+南农高质量: A\\
+TLDR: The proposed multilayer perceptron (MLP) neural network has the potential to map surface water based on Landsat series images or other high-resolution images and can be implemented for global surface water mapping, which will help us better understand the authors' changing planet.},
+  file = {D:\Documents\Zotero\storage\9IKSBHBY\Jiang et al_2018_Multilayer Perceptron Neural Network for Surface Water Extraction in Landsat 8.pdf}
+}
+
+@article{jiangOngoingConflictMakes2017,
+  title = {Ongoing {{Conflict Makes Yemen Dark}}: {{From}} the {{Perspective}} of {{Nighttime Light}}},
+  shorttitle = {Ongoing {{Conflict Makes Yemen Dark}}},
+  author = {Jiang, Wei and He, Guojin and Long, Tengfei and Liu, Huichan},
+  year = 2017,
+  month = aug,
+  journal = {Remote Sensing},
+  volume = {9},
+  number = {8},
+  pages = {798},
+  issn = {2072-4292},
+  doi = {10.3390/rs9080798},
+  urldate = {2022-12-02},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  annotation = {50 citations (Crossref/DOI) [2024-09-16]\\
+JCR分区: Q1\\
+中科院分区升级版: 地球科学2区\\
+影响因子: 4.2\\
+5年影响因子: 4.9\\
+EI: 是\\
+南农高质量: A\\
+TLDR: Using nighttime light remote sensing imagery, the findings suggest that war made Yemen dark and provide support for international humanitarian assistance organizations.},
+  file = {D\:\\Documents\\Zotero\\storage\\ETSW73YW\\Jiang et al_2017_Ongoing Conflict Makes Yemen Dark.pdf;I\:\\Disks\\OneDrive\\Bibliography\\Zotero\\Jiang et al_2017_Ongoing Conflict Makes Yemen Dark.pdf}
+}
+
+@article{jiangPotentialityUsingLuojia2018,
+  title = {Potentiality of {{Using Luojia}} 1-01 {{Nighttime Light Imagery}} to {{Investigate Artificial Light Pollution}}},
+  author = {Jiang, Wei and He, Guojin and Long, Tengfei and Guo, Hongxiang and Yin, Ranyu and Leng, Wanchun and Liu, Huichan and Wang, Guizhou},
+  year = 2018,
+  month = sep,
+  journal = {Sensors},
+  volume = {18},
+  number = {9},
+  pages = {2900},
+  issn = {1424-8220},
+  doi = {10.3390/s18092900},
+  urldate = {2022-12-02},
+  abstract = {The successful launch of Luojia 1-01 complements the existing nighttime light data with a high spatial resolution of 130 m. This paper is the first study to assess the potential of using Luojia 1-01 nighttime light imagery for investigating artificial light pollution. Eight Luojia 1-01 images were selected to conduct geometric correction. Then, the ability of Luojia 1-01 to detect artificial light pollution was assessed from three aspects, including the comparison between Luojia 1-01 and the Suomi National Polar-Orbiting Partnership Visible Infrared Imaging Radiometer Suite (NPP-VIIRS), the source of artificial light pollution and the patterns of urban light pollution. Moreover, the advantages and limitations of Luojia 1-01 were discussed. The results showed the following: (1) Luojia 1-01 can detect a higher dynamic range and capture the finer spatial details of artificial nighttime light. (2) The averages of the artificial light brightness were different between various land use types. The brightness of the artificial light pollution of airports, streets, and commercial services is high, while dark areas include farmland and rivers. (3) The light pollution patterns of four cities decreased away from the urban core and the total light pollution is highly related to the economic development. Our findings confirm that Luojia 1-01 can be effectively used to investigate artificial light pollution. Some limitations of Luojia 1-01, including its spectral range, radiometric calibration and the effects of clouds and moonlight, should be researched in future studies.},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  annotation = {106 citations (Crossref/DOI) [2024-09-16]\\
+JCR分区: Q2\\
+中科院分区升级版: 综合性期刊3区\\
+影响因子: 3.4\\
+5年影响因子: 3.7\\
+EI: 是\\
+南农高质量: B\\
+TLDR: It is confirmed that Luojia 1-01 can be effectively used to investigate artificial light pollution and can detect a higher dynamic range and capture the finer spatial details of artificial nighttime light.},
+  file = {D\:\\Documents\\Zotero\\storage\\CMS44YEM\\Jiang et al_2018_Potentiality of Using Luojia 1-01 Nighttime Light Imagery to Investigate.pdf;I\:\\Disks\\OneDrive\\Bibliography\\Zotero\\Jiang et al_2018_Potentiality of Using Luojia 1-01 Nighttime Light Imagery to Investigate.pdf}
+}
+
+@article{jiangSurfaceWaterMap2020,
+  title = {Surface Water Map of {{China}} for 2015 ({{SWMC-2015}}) Derived from {{Landsat}} 8 Satellite Imagery},
+  author = {Jiang, Wei and He, Guojin and Pang, Zhiguo and Guo, Hongxiang and Long, Tengfei and Ni, Yuan},
+  year = 2020,
+  month = mar,
+  journal = {Remote Sensing Letters},
+  volume = {11},
+  number = {3},
+  pages = {265--273},
+  issn = {2150-704X, 2150-7058},
+  doi = {10.1080/2150704X.2019.1708501},
+  urldate = {2022-12-02},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  annotation = {JCR分区: Q3\\
+中科院分区升级版: 地球科学4区\\
+影响因子: 1.4\\
+5年影响因子: 1.9\\
+EI: 是\\
+南农高质量: C}
+}
+
+@article{JiaoWeiLiQingCangGaoYuan20112020Nian500MiFenBianLuLuMianZhengSanFaChanPinJi2025a,
+  title = {{青藏高原2011--2020年500米分辨率陆面蒸散发产品集}},
+  author = {{焦伟利} and {林子镕} and {龙腾飞} and {何国金}},
+  year = 2025,
+  journal = {中国科学数据（中英文网络版）},
+  volume = {10},
+  number = {2},
+  pages = {164--179},
+  issn = {2096-2223},
+  abstract = {蒸散发（ET）是陆地水循环、能量平衡和碳循环中不可或缺的组成部分，对生态系统健康和气候变化等方面具有重要影响。青藏高原是全球水循环和生态系统的重要组成部分，其水资源和生态环境对亚洲地区的发展和生存具有重要意义。本研究针对青藏高原的特殊性，提出了适用于青藏高原的PT-SIMI（Shortwave Infrared Soil Moisture Index-Based Priestley-Taylor Model,PT-SIMI Model）模型。在PT-SIMI模型中，对土壤湿度限制因子和植被绿叶比例进行了调整，发展了更适用于青藏高原的遥感蒸散发估算模型。利用站点实测数据对估算结果进行了验证，验证精度平均偏差（Bias）、均方根误差（RMSE）、决定系数（R2）分别为-0.52 Wm-2、21.14Wm-2、0.74。结果表明，PT-SIMI模型比MS-PT（A Modified Satellite--based Priestley-Taylor Model,MS-PT Model）模型和PT-JPL（Priestley-Taylor Jet Propulsion Laboratory）模型精度高，更适合应用于青藏高原上。在此基础上，利用PT-SIMI模型对青藏高原蒸散发进行了估算，生成了2011--2020年500米分辨率的月度、季度和年度蒸散发产品集，可用于青藏高原的水资源管理、干旱监测、气候变化和生态环境分析。},
+  langid = {chinese},
+  keywords = {,PT-SIMI},
+  file = {D:\Documents\Zotero\storage\RFVITEVT\abstract.html}
+}
+
+@article{JiaoYaoGanShuJuJiDeJiYongReadyUseRTUDiLiGeWangChanPinGuiFan2020,
+  title = {{遥感数据即得即用（Ready To Use,RTU）地理格网产品规范}},
+  author = {焦, 伟利 and 龙, 腾飞 and 何, 国金 and 王, 威 and 张, 兆明 and 王, 桂周 and 彭, 燕},
+  year = 2020,
+  journal = {中国科学数据(中英文网络版)},
+  volume = {5},
+  number = {4},
+  pages = {14--27},
+  issn = {2096-2223},
+  urldate = {2023-08-21},
+  abstract = {遥感影像是一种平面栅格数据,以一定的地图投影方式反映地球表面的表象。常规的标准遥感影像分幅产品是以一定的规则按照景来分幅的,不同的卫星影像,景的分幅和编码规则不同。遥感影像的景没有完全与地球上的地理坐标对应。为了使长时序影像更容易查询、分析和管理,本文提出遥感影像即得即用(ReadyTo Use,RTU)地理格网产品,即将全球影像按照定义的格网系统剖分为具有统一规则和属性的数据格网。规定了遥感影像按照经纬坐标格网和直角坐标格网的分幅与编码方法和RTU地理格网产品规范,适用于不同空间分辨率的遥感影像按照不同投影地理格网的分幅与编码和RTU地理格网产品的生产。RTU地理格网产品具有使用灵活、格网编码与空间地理坐标相一致,可以按照空间维和时间维建立数据立方体,形成空间和时间上的连续产品,便于用户直接进行空间分析和应用。本规范为遥感影像共享和遥感信息整合提供以地理格网为单元的空间参照,可用于长时序、不同空间分辨率的遥感影像综合分析和应用。},
+  copyright = {All rights reserved},
+  langid = {chinese},
+  keywords = {,(Ready To Use,encoding,geographic grid,gridding,remote sensing data,RTU(Ready To Use) product,RTU)},
+  annotation = {复合影响因子: 0.854\\
+综合影响因子: 0.642},
+  file = {D:\Documents\Zotero\storage\5WKBPJZM\焦 et al_2020_遥感数据即得即用（Ready To Use,RTU）地理格网产品规范.pdf}
+}
+
+@misc{JiYuDiXingTuBiaoZhunFenFuDeYaoGanYingXiangChanPinGuiFanZhongGuoZhiWang,
+  title = {基于地形图标准分幅的遥感影像产品规范 - 中国知网},
+  author = {{刘建波} and {何国金} and {焦伟利} and {王威} and {程博} and {戴芹} and {张晓美} and {刘慧婵} and {王桂周} and {龙腾飞} and {李子扬} and {高小明} and {李杏朝} and {张兆明} and {刘士彬} and {白雅卿} and {彭燕} and {王铎} and {项波} and {王新鸿} and {李晓辉} and {郑琎琎}},
+  year = 2018,
+  month = dec,
+  urldate = {2025-01-02},
+  file = {D:\Documents\Zotero\storage\KRL4PECB\abstract.html}
+}
+
+@article{KongLiYongErXingMoHuJuLeiJinXingQuanQiuHaiBiaoWenDuShuJuWaJue2012,
+  title = {{利用二型模糊聚类进行全球海表温度数据挖掘}},
+  author = {孔, 令桥 and 秦, 昆 and 龙, 腾飞},
+  year = 2012,
+  journal = {武汉大学学报(信息科学版)},
+  volume = {37},
+  number = {2},
+  pages = {215-219+255-256},
+  issn = {1671-8860},
+  doi = {10.13203/j.whugis2012.02.027},
+  urldate = {2025-01-02},
+  abstract = {基于二型模糊集的C均值聚类方法对全球时序海表温度数据进行了聚类分析,得到全球海表温度异常的典型聚类模式,并从聚类中心挖掘出潜在的海洋气候指数。},
+  langid = {chinese},
+  file = {D:\Documents\Zotero\storage\QREU7JVW\孔 等 - 2012 - 利用二型模糊聚类进行全球海表温度数据挖掘.pdf}
+}
+
+@article{linEstimationSpatiotemporalAnalysis2024,
+  title = {Estimation and Spatiotemporal Analysis of Actual Evapotranspiration over {{Qinghai-Tibet Plateau}} Using an {{Alpine Grassland-Adapted Priestley-Taylor}} Model},
+  author = {Lin, Zirong and Long, Tengfei and Jiao, Weili and Ye, Zhiqiang and Zhang, Degang and He, Guojin},
+  year = 2024,
+  month = sep,
+  journal = {Journal of Hydrology},
+  volume = {641},
+  pages = {131756},
+  issn = {00221694},
+  doi = {10.1016/j.jhydrol.2024.131756},
+  urldate = {2024-08-16},
+  langid = {english},
+  annotation = {0 citations (Crossref/DOI) [2024-09-16]\\
+0 citations (Crossref/DOI) [2024-08-16]\\
+JCR分区: Q1\\
+中科院分区升级版: 地球科学1区\\
+影响因子: 5.9\\
+5年影响因子: 6.4\\
+EI: 是\\
+南农高质量: A},
+  file = {D:\Documents\Zotero\storage\QLLBL83K\Lin 等 - 2024 - Estimation and spatiotemporal analysis of actual evapotranspiration over Qinghai-Tibet Plateau using.pdf}
+}
+
+@article{Ling20002014NianWuHanShiChengShiKuoZhanShiKongTeZhengFenXi2016,
+  title = {{2000～2014年武汉市城市扩展时空特征分析}},
+  author = {凌, 赛广 and 焦, 伟利 and 龙, 腾飞 and 刘, 慧婵 and 易, 予晴 and 武, 盟盟 and 王, 威 and 何, 国金},
+  year = 2016,
+  journal = {长江流域资源与环境},
+  volume = {25},
+  number = {7},
+  pages = {1034--1042},
+  issn = {1004-8227},
+  urldate = {2023-05-06},
+  abstract = {基于不同时相的高分辨率遥感影像,采用面向对象的解译方法提取了武汉市2000、2005、2010和2014年的土地覆被信息,从城市扩展强度指数,城市中心坐标迁移和分形维数等方面分析了武汉市2000\textasciitilde 2014年城市扩展时空特征。结果表明:2000\textasciitilde 2014年间,武汉市城市扩展强度指数为1.41,各主城区城市扩展强度不一,洪山区建设用地的增加对主城区城市扩展的贡献最大;在扩展过程中,武汉市城市分形维数增加,城市空间形态变复杂;其扩展呈现核心-放射扩展模式,并逐渐转向圈层式;自然条件、经济、人口、交通、政策和城市规划是武汉市城市扩展的主要驱动力,但随着交通的发展,自然条件和经济对武汉市城市扩展的驱动作用正逐渐减弱。},
+  copyright = {All rights reserved},
+  langid = {chinese},
+  keywords = {,expansion patterndriving force,spatial and temporal characteristics,urban expansion,Wuhan city},
+  annotation = {CSCD: 核心库\\
+中文核心期刊/北大核心: 是\\
+复合影响因子: 5.364\\
+综合影响因子: 3.609\\
+南农核心: 二类核心\\
+南农高质量: 二类},
+  file = {D:\Documents\Zotero\storage\FJHQACCB\凌 et al_2016_2000～2014年武汉市城市扩展时空特征分析.pdf}
+}
+
+@article{linModellingPublicPerception2023,
+  title = {Modelling the {{Public Perception}} of {{Urban Public Space Lighting Based}} on {{SDGSAT-1 Glimmer Imagery}}: {{A Case Study}} in {{Beijing}}, {{China}}},
+  shorttitle = {Modelling the {{Public Perception}} of {{Urban Public Space Lighting Based}} on {{SDGSAT-1 Glimmer Imagery}}},
+  author = {Lin, Zirong and Jiao, Weili and Liu, Huichan and Long, Tengfei and Liu, Yongkun and Wei, Shengrong and He, Guojin and Portnov, Boris A. and Trop, Tamar and Liu, Ming and Li, Xuwen and Wen, Chunhui},
+  year = 2023,
+  month = jan,
+  journal = {Sustainable Cities and Society},
+  volume = {88},
+  pages = {104272},
+  issn = {22106707},
+  doi = {10.1016/j.scs.2022.104272},
+  urldate = {2022-12-02},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  keywords = {notion},
+  annotation = {JCR分区: Q1\\
+中科院分区升级版: 工程技术1区\\
+影响因子: 10.5\\
+5年影响因子: 10.0\\
+EI: 是\\
+南农高质量: A},
+  file = {D:\Documents\Zotero\storage\CXEDPKMH\Lin et al_2023_Modelling the Public Perception of Urban Public Space Lighting Based on.pdf}
+}
+
+@article{liuAutomaticSegmentwiseRestoration2023,
+  title = {Automatic Segment-Wise Restoration for Wide Irregular Stripe Noise in {{SDGSAT-1}} Multispectral Data Using Side-Slither Data},
+  author = {Liu, Yongkun and Long, Tengfei and Jiao, Weili and Du, Yihong and He, Guojin and Chen, Bo and Huang, Peng},
+  year = 2023,
+  month = dec,
+  journal = {The Egyptian Journal of Remote Sensing and Space Sciences},
+  volume = {26},
+  number = {3},
+  pages = {747--757},
+  issn = {11109823},
+  doi = {10.1016/j.ejrs.2023.07.012},
+  urldate = {2023-08-07},
+  copyright = {All rights reserved},
+  langid = {english},
+  keywords = {notion},
+  annotation = {0 citations (Crossref/DOI) [2024-09-16]\\
+EI: 是\\
+JCR分区: Q2\\
+中科院分区升级版: 地球科学3区\\
+影响因子: 3.7\\
+5年影响因子: 4.7},
+  file = {D:\Documents\Zotero\storage\D9SGG888\Liu et al_2023_Automatic segment-wise restoration for wide irregular stripe noise in SDGSAT-1.pdf}
+}
+
+@article{liuGeneralRelativeRadiometric2022,
+  title = {A {{General Relative Radiometric Correction Method}} for {{Vignetting}} and {{Chromatic Aberration}} of {{Multiple CCDs}}: {{Take}} the {{Chinese Series}} of {{Gaofen Satellite Level-0 Images}} for {{Example}}},
+  shorttitle = {A {{General Relative Radiometric Correction Method}} for {{Vignetting}} and {{Chromatic Aberration}} of {{Multiple CCDs}}},
+  author = {Liu, Yongkun and Long, Tengfei and Jiao, Weili and He, Guojin and Chen, Bo and Huang, Peng},
+  year = 2022,
+  journal = {IEEE Transactions on Geoscience and Remote Sensing},
+  volume = {60},
+  pages = {1--25},
+  issn = {0196-2892, 1558-0644},
+  doi = {10.1109/TGRS.2022.3141223},
+  urldate = {2022-12-02},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  annotation = {3 citations (Crossref/DOI) [2024-09-16]\\
+JCR分区: Q1\\
+中科院分区升级版: 地球科学1区\\
+影响因子: 7.5\\
+5年影响因子: 7.6\\
+EI: 是\\
+南农高质量: A},
+  file = {D:\Documents\Zotero\storage\ZR6KT9VQ\Liu et al_2022_A General Relative Radiometric Correction Method for Vignetting and Chromatic.pdf}
+}
+
+@article{liuLeveragingNightDayCalibration2023,
+  title = {Leveraging ``{{Night}}--{{Day}}'' {{Calibration Data}} to {{Correct Stripe Noise}} and {{Vignetting}} in {{SDGSAT-1 Nighttime-Light Images}}},
+  author = {Liu, Yongkun and Long, Tengfei and Jiao, Weili and Chen, Bo and Cheng, Bo and Du, Yihong and He, Guojin and Huang, Peng},
+  year = 2023,
+  journal = {IEEE Transactions on Geoscience and Remote Sensing},
+  volume = {61},
+  pages = {1--23},
+  issn = {0196-2892, 1558-0644},
+  doi = {10.1109/TGRS.2023.3300257},
+  urldate = {2023-08-07},
+  copyright = {All rights reserved},
+  langid = {american},
+  keywords = {notion},
+  annotation = {1 citations (Crossref/DOI) [2024-09-16]\\
+JCR分区: Q1\\
+中科院分区升级版: 地球科学1区\\
+影响因子: 7.5\\
+5年影响因子: 7.6\\
+EI: 是\\
+南农高质量: A},
+  file = {D\:\\Documents\\Zotero\\storage\\JH869H96\\Liu et al_2023_Leveraging “Night-Day” Calibration Data to Correct Stripe Noise and Vignetting.pdf;D\:\\Documents\\Zotero\\storage\\WB7Y2AVW\\Liu 等 - 2023 - Leveraging “Night-Day” Calibration Data to Correct.pdf}
+}
+
+@article{liuSingleSatelliteImage2024,
+  title = {Single {{Satellite Image Sharpening With Any-Angle}} 2-{{D MTF Estimation}}},
+  author = {Liu, Yongkun and Long, Tengfei and Jiao, Weili and Du, Yihong and He, Guojin and Zhang, Zhaoming and Wang, Guizhou and Peng, Yan},
+  year = 2024,
+  journal = {IEEE Transactions on Geoscience and Remote Sensing},
+  volume = {62},
+  pages = {1--16},
+  issn = {0196-2892, 1558-0644},
+  doi = {10.1109/TGRS.2024.3457906},
+  urldate = {2024-09-15},
+  copyright = {https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html},
+  annotation = {0 citations (Crossref/DOI) [2024-09-16]\\
+0 citations (Crossref/DOI) [2024-09-15]\\
+TLDR: The utmost correlation to the histogram of raw image proves the proposed method's superiority in preserving radiometric information compared to other methods, and its capability to improve edge sharpness uniformity across cameras within the sensor system further solidify the method's universality and reliability.\\
+JCR分区: Q1\\
+中科院分区升级版: 地球科学1区\\
+影响因子: 7.5\\
+EI: 是},
+  file = {D:\Documents\Zotero\storage\VJ9ND2YY\Liu 等 - 2024 - Single Satellite Image Sharpening with Any-angle 2D MTF Estimation.pdf}
+}
+
+@article{Long2021NianQingCangGaoYuan10MiFenBianLuSenLinFuGaiChanPin2024,
+  title = {{2021年青藏高原10米分辨率森林覆盖产品}},
+  author = {龙, 腾飞 and 郭, 燕滔 and 焦, 伟利 and 张, 晓美},
+  year = 2024,
+  month = oct,
+  journal = {中国科学数据(中英文网络版)},
+  pages = {1--16},
+  issn = {2096-2223},
+  urldate = {2025-01-02},
+  abstract = {青藏高原是全球重要的生态系统，其森林覆盖状况对全球气候变化和生态系统保护具有重要意义。为获取更精确的青藏高原森林覆盖信息，本研究基于Sentinel-1、Sentinel-2遥感数据和DEM（Digital Elevation Model）数据，采用优化随机森林模型，生成了2021年青藏高原10米分辨率森林覆盖产品。方法的主要特点在于针对青藏高原复杂的地表环境和植被类型，优化了随机森林模型的参数和训练特征，提高了模型的精度和泛化能力。精度验证结果表明本产品的总体精度和Kappa系数分别为98.29\%和0.9496，优于现有ESA WorldCover 2020产品的95.04\%和0.7712。本产品提供了青藏高原地区高精细度的森林覆盖信息，可为青藏高原森林资源管理、森林生态系统的碳储量和碳循环等研究提供基础数据。},
+  langid = {chinese},
+  keywords = {,No DOI found,Sentine-1,Sentinel-2},
+  file = {D:\Documents\Zotero\storage\BPZJP46Y\龙 等 - 2021年青藏高原10米分辨率森林覆盖产品.pdf}
+}
+
+@article{long30ResolutionGlobal2019,
+  title = {30 m {{Resolution Global Annual Burned Area Mapping Based}} on {{Landsat Images}} and {{Google Earth Engine}}},
+  author = {Long, Tengfei and Zhang, Zhaoming and He, Guojin and Jiao, Weili and Tang, Chao and Wu, Bingfang and Zhang, Xiaomei and Wang, Guizhou and Yin, Ranyu},
+  year = 2019,
+  month = feb,
+  journal = {Remote Sensing},
+  volume = {11},
+  number = {5},
+  pages = {489},
+  issn = {2072-4292},
+  doi = {10.3390/rs11050489},
+  urldate = {2022-12-02},
+  abstract = {Heretofore, global Burned Area (BA) products have only been available at coarse spatial resolution, since most of the current global BA products are produced with the help of active fire detection or dense time-series change analysis, which requires very high temporal resolution. In this study, however, we focus on an automated global burned area mapping approach based on Landsat images. By utilizing the huge catalog of satellite imagery, as well as the high-performance computing capacity of Google Earth Engine, we propose an automated pipeline for generating 30-m resolution global-scale annual burned area maps from time-series of Landsat images, and a novel 30-m resolution Global annual Burned Area Map of 2015 (GABAM 2015) was released. All the available Landsat-8 images during 2014--2015 and various spectral indices were utilized to calculate the burned probability of each pixel using random decision forests, which were globally trained with stratified (considering both fire frequency and type of land cover) samples, and a seed-growing approach was conducted to shape the final burned areas after several carefully-designed logical filters (NDVI filter, Normalized Burned Ratio (NBR) filter, and temporal filter). GABAM 2015 consists of spatial extent of fires that occurred during 2015 and not of fires that occurred in previous years. Cross-comparison with the recent Fire\_cci Version 5.0 BA product found a similar spatial distribution and a strong correlation (    R 2  = 0.74) between the burned areas from the two products, although differences were found in specific land cover categories (particularly in agriculture land). Preliminary global validation showed the commission and omission errors of GABAM 2015 to be 13.17\% and 30.13\%, respectively.},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  keywords = {global burned area,Google Earth Engine,Landsat,temporal filtering,time-series},
+  annotation = {139 citations (Crossref/DOI) [2024-09-16]\\
+JCR分区: Q1\\
+中科院分区升级版: 地球科学2区\\
+影响因子: 4.2\\
+5年影响因子: 4.9\\
+EI: 是\\
+南农高质量: A\\
+TLDR: An automated pipeline for generating 30-m resolution global-scale annual burned area maps from time-series of Landsat images is proposed by utilizing the huge catalog of satellite imagery, as well as the high-performance computing capacity of Google Earth Engine.},
+  file = {D\:\\Documents\\Zotero\\storage\\KK7W3M43\\Long et al_2019_30 m Resolution Global Annual Burned Area Mapping Based on Landsat Images and.pdf;I\:\\Disks\\OneDrive\\Bibliography\\Zotero\\Long et al_2019_30 m Resolution Global Annual Burned Area Mapping Based on Landsat Images and.pdf;D\:\\Documents\\Zotero\\storage\\6D77N83D\\489.html}
+}
+
+@article{LongAjaxJiShuYuWebGIS2008,
+  title = {{Ajax技术与Web GIS}},
+  author = {龙, 腾飞},
+  year = 2008,
+  journal = {计算机技术与发展},
+  number = {4},
+  pages = {165-167+173},
+  issn = {1673-629X},
+  urldate = {2025-01-02},
+  abstract = {介绍了Ajax技术的基本概念及其关键技术,以ArcIMS为例分析了传统的网络地理信息系统(Web GIS)在数据传输模式和客服交互方式等方面存在的不足,阐述了在Web GIS中使用Ajax技术带来的优势,如减轻服务器的负担、平衡服务器和客户端的负载、无刷新更新页面、减少用户心理和实际的等待时间、实现地图的动态更新、实现地图的可视化交互以及开发效率高等,并指出在Web GIS中使用Ajax技术应该注意的诸如兼容性和用户习惯等问题。Ajax技术的应用将会为传统的Web GIS带来新的生命力。},
+  langid = {chinese},
+  keywords = {,Ajax,No DOI found,WebGIS},
+  file = {D:\Documents\Zotero\storage\XWL4MGD2\龙 - 2008 - Ajax技术与Web GIS.pdf}
+}
+
+@article{longAutomaticLineSegment2014,
+  title = {Automatic {{Line Segment Registration Using Gaussian Mixture Model}} and {{Expectation-Maximization Algorithm}}},
+  author = {Long, Tengfei and Jiao, Weili and He, Guojin and Wang, Wei},
+  year = 2014,
+  month = may,
+  journal = {IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
+  volume = {7},
+  number = {5},
+  pages = {1688--1699},
+  issn = {1939-1404, 2151-1535},
+  doi = {10.1109/JSTARS.2013.2273871},
+  urldate = {2022-12-02},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  annotation = {35 citations (Crossref/DOI) [2024-09-16]\\
+JCR分区: Q1\\
+中科院分区升级版: 地球科学2区\\
+影响因子: 4.7\\
+5年影响因子: 5.0\\
+EI: 是\\
+南农高质量: A\\
+TLDR: The proposed line segment registration method using Gaussian Mixture Models and Expectation-Maximization algorithm is compared with other line segment matching methods, and it is shown that the proposed method is superior in matching precision and performs better in less-texture or no-texture case.}
+}
+
+@article{longBlockAdjustmentRelaxed2020,
+  title = {Block {{Adjustment With Relaxed Constraints From Reference Images}} of {{Coarse Resolution}}},
+  author = {Long, Tengfei and Jiao, Weili and He, Guojin and Yin, Ranyu and Wang, Guizhou and Zhang, Zhaoming},
+  year = 2020,
+  month = nov,
+  journal = {IEEE Transactions on Geoscience and Remote Sensing},
+  volume = {58},
+  number = {11},
+  pages = {7815--7828},
+  issn = {0196-2892, 1558-0644},
+  doi = {10.1109/TGRS.2020.2984533},
+  urldate = {2022-12-02},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {american},
+  annotation = {4 citations (Crossref/DOI) [2024-09-16]\\
+JCR分区: Q1\\
+中科院分区升级版: 地球科学1区\\
+影响因子: 7.5\\
+5年影响因子: 7.6\\
+EI: 是\\
+南农高质量: A\\
+TLDR: A novel block adjustment (BA) method to make use of the GCPs automatically collected from reference images of coarse resolution (Landsat-8 or Sentinel-2), which are publicly available, to utilize inaccurate ground control and balance the tradeoff between G CPs and TPs is proposed.},
+  file = {D\:\\Documents\\Zotero\\storage\\VXDUGGMN\\Long et al_2020_Block Adjustment With Relaxed Constraints From Reference Images of Coarse.pdf;I\:\\Disks\\OneDrive\\Bibliography\\Zotero\\Long et al_2020_Block Adjustment With Relaxed Constraints From Reference Images of Coarse.pdf}
+}
+
+@article{longFastReliableMatching2016,
+  title = {A {{Fast}} and {{Reliable Matching Method}} for {{Automated Georeferencing}} of {{Remotely-Sensed Imagery}}},
+  author = {Long, Tengfei and Jiao, Weili and He, Guojin and Zhang, Zhaoming},
+  year = 2016,
+  month = jan,
+  journal = {Remote Sensing},
+  volume = {8},
+  number = {1},
+  pages = {56},
+  issn = {2072-4292},
+  doi = {10.3390/rs8010056},
+  urldate = {2022-12-02},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  annotation = {29 citations (Crossref/DOI) [2024-09-16]\\
+JCR分区: Q1\\
+中科院分区升级版: 地球科学2区\\
+影响因子: 4.2\\
+5年影响因子: 4.9\\
+EI: 是\\
+南农高质量: A\\
+TLDR: A technical frame to match large RS images efficiently using the prior geometric information of the images is presented and a novel matching approach using online aerial images, e.g., Google satellite images, Bing aerial maps, etc., is introduced based on the technical frame.},
+  file = {D:\Documents\Zotero\storage\EXP7QMXZ\Long et al_2016_A Fast and Reliable Matching Method for Automated Georeferencing of.pdf}
+}
+
+@article{longGenericFrameworkImage2015,
+  title = {A Generic Framework for Image Rectification Using Multiple Types of Feature},
+  author = {Long, Tengfei and Jiao, Weili and He, Guojin and Zhang, Zhaoming and Cheng, Bo and Wang, Wei},
+  year = 2015,
+  month = apr,
+  journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
+  volume = {102},
+  pages = {161--171},
+  issn = {09242716},
+  doi = {10.1016/j.isprsjprs.2015.01.015},
+  urldate = {2022-12-02},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  annotation = {15 citations (Crossref/DOI) [2024-09-16]\\
+JCR分区: Q1\\
+中科院分区升级版: 地球科学1区\\
+影响因子: 10.6\\
+5年影响因子: 11.8\\
+EI: 是\\
+南农高质量: A\\
+TLDR: A generic framework for image rectification using multiple features, including points, straight line segments, free-form curves and areal regions, is established based on the generalized distance, which differs for different types of features.},
+  file = {D:\Documents\Zotero\storage\LK6VHDBL\Long 等 - 2015 - A generic framework for image rectification using multiple types of feature.pdf}
+}
+
+@article{longGenericPixelPitch2022,
+  title = {A {{Generic Pixel Pitch Calibration Method}} for {{Fundus Camera}} via {{Automated ROI Extraction}}},
+  author = {Long, Tengfei and Xu, Yi and Zou, Haidong and Lu, Lina and Yuan, Tianyi and Dong, Zhou and Dong, Jiqun and Ke, Xin and Ling, Saiguang and Ma, Yingyan},
+  year = 2022,
+  month = nov,
+  journal = {Sensors},
+  volume = {22},
+  number = {21},
+  pages = {8565},
+  issn = {1424-8220},
+  doi = {10.3390/s22218565},
+  urldate = {2022-12-02},
+  abstract = {Pixel pitch calibration is an essential step to make the fundus structures in the fundus image quantitatively measurable, which is important for the diagnosis and treatment of many diseases, e.g., diabetes, arteriosclerosis, hereditary optic atrophy, etc. The conventional calibration approaches require the specific parameters of the fundus camera or several specially shot images of the chess board, but these are generally not accessible, and the calibration results cannot be generalized to other cameras. Based on automated ROI (region of interest) and optic disc detection, the diameter ratio of ROI and optic disc (ROI--disc ratio) is quantitatively analyzed for a large number of fundus images. With the prior knowledge of the average diameter of an optic disc in fundus, the pixel pitch can be statistically estimated from a large number of fundus images captured by a specific camera without the availability of chess board images or detailed specifics of the fundus camera. Furthermore, for fundus cameras of FOV (fixed field-of-view), the pixel pitch of a fundus image of 45{$^\circ$} FOV can be directly estimated according to the automatically measured diameter of ROI in the pixel. The average ROI--disc ratio is approximately constant, i.e., 6.404 \textpm{} 0.619 in the pixel, according to 40,600 fundus images, captured by different cameras, of 45{$^\circ$} FOV. In consequence, the pixel pitch of a fundus image of 45{$^\circ$} FOV can be directly estimated according to the automatically measured diameter of ROI in the pixel, and results show the pixel pitches of Canon CR2, Topcon NW400, Zeiss Visucam 200, and Newvision RetiCam 3100 cameras are 6.825 \textpm{} 0.666 {$\mu$}m, 6.625 \textpm{} 0.647 {$\mu$}m, 5.793 \textpm{} 0.565 {$\mu$}m, and 5.884 \textpm{} 0.574 {$\mu$}m, respectively. Compared with the manually measured pixel pitches, based on the method of ISO 10940:2009, i.e., 6.897 {$\mu$}m, 6.807 {$\mu$}m, 5.693 {$\mu$}m, and 6.050 {$\mu$}m, respectively, the bias of the proposed method is less than 5\%. Since our method doesn't require chess board images or detailed specifics, the fundus structures on the fundus image can be measured accurately, according to the pixel pitch obtained by this method, without knowing the type and parameters of the camera.},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  keywords = {notion},
+  annotation = {8 citations (Crossref/DOI) [2024-09-16]\\
+JCR分区: Q2\\
+中科院分区升级版: 综合性期刊3区\\
+影响因子: 3.4\\
+5年影响因子: 3.7\\
+EI: 是\\
+南农高质量: B\\
+TLDR: The fundus structures on the fundus image can be measured accurately, according to the pixel pitch obtained by this method, without knowing the type and parameters of the camera.},
+  file = {D:\Documents\Zotero\storage\XADKLX8T\Long et al_2022_A Generic Pixel Pitch Calibration Method for Fundus Camera via Automated ROI.pdf}
+}
+
+@article{LongJingJinJiChengShiQunDaQuYuGaoFenWeiXingShuJuChanPin2020,
+  title = {{京津冀城市群大区域高分卫星数据产品}},
+  author = {龙, 腾飞 and 何, 国金 and 焦, 伟利 and 王, 桂周},
+  year = 2020,
+  journal = {中国科学数据(中英文网络版)},
+  volume = {5},
+  number = {4},
+  pages = {47--56},
+  issn = {2096-2223},
+  urldate = {2023-08-21},
+  abstract = {采用2018--2019年的国产高分一号B/C、高分二号、高分六号等卫星遥感数据,通过影像配准、平差、几何校正、影像融合、影像镶嵌等卫星数据深加工处理方法得到京津冀城市群地区大区域高分辨率镶嵌影像,空间分辨率为2 m,是针对京津冀城市群研制的现势性较好的高分卫星即得即用数据产品。本数据集云量少、色彩均衡、几何精度约为1--2像素(即2--4 m)。影像数据包含可见光及近红外波段,可为京津冀城市群的土地利用、城市发展、生态环境监测等方面的研究及应用提供数据支撑。},
+  copyright = {All rights reserved},
+  langid = {chinese},
+  keywords = {,Beijing-Tianjin-Hebei,large area,mosaic,orthophoto,Ready To Use},
+  annotation = {复合影响因子: 0.854\\
+综合影响因子: 0.642},
+  file = {D:\Documents\Zotero\storage\KYXRFRGA\龙 et al_2020_京津冀城市群大区域高分卫星数据产品.pdf}
+}
+
+@article{LongJiYuMianTeZhengDeYaoGanTuXiangJiHeXiaoZhengMoXing2013,
+  title = {{基于面特征的遥感图像几何校正模型}},
+  author = {龙, 腾飞 and 焦, 伟利 and 王, 威},
+  year = 2013,
+  journal = {测绘学报},
+  volume = {42},
+  number = {4},
+  pages = {540--545},
+  issn = {1001-1595},
+  urldate = {2023-05-06},
+  abstract = {传统的遥感图像几何校正模型是基于控制点建立的。然而在很多情况下,图像的面特征比点特征更易自动提取。提出面特征之间距离的定义及算法,在此基础上利用控制面建立误差方程,实现基于面特征的几何校正。以Land-sat、ALOS和Quickbird影像为例进行了试验,结果表明,本文的方法可用于不同的卫星影像和成像模型。当控制资料不含粗差时,利用控制面和控制点的校正精度基本一致,可达到1个像素以内;当控制资料含有粗差时,基于面特征的几何校正模型比基于点特征的几何校正模型具有更强的容错能力。},
+  copyright = {All rights reserved},
+  langid = {chinese},
+  keywords = {,areal feature,distance,geometric correction model,remotely sensed images},
+  annotation = {EI: 是\\
+CSCD: 核心库\\
+中文核心期刊/北大核心: 是\\
+复合影响因子: 4.298\\
+综合影响因子: 3.277\\
+南农核心: 一类核心\\
+南农高质量: 一类},
+  file = {D:\Documents\Zotero\storage\B4HCWIAC\龙 et al_2013_基于面特征的遥感图像几何校正模型.pdf}
+}
+
+@article{longNestedRegressionBased2014,
+  title = {Nested {{Regression Based Optimal Selection}} ({{NRBOS}}) of {{Rational Polynomial Coefficients}}},
+  author = {Long, Tengfei and Jiao, Weili and He, Guojin},
+  year = 2014,
+  month = mar,
+  journal = {Photogrammetric Engineering \& Remote Sensing},
+  volume = {80},
+  number = {3},
+  pages = {261--269},
+  issn = {00991112},
+  doi = {10.14358/PERS.80.3.261},
+  urldate = {2022-12-02},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  keywords = {notion},
+  annotation = {21 citations (Crossref/DOI) [2024-09-16]\\
+JCR分区: Q4\\
+中科院分区升级版: 地球科学4区\\
+影响因子: 1.0\\
+5年影响因子: 1.2\\
+EI: 是},
+  file = {D:\Documents\Zotero\storage\LS973MLH\Long 等 - 2014 - Nested Regression Based Optimal Selection (NRBOS) of Rational Polynomial Coefficients.pdf}
+}
+
+@article{longPracticalOnOrbitGeometric2024,
+  title = {Practical {{On-Orbit Geometric Recalibration}} of {{GF-1 WFV Images Based}} on {{RPC Model}}},
+  author = {Long, Tengfei and Jiao, Weili and He, Guojin and Zhang, Zhaoming and Wang, Guizhou},
+  year = 2024,
+  journal = {IEEE Geoscience and Remote Sensing Letters},
+  volume = {21},
+  pages = {1--5},
+  issn = {1545-598X, 1558-0571},
+  doi = {10.1109/LGRS.2024.3425849},
+  urldate = {2024-08-16},
+  copyright = {https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html},
+  annotation = {0 citations (Crossref/DOI) [2024-09-16]\\
+0 citations (Crossref/DOI) [2024-08-16]\\
+JCR分区: Q1\\
+中科院分区升级版: 地球科学3区\\
+影响因子: 4.0\\
+5年影响因子: 4.4\\
+EI: 是\\
+南农高质量: A},
+  file = {D:\Documents\Zotero\storage\5NM5S7G2\Long 等 - 2024 - Practical On-Orbit Geometric Recalibration of GF-1 WFV Images Based on RPC Model.pdf}
+}
+
+@article{longRPCEstimationL1NormRegularized2015,
+  title = {{{RPC Estimation}} via L1-{{Norm-Regularized Least Squares}} ({{L1LS}})},
+  author = {Long, Tengfei and Jiao, Weili and He, Guojin},
+  year = 2015,
+  month = aug,
+  journal = {IEEE Transactions on Geoscience and Remote Sensing},
+  volume = {53},
+  number = {8},
+  pages = {4554--4567},
+  issn = {0196-2892, 1558-0644},
+  doi = {10.1109/TGRS.2015.2401602},
+  urldate = {2022-12-02},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  annotation = {37 citations (Crossref/DOI) [2024-09-16]\\
+JCR分区: Q1\\
+中科院分区升级版: 地球科学1区\\
+影响因子: 7.5\\
+5年影响因子: 7.6\\
+EI: 是\\
+南农高质量: A\\
+TLDR: A novel approach to estimate RPCs using {$\ell$}1-norm-regularized least squares (L1LS) is presented, which provides stable results not only in a terrain-dependent case but also in an terrain-independent case.},
+  file = {I:\Disks\OneDrive\Bibliography\Zotero\Long et al_2015_RPC Estimation via $$-backslash$ell_1$-Norm-Regularized Least Squares (L1LS).pdf}
+}
+
+@article{LongTengFeiGuoChanGuangXueWeiXingZhengSheYingXiangChanPinJiZiDongShengChengSuanFa2023,
+  title = {{国产光学卫星正射影像产品及自动生成算法}},
+  author = {龙腾飞 and 焦伟利 and 何国金 and 王桂周 and 张兆明},
+  year = 2023,
+  month = apr,
+  journal = {遥感学报},
+  volume = {27},
+  number = {3},
+  pages = {635--650},
+  publisher = {遥感学报},
+  issn = {2095-1531},
+  doi = {10.11834/jrs.20232041},
+  urldate = {2023-05-06},
+  abstract = {正射校正是卫星遥感影像后续处理、分析与应用的必要基础，而目前光学卫星数据自主定位精度尚不能达到1---2像元，正射影像产品的生产仍需依赖地面控制点对成像几何模型进行修正。针对国产光学卫星数据的现状、特点和应用需求，中国遥感卫星地面站自主研发了国产光学卫星正射影像产品和自动正射系统，本文从精细化影像自动配准、成像几何模型优化、影像正射校正、几何不确定度评估、太阳照射和卫星观测角度计算、基于地理格网的影像剖分等方面对相关产品及其自动生成算法进行介绍。其中，基于L1范数约束最小二乘的RPC模型全参数优化方法，可在影像幅宽较大或几何定标精度不足时获得比常规附加像方仿射变换参数的RPC模型更高的校正精度；提出顾及控制点精度的区域网平差方法，在利用从空间分辨率较低的参考影像获取的控制点修正成像几何模型时，可在满足参考影像几何约束的前提下，通过多次观测减小成像几何模型的随机误差、提高影像的几何定位精度；基于不确定度传播理论，建立了正射影像产品逐像元几何不确定度评估方法。试验结果表明，本文算法可用于规模化的正射影像产品生产，分布于全国不同区域的实测检查点表明所生产的16 m分辨率国产高分正射影像产品绝对几何精度可达到2像元以内。},
+  copyright = {All rights reserved},
+  langid = {cn},
+  keywords = {notion},
+  annotation = {2 citations (Crossref/DOI) [2024-09-16]\\
+EI: 是\\
+CSCD: 核心库\\
+中文核心期刊/北大核心: 是\\
+复合影响因子: 4.799\\
+综合影响因子: 3.257\\
+南农核心: 一类核心\\
+南农高质量: 一类},
+  file = {D:\Documents\Zotero\storage\GFRGU4VL\龙腾飞 et al_2023_国产光学卫星正射影像产品及自动生成算法.pdf}
+}
+
+@article{LongWuQiXianHuangTuGaoYuanTuiGengHuanLinQuShiJianXuLieZhengSheChanPin2020,
+  title = {{吴起县黄土高原退耕还林区时间序列正射产品}},
+  author = {龙, 腾飞 and 何, 国金 and 焦, 伟利},
+  year = 2020,
+  journal = {中国科学数据(中英文网络版)},
+  volume = {5},
+  number = {4},
+  pages = {28--36},
+  issn = {2096-2223},
+  urldate = {2023-08-21},
+  abstract = {针对2013--2018年黄土高原退耕还林区(陕西省延安市吴起县及其周边地区)的130景高分一号宽幅卫星遥感数据,以Landsat 8全色正射镶嵌影像作为参考影像,通过影像自动匹配方法获取影像控制点,采用L1范数约束的最小二乘法对影像自带RPC模型进行修正,然后基于修正后的RPC模型和DEM数据对原始影像进行正射校正,得到吴起县及其周边地区的时间序列正射产品。影像数据包含可见光及近红外波段,空间分辨率为16 m,平面几何精度优于2个像元。本数据集将持续更新,可为深入研究黄土高原地区退耕还林还草成效及其生态、经济效应等提供数据支撑。},
+  copyright = {All rights reserved},
+  langid = {chinese},
+  keywords = {,Loess Plateau,orthophoto,returning farmland to forest,time series,Wuqi County},
+  annotation = {复合影响因子: 0.854\\
+综合影响因子: 0.642},
+  file = {D:\Documents\Zotero\storage\V745QFUG\龙 et al_2020_吴起县黄土高原退耕还林区时间序列正射产品.pdf}
+}
+
+@article{luNovelLandCover2014,
+  title = {A {{Novel Land Cover Classification Map Based}} on a {{MODIS Time-Series}} in {{Xinjiang}}, {{China}}},
+  author = {Lu, Linlin and Kuenzer, Claudia and Guo, Huadong and Li, Qingting and Long, Tengfei and Li, Xinwu},
+  year = 2014,
+  month = apr,
+  journal = {Remote Sensing},
+  volume = {6},
+  number = {4},
+  pages = {3387--3408},
+  issn = {2072-4292},
+  doi = {10.3390/rs6043387},
+  urldate = {2022-12-02},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  annotation = {JCR分区: Q1\\
+中科院分区升级版: 地球科学2区\\
+影响因子: 4.2\\
+5年影响因子: 4.9\\
+EI: 是\\
+南农高质量: A\\
+TLDR: A novel land cover classification product based on spectral and phenological information for the Xinjiang Uygur Autonomous Region (XUAR) in China is presented using an innovative approach employing moderate resolution imaging spectroradiometer (MODIS) surface reflectance and the enhanced vegetation index (EVI) time series.},
+  file = {D:\Documents\Zotero\storage\7XH5UH4C\Lu et al_2014_A Novel Land Cover Classification Map Based on a MODIS Time-Series in Xinjiang,.pdf}
+}
+
+@article{pengComparisonRandomForest2022,
+  title = {A {{Comparison}} of {{Random Forest Algorithm-Based Forest Extraction}} with {{GF-1 WFV}}, {{Landsat}} 8 and {{Sentinel-2 Images}}},
+  author = {Peng, Xueli and He, Guojin and She, Wenqing and Zhang, Xiaomei and Wang, Guizhou and Yin, Ranyu and Long, Tengfei},
+  year = 2022,
+  month = oct,
+  journal = {Remote Sensing},
+  volume = {14},
+  number = {21},
+  pages = {5296},
+  issn = {2072-4292},
+  doi = {10.3390/rs14215296},
+  urldate = {2022-12-02},
+  abstract = {Forests are an essential part of the ecosystem and play an irreplaceable role in maintaining the balance of the ecosystem and protecting biodiversity. The monitoring of forest distribution plays an important role in the conservation and management of forests. This paper analyzes and compares the performance of imagery from GF-1 WFV, Landsat 8, and Sentinel-2 satellites with respect to forest/non-forest classification tasks using the random forest algorithm (RF). The results show that in the classification task of this paper, although the differences in classification accuracy among the three satellite datasets are not remarkable, the Sentinel-2 data have the highest accuracy, GF-1 WFV the second highest, and Landsat 8 the lowest. In addition, it was found that remotely sensed data of different processing levels show little influence on the classification accuracy with respect to the forest/non-forest classification task. However, the classification accuracy of the top of the atmosphere reflectance product was the most stable, and the vegetation index has a marginal effect on the distinction between forest and non-forest areas.},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  annotation = {JCR分区: Q1\\
+中科院分区升级版: 地球科学2区\\
+影响因子: 4.2\\
+5年影响因子: 4.9\\
+EI: 是\\
+南农高质量: A},
+  file = {D:\Documents\Zotero\storage\4P6HLEME\Peng et al_2022_A Comparison of Random Forest Algorithm-Based Forest Extraction with GF-1 WFV,.pdf}
+}
+
+@article{pengHigherAccuracyForest2024,
+  title = {A Higher Accuracy Forest Cover Product of {{China}} by Fusing Heterogeneous Forest-Related Datasets Using {{Dempster-Shafer}} Theory},
+  author = {Peng, Xueli and He, Guojin and Long, Tengfei and Yin, Ranyu and Wang, Guizhou and Wang, Jianping},
+  year = 2024,
+  month = dec,
+  journal = {International Journal of Digital Earth},
+  volume = {17},
+  number = {1},
+  pages = {1--20},
+  issn = {1753-8947, 1753-8955},
+  doi = {10.1080/17538947.2024.2368706},
+  urldate = {2024-06-30},
+  langid = {english},
+  annotation = {JCR分区: Q1\\
+中科院分区升级版: 地球科学1区\\
+影响因子: 3.7\\
+5年影响因子: 3.9\\
+EI: 是\\
+南农高质量: A},
+  file = {D:\Documents\Zotero\storage\87DHRQMI\Peng 等 - 2024 - A higher accuracy forest cover product of China by fusing heterogeneous forest-related datasets usin.pdf}
+}
+
+@article{pengStudyAtmosphericCorrection2016,
+  title = {Study on Atmospheric Correction Approach of {{Landsat-8}} Imageries Based on {{6S}} Model and Look-up Table},
+  author = {Peng, Yan and He, Guojin and Zhang, Zhaoming and Long, Tengfei and Wang, Mengmeng and Ling, Saiguang},
+  year = 2016,
+  month = oct,
+  journal = {Journal of Applied Remote Sensing},
+  volume = {10},
+  number = {4},
+  pages = {045006},
+  issn = {1931-3195},
+  doi = {10.1117/1.JRS.10.045006},
+  urldate = {2022-12-02},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  annotation = {JCR分区: Q3\\
+中科院分区升级版: 地球科学4区\\
+影响因子: 1.4\\
+5年影响因子: 1.4\\
+EI: 是\\
+南农高质量: D}
+}
+
+@article{pengUserAwareEvaluationMediumResolution2023,
+  title = {User-{{Aware Evaluation}} for {{Medium-Resolution Forest-Related Datasets}} in {{China}}: {{Reliability}} and {{Spatial Consistency}}},
+  shorttitle = {User-{{Aware Evaluation}} for {{Medium-Resolution Forest-Related Datasets}} in {{China}}},
+  author = {Peng, Xueli and He, Guojin and Wang, Guizhou and Long, Tengfei and Zhang, Xiaomei and Yin, Ranyu},
+  year = 2023,
+  month = may,
+  journal = {Remote Sensing},
+  volume = {15},
+  number = {10},
+  pages = {2557},
+  issn = {2072-4292},
+  doi = {10.3390/rs15102557},
+  urldate = {2023-05-23},
+  abstract = {Forest cover data are fundamental to sustainable forest management and conservation. Available medium-resolution publicly shared forest-related datasets provide primary information on forest distribution. The evaluation of relevant datasets is of great importance to learn about the differences, characterize the accuracy, and provide a reference for rational use. This study presents an evaluation and analysis of the forest-related datasets in China around 2020, including TreeCover and the forest-related layer (latter referred to as the forest datasets) in WorldCover, Esri land cover, FROM-GLC10, GlobeLand30, and GLC\_FCS30. These forest datasets, that are obtained by aggregating forest-related lasses based on the classification schemes, are analyzed from spatial consistency and accuracy comparison. The results illustrate that forest datasets with 10m resolution are generally more precise than those with 30m resolution in China. WorldCover shows the highest accuracy, with producer accuracy and user accuracy of 91.4\% and 87.09\%, respectively. These datasets exhibit high accuracy but great spatial inconsistency. The more consistent the regions are, the more accurate the accuracy is. High consistency ({$\geq$}5, i.e., classified into forests by five datasets) areas account for 56.49\% of areas of forest classified (AFC), while the area of low consistency ({$\leq$}2) reach 25.51\% of AFC. The analysis delves into the datasets, offering a reliable reference for the usage of these datasets.},
+  copyright = {All rights reserved},
+  langid = {english},
+  annotation = {JCR分区: Q1\\
+中科院分区升级版: 地球科学2区\\
+影响因子: 4.2\\
+5年影响因子: 4.9\\
+EI: 是\\
+南农高质量: A\\
+TLDR: The results illustrate that forest datasets with 10m resolution are generally more precise than those with 30m resolution in China, including TreeCover and the forest-related layer in WorldCover, Esri land cover, FROM-GLC10, GlobeLand30, and GLC\_FCS30.},
+  file = {D:\Documents\Zotero\storage\NW8PJ7V4\Peng et al_2023_User-Aware Evaluation for Medium-Resolution Forest-Related Datasets in China.pdf}
+}
+
+@article{PuDongChuanFenCengSuiJiChouYangXiaQuanQiu30MHuoShaoJiDiChanPinYanZheng2020,
+  title = {{分层随机抽样下全球30 m火烧迹地产品验证}},
+  author = {蒲东川 and 张兆明 and 龙腾飞 and 牛雪峰 and 何国金 and 王桂周 and 孙嘉悦 and 唐朝 and 魏明月},
+  year = 2020,
+  month = aug,
+  journal = {遥感学报},
+  volume = {24},
+  number = {5},
+  pages = {550--558},
+  publisher = {遥感学报},
+  issn = {2095-1531},
+  doi = {10.11834/jrs.20209171},
+  urldate = {2023-05-06},
+  abstract = {火烧迹地是全球及区域碳循环和气候变化等研究所需的重要参数之一，卫星遥感技术为快速获取大区域火烧迹地空间分布信息提供了有效手段。中国科学院基于Landsat系列卫星数据研发了首个30 m空间分辨率全球火烧迹地产品GABAM (Global Annual Burned Area Map)。遥感数据产品的精度验证对产品使用具有重要意义，迄今尚未有研究机构对GABAM产品精度进行独立评价和分析。为系统评价GABAM产品精度，利用2010年全球30 m空间分辨率火烧迹地产品(GABAM2010)开展精度验证研究工作，在全球和几个陆地生物群落中估算了产品精度，并探索了全球遥感专题产品精度验证的技术框架。基于分层随机抽样选择80个非重叠的泰森多边形区域TSA (Thiessen Scene Areas)，采用误差矩阵和6个精度指标对GABAM2010产品做全面精度评价和分析，以满足火烧迹地产品用户的使用要求。结果表明：在全球范围内，GABAM2010产品的错分率和漏分率分别为24.32\%和31.60\%，总体精度为97.85\%；由于数据质量(如条带、云)等的影响，火烧迹地的范围会被低估，对于较容易发生火灾的生物群落，如热带亚热带草原区域，GABAM2010产品精度较高；在生物群落内部，高密度火烧迹地区域的精度高于低密度火烧迹地区域。},
+  copyright = {All rights reserved},
+  langid = {cn},
+  annotation = {EI: 是\\
+CSCD: 核心库\\
+中文核心期刊/北大核心: 是\\
+复合影响因子: 4.799\\
+综合影响因子: 3.257\\
+南农核心: 一类核心\\
+南农高质量: 一类},
+  file = {D:\Documents\Zotero\storage\LC93SBM9\蒲东川 et al_2020_分层随机抽样下全球30 m火烧迹地产品验证.pdf}
+}
+
+@article{PuJiYuDuLiChengFenFenXiHeSuiJiSenLinSuanFaDeChengZhenYongDiTiQuYanJiu2020,
+  title = {{基于独立成分分析和随机森林算法的城镇用地提取研究}},
+  author = {蒲, 东川 and 王, 桂周 and 张, 兆明 and 牛, 雪峰 and 何, 国金 and 龙, 腾飞 and 尹, 然宇 and 江, 威 and 孙, 嘉悦},
+  year = 2020,
+  journal = {地球信息科学学报},
+  volume = {22},
+  number = {8},
+  pages = {1597--1606},
+  issn = {1560-8999},
+  urldate = {2023-05-06},
+  abstract = {城镇用地信息是联合国2030年可持续发展议程关注的重点之一。城市在世界范围内迅速扩张,快速准确地获取城镇用地信息对于政府决策具有重要作用。城镇土地覆盖信息非常复杂,包括人工建筑、树木、草地、水体等多种地表覆盖类型。基于传统人工测绘获取城镇用地信息费时费力并且难于及时更新。Landsat等遥感卫星数据为城镇用地信息提取提供了丰富的数据源。基于卫星遥感数据提取的城镇用地信息可以为未来城市的建设和管理提供基础的科学决策数据。基于监督分类方法和卫星遥感数据可快速地提取城镇用地信息,然而特征变量的选择对于高精度城镇用地信息提取尤为重要。为研究不同特征变量组合对于城镇用地信息提取的影响,以北京市为研究区,以2017年7月10日获取的Landsat 8 OLI影像为数据源,通过数据预处理、纹理提取、独立成分分析、主成分分析等得到4个维度的29个特征,选取了7种特征组合方案进行城镇用地提取。考虑随机森林算法性能稳定,分类精度高和可以方便进行特征重要性评价等优点,选择其作为监督分类算法以提取城镇用地信息,并进行了精度评定,以确定最优的城镇用地提取特征组合。研究发现:综合利用光谱特征和独立成分分析后的影像特征,提取城镇用地的总体精度为93.1\%,Kappa系数为0.86,优于利用其他特征的提取结果;基于随机森林算法对数据进行训练后输出的各变量的归一化变量重要性与特征均值的标准差结果存在相似性,利用随机森林算法的变量重要性估计与特征均值折线图都可以进行变量重要性评价。},
+  copyright = {All rights reserved},
+  langid = {chinese},
+  keywords = {,feature importance,gray level co-occurrence matrix,independent component analysis,Landsat 8,principal component analysis,random forest,satellite remote sensing,urban area},
+  annotation = {EI: 是\\
+CSCD: 核心库\\
+中文核心期刊/北大核心: 是\\
+复合影响因子: 4.281\\
+综合影响因子: 2.705},
+  file = {D:\Documents\Zotero\storage\DQ4B9P4I\蒲 et al_2020_基于独立成分分析和随机森林算法的城镇用地提取研究.pdf}
+}
+
+@article{QiBaoYeJiYu30MFenBianLuHuoShaoJiDiChanPinDeFeiZhouHuoShaoJiDiBianHuaYanJiu2025,
+  title = {{基于30 m分辨率火烧迹地产品的非洲火烧迹地变化研究}},
+  author = {{齐宝业} and {张兆明} and {龙腾飞} and {何国金} and {魏明月} and {王桂周}},
+  year = 2025,
+  journal = {遥感技术与应用},
+  volume = {40},
+  number = {2},
+  pages = {388--400},
+  urldate = {2025-07-17},
+  abstract = {火烧迹地是全球及区域碳循环和气候变化等研究所需的重要参数，卫星遥感技术为快速获取大区域火烧迹地空间分布信息提供了有效手段。非洲是全球火烧迹地最为集中的分布区，基于2014～2020年GABAM火烧迹地产品，采用非参数Theil-Sen趋势估计和曼-肯德尔（Mannkendall, MK）趋势显著性检验方法，开展了非洲火烧迹地空间分布及变化研究。研究发现非洲火烧迹地较密集地分布于10{$^\circ$}N～10{$^\circ$}S之间的稀树草原和稀疏林地区域。2014～2020年非洲火烧迹地面积变化趋势不显著，然而不同年份间的火烧迹地面积仍具有显著差异。全球极端气候事件（厄尔尼诺、拉尼娜等）导致的气象因素（气温、降水等）异常会造成火烧迹地的年际变化。GABAM与MCD64火烧迹地产品的对比研究表明：MCD64产品难以监测小斑块和破碎斑块的火烧迹地，造成火烧迹地面积的严重低估，平均火烧迹地面积低估17.88\%。针对非洲不同植被区域（森林、稀树草原和稀疏林地），研究了火烧对植被净初级生产力（Net Primary Productivity,NPP）的影响，研究结果表明不同类型的植被在火烧后的恢复速度和更替能力呈现明显差异，利用GABAM火烧迹地产品能够更有效地开展火烧对植被NPP的影响分析。本研究和分析结论可以为大区域火烧迹地精细监测和碳循环等相关领域的研究提供借鉴和参考。},
+  langid = {chinese},
+  keywords = {,GABAM},
+  annotation = {foundation: 第二次青藏高原综合科学考察研究（2019QZKK030701）；\\
+download: 80\\
+album: 基础科学;信息科技;工程科技II辑;农业科技\\
+CLC: S762;TP79\\
+dbcode: CJFQ\\
+dbname: CJFDLAST2025\\
+filename: YGJS202502012},
+  file = {D:\Documents\Zotero\storage\DYPF3HJP\齐宝业 等 - 2025 - 基于30 m分辨率火烧迹地产品的非洲火烧迹地变化研究.pdf}
+}
+
+@article{qiHighResolution302024,
+  title = {High {{Resolution}} (30 m) {{Burned Area Product Improves}} the {{Ability}} for {{Carbon Emission Estimation}} in {{Africa}}},
+  author = {Qi, Baoye and Zhang, Zhaoming and Long, Tengfei and He, Guojin and Wang, Guizhou and Peng, Yan and Xu, Zekun},
+  year = 2024,
+  month = oct,
+  journal = {Earth's Future},
+  volume = {12},
+  number = {10},
+  pages = {e2024EF005051},
+  issn = {2328-4277, 2328-4277},
+  doi = {10.1029/2024EF005051},
+  urldate = {2024-10-19},
+  abstract = {Abstract                                                            Fire significantly contributes to greenhouse gas emissions. The current global burned area (BA) products mainly have coarse native spatial resolution, which leads to underestimation of global BA and carbon emissions from biomass burning. Performances of BA products in Africa from GABAM (30~m), MCD64A1 (500~m), GFED4s (0.25{$^\circ$}), FireCCI51 (250~m), and GFED5 (0.25{$^\circ$}) were compared. From 2014 to 2020, GFED5 detected the most BA, 1.58 times more than GABAM during the same period. GABAM detected 0.09 Mkm                 2                 more burned area than FireCCI51 on average. From 2014 to 2016, GABAM detected an average of 2.99 Mkm                 2                 of BA in Africa, which was 1.03 times more than GFED4s. From 2014 to 2021, the average African BA derived from GABAM was 2.89 Mkm                 2                 , 1.22 times more than MCD64A1. The increase in BA will inevitably lead to an increase in the estimation of carbon emissions from biomass burning. Based on GABAM products and GFED framework, we estimated the average vegetation burning carbon emissions in Africa from 2014 to 2021 to be 1113.25~Tg, which is higher than GFED4s' carbon emissions in the same time period. This shows that the use of high-resolution (30~m) burned area products to estimate carbon emissions can effectively avoid the underestimation of overall fire carbon emissions.                                       ,              Plain Language Summary                                           Biomass burning is a significant contributor to climate change, and Africa is a hotspot for fire activity. Africa accounts for around 70\% of the global burned area (BA) and 50\% of the global carbon emissions from biomass burning. However, current coarse native spatial resolution burned area products over Africa underestimate the true burning situation in Africa and mask the full impact of African biomass burning on global greenhouse gases and aerosols. To address this issue, we employ novel high spatial resolution (30~m) BA products of Africa from 2014 to 2021, which markedly enhance the identification of burned area and estimation of biomass burning carbon emissions. This study yields novel data and research conclusions that contribute to a better understanding of burned area and fire-induced carbon emissions in Africa.                        ,              Key Points                                                                Carbon emissions from biomass combustion in Africa during 2014--2021 are estimated using 30~m BA products                                                     30~m BA products enhance small fire detection and boundary delineation                                                     Africa still needs higher spatial and temporal resolution burned area products},
+  langid = {english},
+  annotation = {0 citations (Crossref/DOI) [2024-10-24]\\
+JCR分区: Q1\\
+中科院分区升级版: 地球科学1区\\
+影响因子: 7.3},
+  file = {D:\Documents\Zotero\storage\LDIF3C2H\Qi 等 - 2024 - High Resolution (30 m) Burned Area Product Improves the Ability for Carbon Emission Estimation in Af.pdf}
+}
+
+@article{shaoQuantitativeAssessmentFundus2021,
+  title = {Quantitative {{Assessment}} of {{Fundus Tessellated Density}} and {{Associated Factors}} in {{Fundus Images Using Artificial Intelligence}}},
+  author = {Shao, Lei and Zhang, Qing Lin and Long, Teng Fei and Dong, Li and Zhang, Chuan and Da Zhou, Wen and Wang, Ya Xing and Wei, Wen Bin},
+  year = 2021,
+  month = aug,
+  journal = {Translational Vision Science \& Technology},
+  volume = {10},
+  number = {9},
+  pages = {23},
+  issn = {2164-2591},
+  doi = {10.1167/tvst.10.9.23},
+  urldate = {2022-12-02},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  annotation = {JCR分区: Q2\\
+中科院分区升级版: 医学3区\\
+影响因子: 2.6\\
+5年影响因子: 3.0\\
+南农高质量: B\\
+TLDR: It is feasible and efficient to extract FTD information from fundus images by artificial intelligence--based imaging processing and can be widely used in population screening as a new quantitative biomarker for the thickness of the subfoveal choroid.},
+  file = {D:\Documents\Zotero\storage\5C398RXL\Shao et al_2021_Quantitative Assessment of Fundus Tessellated Density and Associated Factors in.pdf}
+}
+
+@article{ShenQianBeiJingShiPingYuanQu2015Nian2019Nian08MDiBiaoFanSheLuShuJuJi2021,
+  title = {{北京市平原区2015年---2019年0.8 m地表反射率数据集}},
+  author = {申茜 and 姚月 and 李利伟 and 龙腾飞 and 陈甫 and 张兵},
+  year = 2021,
+  month = nov,
+  journal = {遥感学报},
+  volume = {25},
+  number = {11},
+  pages = {2303--2312},
+  publisher = {遥感学报},
+  issn = {2095-1531},
+  doi = {10.11834/jrs.20210407},
+  urldate = {2023-05-06},
+  abstract = {地表反射率产品作为最重要的定量遥感产品，是很多参量化遥感产品的基础数据源，可以被广泛应用于林业、农业、水资源、生态环境、城市环境等典型应用领域。对于米级高分辨率的遥感影像，国内外不提供反射率影像产品。目前主流的国产高分数据源大部分都是蓝、绿、红、近红4个波段的多光谱数据，缺少短波红外波段，难以满足陆地区域浓密植被算法或者清洁水体的短波红外信号近似看作零的假设条件，要完成精确大气校正、生产大范围的GF-2影像拼接的地表反射率产品，是一个挑战。为了更好的推广高分地表反射率的应用，本研究针对北京市平原区，运用全色和多光谱融合、几何精校正和相对辐射一致化算法，以Sentinel-2为参考影像，生成了一套几何精校正后的0.8 m地表反射率影像集。该数据集时间范围为2015年---2019年，每年一期，包含年度产品的覆盖情况及分布矢量，共计184景地表反射率影像，数据量总共为1.63 TB。},
+  copyright = {All rights reserved},
+  langid = {cn},
+  annotation = {EI: 是\\
+CSCD: 核心库\\
+中文核心期刊/北大核心: 是\\
+复合影响因子: 4.799\\
+综合影响因子: 3.257\\
+南农核心: 一类核心\\
+南农高质量: 一类},
+  file = {D:\Documents\Zotero\storage\TNG5KKDK\申茜 et al_2021_北京市平原区2015年—2019年0.pdf}
+}
+
+@article{SheWenQingZhongGuoLuDiQuYuGF1WFVDiBiaoFanSheLuChanPin2023,
+  title = {{中国陆地区域GF-1 WFV地表反射率产品}},
+  author = {佘文庆 and 张兆明 and 彭燕 and 何国金 and 龙腾飞 and 王桂周},
+  year = 2023,
+  month = oct,
+  journal = {遥感学报},
+  volume = {27},
+  number = {9},
+  pages = {2206--2218},
+  publisher = {中国地理学会环境遥感分会 中国科学院遥感与数字地球研究所},
+  issn = {1007-4619},
+  doi = {10.11834/jrs.20222190},
+  urldate = {2023-10-24},
+  abstract = {高分一号卫星（GF-1）搭载的WFV传感器具有高空间分辨率和宽幅成像能力，是资源调查和生态环境保护等领域的重要数据源。目前GF-1 WFV数据仅提供L1级标准化产品，缺少地表反射率产品，而大多数定量遥感研究都是建立在地表反射率产品的基础上。为了研发GF-1 WFV地表反射率产品，本文提出一种基于多源MODIS AOD空间融合和动态查找表的6S大气校正算法并生产和共享中国陆地区域2020年GF-1 WFV地表反射率产品。在产品精度验证方面，通过比较大气校正前后的影像质量、直方图和典型地物反射率差异并利用同步过境的Landsat 8 OLI地表反射率产品和地面实测数据进行定量验证。精度验证和分析结果表明，经过大气校正后的影像质量改善明显，与Landsat 8 OLI地表反射率产品具有良好的一致性。基于实测地表反射率数据的精度验证结果表明蓝、绿、红和近红外波段的均方根误差（Root Mean Square Error）分别为1.21\%、1.53\%、1.26\%和6.14\%。研究结果表明，研发的GF-1 WFV地表反射率产品的质量可靠且产品算法具有自动化和业务化的生产能力。},
+  langid = {chinese},
+  annotation = {EI: 是\\
+CSCD: 核心库\\
+中文核心期刊/北大核心: 是\\
+复合影响因子: 4.799\\
+综合影响因子: 3.257\\
+南农核心: 一类核心\\
+南农高质量: 一类},
+  file = {D:\Documents\Zotero\storage\U8CHQLKY\佘文庆 et al_2022_中国陆地区域GF-1 WFV地表反射率产品.pdf}
+}
+
+@article{SongQingCangGaoYuanLandsatXiLieWeiXingYeMianJiZhiShuChanPin19902023,
+  title = {{青藏高原Landsat系列卫星叶面积指数产品（1990--2023）}},
+  author = {宋, 逸峰 and 张, 兆明 and 魏, 明月 and 何, 国金 and 龙, 腾飞 and 王, 桂周},
+  journal = {中国科学数据(中英文网络版)},
+  pages = {1--10},
+  issn = {2096-2223},
+  urldate = {2025-01-02},
+  abstract = {青藏高原自然资源丰富、生态系统多样，是我国重要的生态安全屏障。叶面积指数（Leaf Area Index， LAI）是表征植被冠层结构的重要参数，高效准确地获取青藏高原LAI数据对于青藏高原植被生长状况动态监测及生态环境变化等研究具有重要的意义。本研究以青藏高原为研究区，采用PROSAIL物理机理模型和机器学习（随机森林方法）结合的LAI反演方法，生产了1990--2023年青藏高原长时间序列30米分辨率年度最大有效LAI产品。Google Earth Engine云平台存档的近40年Landsat系列卫星历史影像为LAI产品生产提供了数据保障。数据产品质量评估结果表明，青藏高原30 m分辨率LAI产品在直接验证和交叉验证中均有较好的精度，产品质量可靠，可以为青藏高原植被资源调查、生态环境保护与恢复等研究提供数据产品支撑。},
+  langid = {chinese},
+  keywords = {,LAI,Landsat,No DOI found},
+  file = {D:\Documents\Zotero\storage\5ZK69HJT\宋 等 - 青藏高原Landsat系列卫星叶面积指数产品（1990–2023）.pdf}
+}
+
+@article{songVisualAttentionModel2015,
+  title = {Visual Attention Model Based Mining Area Recognition on Massive High-Resolution Remote Sensing Images},
+  author = {Song, Xiaolu and He, Guojin and Zhang, Zhaoming and Long, Tengfei and Peng, Yan and Wang, Zhihua},
+  year = 2015,
+  month = jun,
+  journal = {Cluster Computing},
+  volume = {18},
+  number = {2},
+  pages = {541--548},
+  issn = {1386-7857, 1573-7543},
+  doi = {10.1007/s10586-015-0438-8},
+  urldate = {2022-12-02},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  annotation = {EI: 是\\
+TLDR: The analysis using an Itti visual attention model for natural image processing achieved improvements in two aspects: (1) the selection of salient regions based on elevation data, and (2) the segmentation of salient areas using the Snake model for precise object contour extraction.}
+}
+
+@article{tangImprovedFullyConvolution2021,
+  title = {An Improved Fully Convolution Network Model for Change Detection in Mining Areas Using Sentinel-2 Images},
+  author = {Tang, Chao and Zhang, Zhaoming and He, Guojin and Long, Tengfei and Wang, Guizhou and Wei, Mingyue and She, Wenqing},
+  year = 2021,
+  month = jul,
+  journal = {Remote Sensing Letters},
+  volume = {12},
+  number = {7},
+  pages = {684--694},
+  issn = {2150-704X, 2150-7058},
+  doi = {10.1080/2150704X.2021.1925372},
+  urldate = {2022-12-02},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  annotation = {JCR分区: Q3\\
+中科院分区升级版: 地球科学4区\\
+影响因子: 1.4\\
+5年影响因子: 1.9\\
+EI: 是\\
+南农高质量: C\\
+TLDR: The HDC-Siam model was used to detect changes, where the accuracy in the Dongsheng coalfield in Ordos, China and the Kuznetsk coalf yield in Kemerovo, Russia was evaluated, obtaining F 1-scores of 85\% and 75\% for these respective locations.}
+}
+
+@article{wangAssessmentEconomicWellbeing2025,
+  title = {Assessment of Economic Well-Being in South Africa Based on Remote Sensing Transfer Learning},
+  author = {Wang, Longfei and Long, Tengfei and Adam, Elhadi},
+  year = 2025,
+  month = may,
+  journal = {The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+  volume = {XLVIII-M-7-2025},
+  pages = {253--258},
+  publisher = {Copernicus GmbH},
+  issn = {2194-9034},
+  doi = {10.5194/isprs-archives-xlviii-m-7-2025-253-2025},
+  urldate = {2025-07-17},
+  abstract = {Abstract. Persistent socio-economic and environmental inequalities pose major challenges to sustainable development in the global South. However, comprehensive and spatially clear data on environmental conditions and socio-economic well-being remain scarce, preventing a thorough analysis of intersecting inequalities. This study assesses economic well-being and its relationship to environmental factors in South Africa by proposing a method for analysing environmental and socio-economic inequalities using remote sensing data and transfer learning, using publicly available satellite imagery and statistics. We take the established correlation between nighttime light intensity and economic activity and propose a framework to analyze it in parallel with environmental indicators derived from daytime satellite imagery. Our approach centers on training convolutional neural network (CNN) models to extract economic and environmental features from high-resolution daytime satellite data. CNNS are trained to predict nighttime light intensity, act as proxies for economic activity, while learning to recognize environmental features. Patterns indicating economic activity and environmental conditions can be identified from daytime images alone. By linking the extracted features to known socio-economic indicators obtained from census data and surveys, a spatially clear map of South Africa's economic well-being and environmental quality was created.},
+  copyright = {https://creativecommons.org/licenses/by/4.0/},
+  langid = {english},
+  file = {D:\Documents\Zotero\storage\NRM6FLJH\Wang 等 - 2025 - Assessment of economic well-being in south africa based on remote sensing transfer learning.pdf}
+}
+
+@article{wangEconomicWellbeingAssessment2025,
+  title = {Economic Well-Being Assessment: A Review of Traditional and Remote Sensing Approaches},
+  shorttitle = {Economic Well-Being Assessment},
+  author = {Wang, Longfei and Long, Tengfei and Jiang, Wei and Adam, Elhadi and Wen, Chunhui and Jiao, Weili and He, Guojin},
+  year = 2025,
+  month = dec,
+  journal = {International Journal of Digital Earth},
+  volume = {18},
+  number = {1},
+  pages = {2504137},
+  issn = {1753-8947, 1753-8955},
+  doi = {10.1080/17538947.2025.2504137},
+  urldate = {2025-07-17},
+  abstract = {This paper reviews the evolution of economic well-being assessment, examining traditional methods based on surveys and statistics alongside the emergent field of satellite remote sensing. Traditional approaches, employing indicators like GDP, HDI, and MPI, offer established methodologies but face limitations in data accessibility, spatial coverage, and capturing dynamic changes. Satellite remote sensing, utilizing nighttime light, daytime imagery, and derived data like NDVI, overcomes these constraints by providing large-scale, timely, and periodic surface information. Furthermore, we analyze methods for large-scale economic well-being assessment using remote sensing, encompassing statistical analysis, machine learning, deep learning, and transfer learning. Finally, we explore future directions, emphasizing the development of more comprehensive indicators, multi-source data fusion integrating subjective well-being, and advancements in deep neural networks to improve accuracy, generalization, and interpretability for robust, large-scale economic well-being assessment and poverty reduction strategies.},
+  copyright = {http://creativecommons.org/licenses/by-nc/4.0/},
+  langid = {english},
+  annotation = {JCR分区: Q1\\
+中科院分区升级版: 地球科学2区\\
+影响因子: 3.7\\
+5年影响因子: 3.9\\
+EI: 是\\
+南农高质量: A},
+  file = {D:\Documents\Zotero\storage\R22YIPQX\Wang 等 - Economic well-being assessment A review of traditional and remote sensing approaches.pdf}
+}
+
+@article{wangEnhancedSinglechannelAlgorithm2016,
+  title = {An Enhanced Single-channel Algorithm for Retrieving Land Surface Temperature from {{Landsat}} Series Data},
+  author = {Wang, Mengmeng and Zhang, Zhaoming and He, Guojin and Wang, Guizhou and Long, Tengfei and Peng, Yan},
+  year = 2016,
+  month = oct,
+  journal = {Journal of Geophysical Research: Atmospheres},
+  volume = {121},
+  number = {19},
+  issn = {2169-897X, 2169-8996},
+  doi = {10.1002/2016JD025270},
+  urldate = {2022-12-02},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  annotation = {JCR分区: Q2\\
+中科院分区升级版: 地球科学2区\\
+影响因子: 3.8\\
+5年影响因子: 4.7}
+}
+
+@article{WangJiYuLandsat8TIRSShuJuDeDaQiShuiQiHanLiangFanYanPiChuangSuanFa2017,
+  title = {{基于Landsat 8 TIRS数据的大气水汽含量反演劈窗算法}},
+  author = {王, 猛猛 and 何, 国金 and 张, 兆明 and 王, 桂周 and 尹, 然宇 and 龙, 腾飞},
+  year = 2017,
+  journal = {遥感技术与应用},
+  volume = {32},
+  number = {1},
+  pages = {166--172},
+  issn = {1004-0323},
+  urldate = {2023-05-06},
+  abstract = {Landsat 8是2013年最新发射的Landsat卫星,携带了OLI和TIRS两个传感器,其中TIRS传感器获取了两个临近的热红外通道信息。劈窗协方差---方差比算法(SWCVR)是一种最通用的基于热红外的大气水汽含量反演方法,利用两个热红外通道(其中一个在大气窗口,另一个在大气吸收谱段)的吸收差异来反演大气水汽含量,该方法已经在MODIS等中低分辨率(1km)的热红外数据上得到很好的应用。将SWCVR算法移植到较高分辨率的Landsat 8TIRS数据上,并对水汽含量反演结果进行精度验证。气象数据验证结果表明,水汽含量的反演精度可以达到0.43g/cm\textasciitilde 2。用MODIS水汽产品(MOD05)做交叉验证,反演的水汽含量和MOD05水汽含量的均方根误差(RMSE)为0.44g/cm\textasciitilde 2,平均绝对误差(MAE)为0.34g/cm\textasciitilde 2。总的来说,SWCVR算法应用于Landsat 8数据的水汽含量反演也能得到一个较高的精度。},
+  copyright = {All rights reserved},
+  langid = {chinese},
+  keywords = {,Atmospheric Water Vapor(AWV),Landsat 8 TIRS Thermal Infrared Remote Sensing(TIRS),Landsat-8TIRS,SWCVR},
+  annotation = {CSCD: 核心库\\
+中文核心期刊/北大核心: 是\\
+复合影响因子: 2.053\\
+综合影响因子: 1.367\\
+南农核心: 二类核心\\
+南农高质量: 二类},
+  file = {D:\Documents\Zotero\storage\ZFKGJVYH\王 et al_2017_基于Landsat 8 TIRS数据的大气水汽含量反演劈窗算法.pdf}
+}
+
+@article{WangJiYuTMShuJuDeHeFeiShiChengShiReDaoXiaoYingYanJiu2014,
+  title = {{基于TM数据的合肥市城市热岛效应研究}},
+  author = {王, 猛猛 and 周, 志民 and 张, 兆明 and 龙, 腾飞 and 尤, 树撑},
+  year = 2014,
+  journal = {科学技术与工程},
+  volume = {14},
+  number = {33},
+  pages = {80--85},
+  issn = {1671-1815},
+  urldate = {2023-05-06},
+  abstract = {城市热岛的空间分布与其下垫面环境极其相关。基于Landsat TM数据反演出合肥市市区地表温度;并分析合肥城市热岛分布、变化情况以及城市地表温度与其下垫面土地覆盖类型之间的关系。对合肥市市区2007年7月17日的地表温度分布图的分区统计显示出较大的温度差异:城镇用地具有高的平均温度(31.19\textcelsius ),自然地表具有较低的平均温度(30.15\textcelsius ),而水体的平均温度更低(26.88\textcelsius )。分别用\%ISA(不透水面率)、NDVI值和MNDWI值来提取城市的不透水面、植被和水体信息;并对地表温度与\%ISA、NDVI、MNDWI进行回归分析。结果表明,地表温度与\%ISA和NDVI值有较好的相关性。},
+  copyright = {All rights reserved},
+  langid = {chinese},
+  keywords = {,urban heat island surface temperature retrieval single channel algorithm relieve heat island},
+  annotation = {中文核心期刊/北大核心: 是\\
+复合影响因子: 2.118\\
+综合影响因子: 1.593},
+  file = {D:\Documents\Zotero\storage\9V65U9WF\王 et al_2014_基于TM数据的合肥市城市热岛效应研究.pdf}
+}
+
+@article{wangNDVIbasedSplitwindowAlgorithm2015,
+  title = {{{NDVI-based}} Split-Window Algorithm for Precipitable Water Vapour Retrieval from {{Landsat-8 TIRS}} Data over Land Area},
+  author = {Wang, Mengmeng and He, Guojin and Zhang, Zhaoming and Wang, Guizhou and Long, Tengfei},
+  year = 2015,
+  month = nov,
+  journal = {Remote Sensing Letters},
+  volume = {6},
+  number = {11},
+  pages = {904--913},
+  issn = {2150-704X, 2150-7058},
+  doi = {10.1080/2150704X.2015.1089363},
+  urldate = {2023-05-06},
+  copyright = {All rights reserved},
+  langid = {english},
+  annotation = {JCR分区: Q3\\
+中科院分区升级版: 地球科学4区\\
+影响因子: 1.4\\
+5年影响因子: 1.9\\
+EI: 是\\
+南农高质量: C},
+  file = {D:\Documents\Zotero\storage\GNMWWPPR\Wang 等 - 2015 - NDVI-based split-window algorithm for precipitable water vapour retrieval from Landsat-8 TIRS data o.pdf}
+}
+
+@article{wangReferenceFreeRadiometricNormalization2026,
+  title = {Reference-{{Free Radiometric Normalization}} of {{SDGSAT-1 Imagery Unveils Urban Lighting}}'s {{Spectral Transition}}},
+  author = {Wang, Chongfei and Long, Tengfei and Jiao, Weili and He, Guojin and Wang, Guizhou and Zhang, Zhaoming},
+  year = 2026,
+  journal = {IEEE Transactions on Geoscience and Remote Sensing},
+  pages = {1--1},
+  issn = {0196-2892, 1558-0644},
+  doi = {10.1109/TGRS.2026.3654183},
+  urldate = {2026-01-16},
+  copyright = {https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html},
+  annotation = {0 citations (Crossref/DOI) [2026-01-16]},
+  file = {D:\Documents\Zotero\storage\MZJPBZAX\Wang 等 - 2026 - Reference-Free Radiometric Normalization of SDGSAT-1 Imagery Unveils Urban Lighting’s Spectral Trans.pdf}
+}
+
+@article{weiMonitoringLandsatBased2021,
+  title = {Monitoring {{Landsat Based Burned Area}} as an {{Indicator}} of {{Sustainable Development Goals}}},
+  author = {Wei, Mingyue and Zhang, Zhaoming and Long, Tengfei and He, Guojin and Wang, Guizhou},
+  year = 2021,
+  month = jun,
+  journal = {Earth's Future},
+  volume = {9},
+  number = {6},
+  issn = {2328-4277, 2328-4277},
+  doi = {10.1029/2020EF001960},
+  urldate = {2022-12-02},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  annotation = {16 citations (Crossref/DOI) [2024-09-16]\\
+JCR分区: Q1\\
+中科院分区升级版: 地球科学1区\\
+影响因子: 7.3\\
+5年影响因子: 8.7},
+  file = {D:\Documents\Zotero\storage\WUW3MV9M\Wei et al_2021_Monitoring Landsat Based Burned Area as an Indicator of Sustainable Development.pdf}
+}
+
+@article{weiRelativeRadiationNormalization2020,
+  title = {A {{Relative Radiation Normalization Method}} of {{ISS Nighttime Light Images Based}} on {{Pseudo Invariant Features}}},
+  author = {Wei, Shengrong and Jiao, Weili and Long, Tengfei and Liu, Huichan and Bi, Lu and Jiang, Wei and Portnov, Boris A. and Liu, Ming},
+  year = 2020,
+  month = oct,
+  journal = {Remote Sensing},
+  volume = {12},
+  number = {20},
+  pages = {3349},
+  issn = {2072-4292},
+  doi = {10.3390/rs12203349},
+  urldate = {2022-12-21},
+  abstract = {The International Space Station (ISS) offers a unique view from space that provides nighttime light (NTL) images of many parts of the globe. Compared with other NTL remote sensing data, ISS NTL multispectral images taken by astronauts with commercial digital single-lens reflex (DSLR) cameras have the characteristics of free access, high spatial resolution, abundant data and no light saturation, so it plays a unique advantage in the research of small-scale urban planning, optimization of lighting resource allocation and blue light pollution. In order to improve the radiation consistency of ISS NTL images, a relative radiation normalization method of ISS NTL images is proposed in this paper. Pseudo invariant features (PIF) were identified in the cloud-free Defense Meteorological Satellite Program/Operational Linescan System (DMSP/OLS) time series NTL remote sensing annual composite product, and then they were used to derive the relative radiation normalization model of ISS NTL images. The results show that the radiation brightness of ISS NTL images in different regions is normalized to the same gray level with that of DMSP/OLS NTL remote sensing images in the same year, which improves the radiation brightness comparability between different regions of ISS NTL images. This method is universally applicable to all ISS NTL images, which is beneficial to the NTL comparability of ISS NTL image in the regional horizontal and temporal vertical.},
+  copyright = {All rights reserved},
+  langid = {english},
+  keywords = {notion},
+  annotation = {JCR分区: Q1\\
+中科院分区升级版: 地球科学2区\\
+影响因子: 4.2\\
+5年影响因子: 4.9\\
+EI: 是\\
+南农高质量: A\\
+TLDR: A relative radiation normalization method is proposed that is universally applicable to all ISS NTL images, which is beneficial to the NTL comparability ofISS NTL image in the regional horizontal and temporal vertical.},
+  file = {D:\Documents\Zotero\storage\XQFDKMME\Wei et al_2020_A Relative Radiation Normalization Method of ISS Nighttime Light Images Based.pdf}
+}
+
+@article{weiResearchComfortEvaluation2022,
+  title = {Research on {{Comfort Evaluation Model}} of {{Urban Residents}}' {{Public Space Lighting Integrating Public Perception}} and {{Nighttime Light Remote Sensing Data}}},
+  author = {Wei, Shengrong and Jiao, Weili and Liu, Huichan and Long, Tengfei and Liu, Yongkun and Ji, Ping and Hou, Ruixia and Zhang, Naijing and Xiao, Yundan},
+  year = 2022,
+  month = jan,
+  journal = {Remote Sensing},
+  volume = {14},
+  number = {3},
+  pages = {655},
+  issn = {2072-4292},
+  doi = {10.3390/rs14030655},
+  urldate = {2022-12-02},
+  abstract = {With the development of a sustainable lifestyle, people are paying more and more attention to the comfort of their own living environment, including public space lighting, which is immediately accessible to residents. The demand on its quality and comfort has thus gained attention recently. However, there is still a lack of related research on public space lighting comfort evaluation models that combine nighttime light remote sensing data and field measurement data, and link lighting attributes with the comfort of residents. This research uses nighttime light remote sensing data to select typical test areas, measures the lighting data of the survey points on the spot, develops an intelligent WeChat applet that collects public perception data, analyzes different lighting parameters, and builds a public space lighting comfort model based on the structural equation model analysis method. The results show that the factor that the areas with high light intensity are more comfortable than the areas with low light intensity. In areas with high light intensity, people pay more attention to the uniformity, security and comfort of the light, while in areas with low light intensity or high blue light, people's perception of glare will be more obvious. This research can provide a basis for the intelligent optimization of public space lighting from the perspective of public preference.},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  annotation = {JCR分区: Q1\\
+中科院分区升级版: 地球科学2区\\
+影响因子: 4.2\\
+5年影响因子: 4.9\\
+EI: 是\\
+南农高质量: A},
+  file = {D:\Documents\Zotero\storage\U6NR5UPM\Wei et al_2022_Research on Comfort Evaluation Model of Urban Residents’ Public Space Lighting.pdf}
+}
+
+@article{Wen20002022NianQingCangGaoYuanIRSEIZhiShuShuJuJi2024,
+  title = {{2000--2022年青藏高原IRSEI指数数据集}},
+  author = {温, 春晖 and 龙, 腾飞},
+  year = 2024,
+  month = oct,
+  journal = {中国科学数据(中英文网络版)},
+  pages = {1--13},
+  issn = {2096-2223},
+  urldate = {2025-01-02},
+  abstract = {青藏高原是生物多样性和水循环的生态屏障，其地形复杂、生态环境敏感且脆弱。近几十年来，受人类活动和气候变化的影响，青藏高原的生态环境问题日益突出，科学评估其生态环境质量有助于为科学认知青藏高原生态环境质量提供基础信息。本文基于多个MODIS数据集，选取归一化植被指数、地表温度、湿度、干度四个指标，采用主成分分析法生产了2000--2022年青藏高原500 m空间分辨率的改进型遥感生态指数数据集。在原遥感生态指数计算方法的基础上，针对长时序分析问题进行了改进，具有更好的时序可比性，能更好地适用于地区长时序的生态环境质量监测。对数据集进行了水体掩膜和雪掩膜来去除水体和雪的影响，利用土地利用数据集对IRSEI空间分布合理性进行验证，结果表明IRSEI数据分布与青藏高原的土地利用类型具有很好的一致性。本数据集可以为青藏高原高质量发展的可持续管理和建设提供理论依据和科学支撑。},
+  langid = {chinese},
+  keywords = {,No DOI found},
+  file = {D:\Documents\Zotero\storage\EV3YSLH2\温和龙 - 2000–2022年青藏高原irsei指数数据集.pdf}
+}
+
+@article{WenBeiJingShiDianXingJuZhuQuDaoLuZhaoMingGongZhongGanZhiPingJieJiMoNiYouHua2023,
+  title = {{北京市典型居住区道路照明公众感知评价及模拟优化}},
+  author = {温, 春晖 and 龙, 腾飞 and 焦, 伟利 and 林, 子镕 and 刘, 永坤 and 刘, 慧婵 and 刘, 鸣 and 何, 国金},
+  year = 2023,
+  journal = {照明工程学报},
+  volume = {34},
+  number = {2},
+  pages = {114--125},
+  issn = {1004-440X},
+  urldate = {2023-05-06},
+  abstract = {设计既能满足行人的安全感和舒适感需求，又能节约能源的公共空间照明系统，对于城市管理、运营以及构建节约型社会都具有重大意义。本文综合分析了照明实测数据与公众感知的相关性，构建了公共空间照明安全性评价模型和舒适度评价模型。利用评估模型研究了安全性与舒适度评价随照明属性的变化关系。根据公共照明安全性、舒适度评价模型结合国家道路照明标准，对居住区级道路进行模拟优化设计。结果表明，为保障行人的安全感和舒适感维持在平均水平及以上同时节约能源，环境照度应在6.3～27 lx之间，均匀度应不小于0.27,色温应不大于4 445 K,眩光指数应不大于49。以椿树街道为例进行夜间光环境模拟优化后，达到安全性和舒适度评价标准的区域占比分别从优化前的66.43\%和62.43\%提高到94.54\%和94.59\%,同时，照明设施的能耗降低了68.42\%。},
+  copyright = {All rights reserved},
+  langid = {chinese},
+  keywords = {,ambient illuminance,comfort,notion,optimal design,public lighting,public perception,safety},
+  annotation = {复合影响因子: 0.671\\
+综合影响因子: 0.476},
+  file = {D:\Documents\Zotero\storage\SQB9LHYD\温 et al_2023_北京市典型居住区道路照明公众感知评价及模拟优化.pdf}
+}
+
+@article{wenTemporallyEnhancedRSEI2025,
+  title = {Temporally Enhanced {{RSEI}} and Nighttime Lights Reveal Long-Term Ecological Changes and Effective Protection in {{China}}'s Inaugural National Parks},
+  author = {Wen, Chunhui and Long, Tengfei and He, Guojin and Jiao, Weili and Jiang, Wei},
+  year = 2025,
+  month = jan,
+  journal = {Ecological Indicators},
+  volume = {170},
+  pages = {112981},
+  issn = {1470160X},
+  doi = {10.1016/j.ecolind.2024.112981},
+  urldate = {2024-12-13},
+  abstract = {Protected areas are vital for preserving biodiversity and ensuring ecosystem services. Rational assessments of long-term change in ecological environment quality within these areas are crucial for informing effective conservation strategies and policy decisions. This study addresses the challenges of long-term ecological monitoring by improving the Remote Sensing Ecological Index (RSEI) to analyze spatiotemporal changes in ecological quality of China's inaugural national parks (NPs) from 2000 to 2022. It also examines changes in human activities within and surrounding these parks using nighttime light (NTL) remote sensing data. We used Sen~+~MK trend analysis, climate factor removal analysis, and geographical detectors to explore the driving forces behind ecological environment quality changes and compare the effectiveness of ecological protection measures across different NPs. The results indicate that: 1) The temporally enhanced RSEI (tRSEI) effectively integrates the dynamic changes of multiple variables and offers better temporal comparability for long-term ecological monitoring; 2) From 2000 to 2022, the ecological environment quality within the inaugural NPs significantly improved, with more noticeable improvements observed following the implementation of pilot conservation programs; 3) The spatial variation in ecological quality within these NPs is driven by the interaction of multiple factors, including human activities, climate variability, and topographical conditions, with significant differences among the parks; 4) Although overall NTL intensity both inside and outside the NPs increased between 2000 and 2022, especially with accelerated growth in surrounding areas post-pilot program implementation, NTL levels within the parks remained relatively low. Interestingly, a significant positive correlation between tRSEI and NTL changes was observed in Giant Panda and Hainan Tropical Rainforest NPs, suggesting that the increase in NTL did not negatively impact the ecological environment within these protected areas. This study provides recommendations for ecological protection and management in different NPs, offering insights for the effective management of protected areas in China and globally.},
+  langid = {american},
+  keywords = {Driving factors,Ecological environment quality,Human impact,Spatiotemporal dynamics},
+  annotation = {19 citations (Crossref/DOI) [2026-02-22]\\
+17 citations (Semantic Scholar/DOI) [2026-02-22]\\
+19 citations (Crossref/DOI) [2026-02-22]\\
+JCR分区: Q1\\
+中科院分区升级版: 环境科学与生态学1区\\
+影响因子: 7.4\\
+5年影响因子: 7.2\\
+EI: 是\\
+南农高质量: A},
+  file = {D\:\\Documents\\Zotero\\storage\\ED9792DD\\Wen 等 - 2025 - Temporally enhanced RSEI and nighttime lights reveal long-term ecological changes and effective prot.pdf;D\:\\Documents\\Zotero\\storage\\2BBIADNG\\S1470160X24014389.html}
+}
+
+@article{WuJiYuMiaoShuZiYuJiHeYueShuDeZhiXianDuanPiPei2014,
+  title = {{基于描述子与几何约束的直线段匹配}},
+  author = {武, 盟盟 and 焦, 伟利 and 龙, 腾飞},
+  year = 2014,
+  journal = {计算机工程与设计},
+  volume = {35},
+  number = {6},
+  pages = {1983-1987+1998},
+  issn = {1000-7024},
+  doi = {10.16208/j.issn1000-7024.2014.06.020},
+  urldate = {2023-05-06},
+  abstract = {提出了基于描述子与几何约束的直线段匹配方法。采用LSD(line segment detection)算法提取直线特征并用LBD(line band descriptor)描述子表示直线,通过计算2幅影像中直线描述子之间的距离得到N(N{$>$}3)对描述子距离最小的匹配直线对;估计影像间的变换模型参数,以变换模型约束下直线段中点间的距离和直线段间的距离作为相似性测度实现直线段匹配。与现有的直线段匹配算法进行对比,比对结果表明,对于真实的遥感影像及仿射变换、旋转、噪声、光照变化等仿真遥感影像,该方法均得到了更多的匹配直线段对,且耗时更少、匹配准确率高。},
+  copyright = {All rights reserved},
+  langid = {chinese},
+  keywords = {,descriptor,geometric constraints,line feature,line segment matching,remote sensing image},
+  annotation = {中文核心期刊/北大核心: 是\\
+复合影响因子: 1.749\\
+综合影响因子: 1.083},
+  file = {D:\Documents\Zotero\storage\JJYN5P27\武 et al_2014_基于描述子与几何约束的直线段匹配.pdf}
+}
+
+@article{xiaoDataDrivenForestCover2022,
+  title = {Data-{{Driven Forest Cover Change}} and {{Its Driving Factors Analysis}} in {{Africa}}},
+  author = {Xiao, Han and Liu, Jianbo and He, Guojin and Zhang, Xiaomei and Wang, Hua and Long, Tengfei and Zhang, Zhaoming and Wang, Wei and Yin, Ranyu and Guo, Yantao and Cheng, Bo and Cao, Qianqian},
+  year = 2022,
+  month = jan,
+  journal = {Frontiers in Environmental Science},
+  volume = {9},
+  pages = {780069},
+  issn = {2296-665X},
+  doi = {10.3389/fenvs.2021.780069},
+  urldate = {2022-12-02},
+  abstract = {Forest cover plays an important role in sustaining ecological security to realize Sustainable Development Goals (SDGs). The research target area is composed of the African region which is experiencing unprecedented deforestation based on the data collection from 54 countries and regions between 2000 and 2020. Spatial autocorrelation analysis, global principal component analysis, and geographic detector model have been used as the core research tool. The temporal and spatial patterns of forest cover change in Africa and the driving effects of population growth, economic and trade, social development, arable land expansion, and other factors on forest cover change in different periods have been demonstrated. The findings are as follows: 1) extremely unequal distribution of Africa forest has caused forest area reduction in 20~years. The reduction quantity of forest has been illustrated from strong to weak: Central Africa (strongest), East Africa (higher strong), West Africa (medium), South Africa (higher weak), and North Africa (weakest). However, the forest reduction area in West Africa with the original ratio is the most significant. More than 80\% of the forest area reduction in Africa has occurred in 14 countries, just five national forest areas to achieve the net growth, but the increase amount was only 1\% of loss amount. 2) The spatial pattern of forest cover change in Africa contracted and clustered gradually, especially after 2012. Algeria was the hotspot cluster of Morocco and Tunisia, forming the increase area of forest cover in North Africa. Zambia, the coldest point, gathers Angola significantly, while the Democratic Republic of the Congo and Tanzania form a significantly reduced forest cover area. 3) Total population, land area, cultivated land, urban population, consumer price index, and birth rate are the main factors influencing the temporal evolution of forest cover change in Africa. It can be divided into four stages to interpret the different explanations and significance of each factor for forest cover change in the study area.},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  annotation = {JCR分区: Q2\\
+中科院分区升级版: 环境科学与生态学3区\\
+影响因子: 3.3\\
+5年影响因子: 3.7\\
+南农高质量: B},
+  file = {D:\Documents\Zotero\storage\2L7SNT6C\Xiao et al_2022_Data-Driven Forest Cover Change and Its Driving Factors Analysis in Africa.pdf}
+}
+
+@article{xuAdaptiveEarlyWildfire2025,
+  title = {Adaptive Early Wildfire Monitoring Based on Spatiotemporal Prediction and Himawari 8/9},
+  author = {Xu, Zekun and Zhang, Zhaoming and He, Guojin and Zhang, Shuaizhang and Long, Tengfei and Wang, Guizhou},
+  year = 2025,
+  journal = {IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
+  volume = {18},
+  pages = {1--13},
+  issn = {1939-1404, 2151-1535},
+  doi = {10.1109/JSTARS.2025.3554892},
+  urldate = {2025-03-28},
+  copyright = {https://creativecommons.org/licenses/by/4.0/legalcode},
+  annotation = {0 citations (Crossref/DOI) [2025-03-28]\\
+TLDR: An adaptive DL model is proposed and specifically designed for early forest fire monitoring that integrates Stacking ConvLSTM to forecast mid-infrared brightness temperatures and employs a nonparametric dynamic thresholding method based on Otsu's algorithm for spatiotemporal anomaly detection, facilitating the identification of potential hotspots.},
+  file = {D:\Documents\Zotero\storage\DRGSCTVQ\Xu 等 - 2025 - Adaptive early wildfire monitoring based on spatiotemporal prediction and himawari 89.pdf}
+}
+
+@article{XuSDGSAT1DuoPuDuanChengXiangYiZaiGuiJiHeDingBiaoFangFaYanJiu2022,
+  title = {{SDGSAT-1多谱段成像仪在轨几何定标方法研究}},
+  author = {许, 殊 and 黄, 鹏 and 陈, 勃 and 龙, 腾飞 and 吴, 梦超 and 李, 山山},
+  year = 2022,
+  journal = {地理信息世界},
+  volume = {29},
+  number = {6},
+  pages = {30--36},
+  issn = {1672-1586},
+  urldate = {2023-05-06},
+  abstract = {针对SDGSAT-1多谱段成像仪像速异速匹配的特点，提出基于时间对齐约束的在轨几何定标方法。为减少由于多谱段成像仪各片CMOS成像速度不恒定、不一致所造成的同影像行行时不一致对定标造成的不利影响，通过时间对齐约束，采用基于探元指向角和安装矩阵的几何定标模型，综合利用绝对定标和相对定标方法，对SDGSAT-1多谱段成像仪进行在轨几何定标。本文方法能将定标景对地定位误差从定标前约90km提升至优于0.5像素，配准误差优于0.3像素，测试景对地定位误差优于5像素，配准精度优于0.4像素。和传统方法相比，本文方法能提升绝对定标精度，降低片间拼接误差。实验结果表明，本文方法使多谱段成像仪内外部系统误差得到了精确的标定和补偿，较好地消除了内外几何成像参数误差造成的影响。},
+  copyright = {All rights reserved},
+  langid = {chinese},
+  keywords = {,geometric accuracy,image speed matching,multispectral imager,same imaging period},
+  annotation = {复合影响因子: 0.958\\
+综合影响因子: 0.735},
+  file = {D:\Documents\Zotero\storage\75GNL3ZR\许 et al_2022_SDGSAT-1多谱段成像仪在轨几何定标方法研究.pdf}
+}
+
+@article{yangLargescaleUltrahighresolutionSegmentation2025,
+  title = {A Large-Scale Ultra-High-Resolution Segmentation Dataset Augmentation Framework for Photovoltaic Panels in Photovoltaic Power Plants Based on Priori Knowledge},
+  author = {Yang, Ruiqing and He, Guojin and Yin, Ranyu and Wang, Guizhou and Peng, Xueli and Zhang, Zhaoming and Long, Tengfei and Peng, Yan and Wang, Jianping},
+  year = 2025,
+  month = jul,
+  journal = {Applied Energy},
+  volume = {390},
+  pages = {125879},
+  publisher = {Elsevier BV},
+  issn = {0306-2619},
+  doi = {10.1016/j.apenergy.2025.125879},
+  urldate = {2025-07-17},
+  copyright = {https://www.elsevier.com/tdm/userlicense/1.0/},
+  langid = {english}
+}
+
+@article{yangNovelWeaklysupervisedMethod2024,
+  title = {A Novel Weakly-Supervised Method Based on the Segment Anything Model for Seamless Transition from Classification to Segmentation: {{A}} Case Study in Segmenting Latent Photovoltaic Locations},
+  shorttitle = {A Novel Weakly-Supervised Method Based on the Segment Anything Model for Seamless Transition from Classification to Segmentation},
+  author = {Yang, Ruiqing and He, Guojin and Yin, Ranyu and Wang, Guizhou and Zhang, Zhaoming and Long, Tengfei and Peng, Yan and Wang, Jianping},
+  year = 2024,
+  month = jun,
+  journal = {International Journal of Applied Earth Observation and Geoinformation},
+  volume = {130},
+  pages = {103929},
+  issn = {15698432},
+  doi = {10.1016/j.jag.2024.103929},
+  urldate = {2024-08-16},
+  langid = {english},
+  annotation = {0 citations (Crossref/DOI) [2024-08-16]\\
+JCR分区: Q1\\
+中科院分区升级版: 地球科学1区\\
+影响因子: 7.6\\
+5年影响因子: 7.5\\
+南农高质量: A},
+  file = {D:\Documents\Zotero\storage\2FAJBD5I\Yang 等 - 2024 - A novel weakly-supervised method based on the segment anything model for seamless transition from cl.pdf}
+}
+
+@article{yangWeaklysemiSupervisedExtraction2024,
+  title = {Weakly-Semi Supervised Extraction of Rooftop Photovoltaics from High-Resolution Images Based on Segment Anything Model and Class Activation Map},
+  author = {Yang, Ruiqing and He, Guojin and Yin, Ranyu and Wang, Guizhou and Zhang, Zhaoming and Long, Tengfei and Peng, Yan},
+  year = 2024,
+  month = may,
+  journal = {Applied Energy},
+  volume = {361},
+  pages = {122964},
+  issn = {03062619},
+  doi = {10.1016/j.apenergy.2024.122964},
+  urldate = {2024-03-14},
+  langid = {english},
+  annotation = {JCR分区: Q1\\
+中科院分区升级版: 工程技术1区\\
+影响因子: 10.1\\
+5年影响因子: 10.4\\
+EI: 是\\
+南农高质量: A},
+  file = {D:\Documents\Zotero\storage\Y9BMLM6C\Yang 等 - 2024 - Weakly-semi supervised extraction of rooftop photovoltaics from high-resolution images based on segm.pdf}
+}
+
+@article{YanShiJieQingCangGaoYuan20132023NianSenLinDiShangShengWuLiangChanPin2025a,
+  title = {{青藏高原2013--2023年森林地上生物量产品}},
+  author = {{阎世杰} and {张晓美} and {何国金} and {龙腾飞}},
+  year = 2025,
+  journal = {中国科学数据（中英文网络版）},
+  volume = {10},
+  number = {2},
+  pages = {180--192},
+  issn = {2096-2223},
+  abstract = {青藏高原是我国重要的生态安全屏障，准确估计青藏高原的森林地上生物量(aboveground biomass,AGB)并明晰其空间分布特征，对于青藏高原生态系统的监测与保护、碳循环研究、碳储量估算、揭示森林与气候的交互作用至关重要。由于青藏高原地区海拔较高、气候复杂、地形多变，呈现显著的空间异质性特征，其森林AGB的估算十分具有挑战性。本研究基于地面实测森林AGB样本，运用随机森林回归模型，综合考虑地表反射率、地表温度、植被指数、气象数据、地形数据等潜在驱动因子，采用反向特征消除的特征选择方法提升模型精度(最优精度为R2--0.78,RMSE--33.79 t/ha)，生成了2013--2023年青藏高原地区高空间分辨率(30米)的森林AGB产品。本产品可以反映青藏高原地区森林生物量的时间、空间分布格局，为该地区的森林保护与管理政策的制定提供科学参考。},
+  langid = {chinese},
+  file = {D:\Documents\Zotero\storage\P292U2U6\abstract.html}
+}
+
+@inproceedings{yeQuantifyingUrbanCooling2025,
+  title = {Quantifying Urban Cooling Benefits with {{SDGSAT-1}} Nighttime Light and Thermal Infrared Data},
+  booktitle = {The 46th {{Asian Conference}} on {{Remote Sensing}} 2025},
+  author = {Ye, Long and Long, Tengfei and Jiao, Weili and Adam, Elhadi},
+  year = 2025,
+  month = oct,
+  address = {Makassar, Indonesia}
+}
+
+@article{yinAutomaticFrameworkMapping2022,
+  title = {Automatic {{Framework}} of {{Mapping Impervious Surface Growth With Long-Term Landsat Imagery Based}} on {{Temporal Deep Learning Model}}},
+  author = {Yin, Ranyu and He, Guojin and Wang, Guizhou and Long, Tengfei and Li, Hongfeng and Zhou, Dengji and Gong, Chengjuan},
+  year = 2022,
+  journal = {IEEE Geoscience and Remote Sensing Letters},
+  volume = {19},
+  pages = {1--5},
+  issn = {1545-598X, 1558-0571},
+  doi = {10.1109/LGRS.2021.3135869},
+  urldate = {2022-12-02},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  annotation = {JCR分区: Q1\\
+中科院分区升级版: 地球科学3区\\
+影响因子: 4.0\\
+5年影响因子: 4.4\\
+EI: 是\\
+南农高质量: A\\
+TLDR: The result shows that the proposed method could: 1) efficiently model the IS growth; 2) map IS growth with less salt-and-pepper noise and false alarm compared to existing products; and 3) be extended to future data easily.},
+  file = {D:\Documents\Zotero\storage\H8HUEXFX\Yin 等 - 2022 - Automatic Framework of Mapping Impervious Surface Growth With Long-Term Landsat Imagery Based on Tem.pdf}
+}
+
+@article{YiWuHanChengShiQunXiaJiReDaoTeZhengJiYanBian2015,
+  title = {{武汉城市群夏季热岛特征及演变}},
+  author = {易, 予晴 and 龙, 腾飞 and 焦, 伟利 and 彭, 剑威 and 刘, 慧婵 and 凌, 赛广},
+  year = 2015,
+  journal = {长江流域资源与环境},
+  volume = {24},
+  number = {8},
+  pages = {1279--1285},
+  issn = {1004-8227},
+  urldate = {2023-05-06},
+  abstract = {利用2000\textasciitilde 2010年共11期MODIS地表温度资料和多源多时相的遥感影像分类结果揭示武汉城市群的夏季热岛效应,反演并计算出10a间武汉城市群日间和夜间的热岛强度变化、土地覆盖类型和城镇用地面积。在对不同时相的地表温度数据进行热岛指数归一化处理的基础上,分析了武汉城市群热岛的分布特征及年代演变,定量分析了武汉城市群以及中心城市武汉市不同热状况区面积的变化和热场的变迁。结果表明,武汉城市群夏季热岛效应较为明显,其中武汉市是主要热源和热中心;自2000年起,武汉城市群城乡温度差异逐步减小,热中心分布向外扩散,城市热岛区域急速扩张,整体热环境趋于恶化;新兴城区的开发增加了武汉市的热源分布,人工表面的增加以及自然表面的减少导致城市热岛效应不断加剧。},
+  copyright = {All rights reserved},
+  langid = {chinese},
+  keywords = {,city group,heat island effect,MODIS,urbanization,Wuhan},
+  annotation = {CSCD: 核心库\\
+中文核心期刊/北大核心: 是\\
+复合影响因子: 5.364\\
+综合影响因子: 3.609\\
+南农核心: 二类核心\\
+南农高质量: 二类},
+  file = {D:\Documents\Zotero\storage\UY5G7FNU\易 et al_2015_武汉城市群夏季热岛特征及演变.pdf}
+}
+
+@article{zhangAssessmentAnnualComposite2021,
+  title = {Assessment of {{Annual Composite Images Obtained}} by {{Google Earth Engine}} for {{Urban Areas Mapping Using Random Forest}}},
+  author = {Zhang, Zhaoming and Wei, Mingyue and Pu, Dongchuan and He, Guojin and Wang, Guizhou and Long, Tengfei},
+  year = 2021,
+  month = feb,
+  journal = {Remote Sensing},
+  volume = {13},
+  number = {4},
+  pages = {748},
+  issn = {2072-4292},
+  doi = {10.3390/rs13040748},
+  urldate = {2022-12-02},
+  abstract = {Urban areas represent the primary source region of greenhouse gas emissions. Mapping urban areas is essential for understanding land cover change, carbon cycles, and climate change (urban areas also refer to impervious surfaces, i.e., artificial cover and structures). Remote sensing has greatly advanced urban areas mapping over the last several decades. At present, we have entered the era of big data. Long time series of satellite data such as Landsat and high-performance computing platforms such as Google Earth Engine (GEE) offer new opportunities to map urban areas. The objective of this research was to determine how annual time series images from Landsat 8 Operational Land Imager (OLI) can effectively be composed to map urban areas in three cities in China in support of GEE. Three reducer functions, ee.Reducer.min(), ee.Reducer.median(), and ee.Reducer.max() provided by GEE, were selected to construct four schemes to synthesize the annual intensive time series Landsat 8 OLI data for three cities in China. Then, urban areas were mapped based on the random forest algorithm and the accuracy was evaluated in detail. The results show that (1) the quality of annual composite images was improved significantly, particularly in reducing the impact of cloud and cloud shadows, and (2) the annual composite images obtained by the combination of multiple reducer functions had better performance than that obtained by a single reducer function. Further, the overall accuracy of urban areas mapping with the combination of multiple reducer functions exceeded 90\% in all three cities in China. In summary, a suitable combination of reducer functions for synthesizing annual time series images can enhance data quality and ensure differences between characteristics and higher precision for urban areas mapping.},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  annotation = {JCR分区: Q1\\
+中科院分区升级版: 地球科学2区\\
+影响因子: 4.2\\
+5年影响因子: 4.9\\
+EI: 是\\
+南农高质量: A\\
+TLDR: A suitable combination of reducer functions for synthesizing annual time series images can enhance data quality and ensure differences between characteristics and higher precision for urban areas mapping.},
+  file = {D:\Documents\Zotero\storage\JAU6G8SY\Zhang et al_2021_Assessment of Annual Composite Images Obtained by Google Earth Engine for Urban.pdf}
+}
+
+@article{zhangBurnedAreaDetection2025,
+  title = {Burned Area Detection and Estimation of Fire Carbon Emissions in Canada in 2023 Using Landsat 8/9 and Sentinel 2 Data},
+  author = {Zhang, Zhaoming and Qi, Baoye and Huang, Shunguo and Long, Tengfei and He, Guojin and Wang, Guizhou and Sun, Ying},
+  year = 2025,
+  month = aug,
+  journal = {Remote Sensing Letters},
+  volume = {16},
+  number = {8},
+  pages = {902--916},
+  publisher = {Informa UK Limited},
+  issn = {2150-704X, 2150-7058},
+  doi = {10.1080/2150704x.2025.2513558},
+  urldate = {2025-07-17},
+  langid = {english}
+}
+
+@article{zhangCoupledAtmosphericTopographic2018,
+  title = {A Coupled Atmospheric and Topographic Correction Algorithm for Remotely Sensed Satellite Imagery over Mountainous Terrain},
+  author = {Zhang, Zhaoming and He, Guojin and Zhang, Xiaomei and Long, Tengfei and Wang, Guizhou and Wang, Mengmeng},
+  year = 2018,
+  month = may,
+  journal = {GIScience \& Remote Sensing},
+  volume = {55},
+  number = {3},
+  pages = {400--416},
+  issn = {1548-1603, 1943-7226},
+  doi = {10.1080/15481603.2017.1382066},
+  urldate = {2022-12-02},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  annotation = {JCR分区: Q1\\
+中科院分区升级版: 地球科学2区\\
+影响因子: 6.0\\
+5年影响因子: 7.3\\
+南农高质量: A}
+}
+
+@article{zhangDestripingAlgorithmSDGSAT12022,
+  title = {A {{Destriping Algorithm}} for {{SDGSAT-1 Nighttime Light Images Based}} on {{Anomaly Detection}} and {{Spectral Similarity Restoration}}},
+  author = {Zhang, Degang and Cheng, Bo and Shi, Lu and Gao, Jie and Long, Tengfei and Chen, Bo and Wang, Guizhou},
+  year = 2022,
+  month = nov,
+  journal = {Remote Sensing},
+  volume = {14},
+  number = {21},
+  pages = {5544},
+  issn = {2072-4292},
+  doi = {10.3390/rs14215544},
+  urldate = {2022-12-02},
+  abstract = {Remote sensing nighttime lights (NTLs) offers a unique perspective on human activity, and NTL images are widely used in urbanization monitoring, light pollution, and other human-related research. As one of the payloads of sustainable development science Satellite-1 (SDGSAT-1), the Glimmer Imager (GI) provides a new multi-spectral, high-resolution, global coverage of NTL images. However, during the on-orbit testing of SDGSAT-1, a large number of stripes with bad or corrupted pixels were observed in the L1A GI image, which directly affected the accuracy and availability of data applications. Therefore, we propose a novel destriping algorithm based on anomaly detection and spectral similarity restoration (ADSSR) for the GI image. The ADSSR algorithm mainly consists of three parts: pretreatment, stripe detection, and stripe restoration. In the pretreatment, salt-pepper noise is suppressed by setting a minimum area threshold of the connected components. Then, during stripe detections, the valid pixel number sequence and the total pixel value sequence are analyzed to determine the location of stripes, and the abnormal pixels of each stripe are estimated by a clustering algorithm. Finally, a spectral-similarity-based method is adopted to restore all abnormal pixels of each stripe in the stripe restoration. In this paper, the ADSSR algorithm is compared with three representative destriping algorithms, and the robustness of the ADSSR algorithm is tested on different sizes of GI images. The results show that the ADSSR algorithm performs better than three representative destriping algorithms in terms of visual and quantitative indexes and still maintains outstanding performance and robustness in differently sized GI images.},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  annotation = {JCR分区: Q1\\
+中科院分区升级版: 地球科学2区\\
+影响因子: 4.2\\
+5年影响因子: 4.9\\
+EI: 是\\
+南农高质量: A\\
+TLDR: The results show that the ADSSR algorithm performs better than three representative destriping algorithms in terms of visual and quantitative indexes and still maintains outstanding performance and robustness in differently sized GI images.},
+  file = {D:\Documents\Zotero\storage\PRAMKVAX\Zhang et al_2022_A Destriping Algorithm for SDGSAT-1 Nighttime Light Images Based on Anomaly.pdf}
+}
+
+@article{zhangDetectingDecadalLand2015,
+  title = {Detecting {{Decadal Land Cover Changes}} in {{Mining Regions}} Based on {{Satellite Remotely Sensed Imagery}}: {{A Case Study}} of the {{Stone Mining Area}} in {{Luoyuan County}}, {{SE China}}},
+  shorttitle = {Detecting {{Decadal Land Cover Changes}} in {{Mining Regions}} Based on {{Satellite Remotely Sensed Imagery}}},
+  author = {Zhang, Zhaoming and He, Guojin and Wang, Mengmeng and Wang, Zhihua and Long, Tengfei and Peng, Yan},
+  year = 2015,
+  month = sep,
+  journal = {Photogrammetric Engineering \& Remote Sensing},
+  volume = {81},
+  number = {9},
+  pages = {745--751},
+  issn = {00991112},
+  doi = {10.14358/PERS.81.9.745},
+  urldate = {2022-12-02},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  keywords = {notion},
+  annotation = {JCR分区: Q4\\
+中科院分区升级版: 地球科学4区\\
+影响因子: 1.0\\
+5年影响因子: 1.2\\
+EI: 是},
+  file = {D:\Documents\Zotero\storage\3UYN9KD8\Zhang 等 - 2015 - Detecting Decadal Land Cover Changes in Mining Regions based on Satellite Remotely Sensed Imagery A.pdf}
+}
+
+@article{zhangForestStatusAssessment2023,
+  title = {Forest Status Assessment in {{China}} with {{SDG}} Indicators Based on High-Resolution Satellite Data},
+  author = {Zhang, Xiaomei and He, Guojin and Yan, Shijie and Long, Tengfei and Peng, Xueli and Zhang, Zhaoming and Wang, Guizhou},
+  year = 2023,
+  month = oct,
+  journal = {International Journal of Digital Earth},
+  volume = {16},
+  number = {1},
+  pages = {1008--1021},
+  issn = {1753-8947, 1753-8955},
+  doi = {10.1080/17538947.2023.2190625},
+  urldate = {2023-05-06},
+  copyright = {All rights reserved},
+  langid = {english},
+  annotation = {JCR分区: Q1\\
+中科院分区升级版: 地球科学1区\\
+影响因子: 3.7\\
+5年影响因子: 3.9\\
+EI: 是\\
+南农高质量: A},
+  file = {D:\Documents\Zotero\storage\CJEL3L8V\Zhang 等 - 2023 - Forest status assessment in China with SDG indicators based on high-resolution satellite data.pdf}
+}
+
+@article{zhangHighResolutionGlobal2025,
+  title = {High Resolution Global Forest Burned Area Changes Monitoring Using Landsat 7/8 Images},
+  author = {Zhang, Zhaoming and Qi, Baoye and He, Guojin and Wang, Mengmeng and Huang, Shunguo and Long, Tengfei and Wang, Guizhou and Xu, Zekun},
+  year = 2025,
+  month = apr,
+  journal = {Geo-spatial Information Science},
+  pages = {1--14},
+  publisher = {Informa UK Limited},
+  issn = {1009-5020, 1993-5153},
+  doi = {10.1080/10095020.2025.2483429},
+  urldate = {2025-07-17},
+  copyright = {http://creativecommons.org/licenses/by/4.0/},
+  langid = {english},
+  file = {D:\Documents\Zotero\storage\LVWLFVVZ\Zhang 等 - 2025 - High resolution global forest burned area changes monitoring using landsat 78 images.pdf}
+}
+
+@article{zhangOperationalMethodLand2016,
+  title = {Towards an Operational Method for Land Surface Temperature Retrieval from {{Landsat}} 8 Data},
+  author = {Zhang, Zhaoming and He, Guojin and Wang, Mengmeng and Long, Tengfei and Wang, Guizhou and Zhang, Xiaomei and Jiao, Weili},
+  year = 2016,
+  month = mar,
+  journal = {Remote Sensing Letters},
+  volume = {7},
+  number = {3},
+  pages = {279--288},
+  issn = {2150-704X, 2150-7058},
+  doi = {10.1080/2150704X.2015.1130877},
+  urldate = {2022-12-02},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  annotation = {JCR分区: Q3\\
+中科院分区升级版: 地球科学4区\\
+影响因子: 1.4\\
+5年影响因子: 1.9\\
+EI: 是\\
+南农高质量: C}
+}
+
+@article{zhangProcessingEarthObservation2015,
+  title = {Processing of Earth Observation Big Data: {{Challenges}} and Countermeasures},
+  shorttitle = {Processing of Earth Observation Big Data},
+  author = {Zhang, ZhaoMing and Ma, Yan and Wang, GuiZhou and Zhang, XiaoMei and Peng, Yan and Long, TengFei and He, GuoJin and Wang, LiZhe},
+  year = 2015,
+  month = feb,
+  journal = {Chinese Science Bulletin},
+  volume = {60},
+  number = {5-6},
+  pages = {470--478},
+  issn = {0023-074X},
+  doi = {10.1360/N972014-00907},
+  urldate = {2022-12-02},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  annotation = {EI: 是\\
+TLDR: It is concluded that the challenges facing earth observation ``big data'' processing are those of data-intensive computing and there should be research and innovation in the areas of system platforms, processing algorithms, and services models.},
+  file = {D:\Documents\Zotero\storage\TS5YKPCA\Zhang et al_2015_Processing of earth observation big data.pdf}
+}
+
+@article{ZhangQingCangGaoYuanLandsatXiLieWeiXingDiBiaoWenDuChanPin19862023,
+  title = {{青藏高原Landsat系列卫星地表温度产品（1986-2023）}},
+  author = {张, 兆明 and 彭, 燕 and 何, 国金 and 王, 猛猛 and 龙, 腾飞 and 王, 桂周 and 齐, 宝业 and 许, 泽坤 and 宋, 逸峰},
+  journal = {中国科学数据(中英文网络版)},
+  pages = {1--8},
+  issn = {2096-2223},
+  urldate = {2025-01-02},
+  abstract = {青藏高原具有独特地形地貌、大气环流体系和生态系统多样性，是我国重要的国家安全和生态安全屏障。地表温度是一个重要的陆地表面参数，在青藏高原生态环境监测及变化研究等领域具有重要的应用。卫星遥感技术为获取区域尺度地表温度信息提供了有效手段。Landsat系列卫星热红外波段数据具有较高的空间分辨率且具有长期的数据积累，为青藏高原大区域、长时序地表温度监测提供了理想的数据源。基于Landsat 5/7/8系列卫星数据和实用单通道算法生产了青藏高原1986--2023年长时间序列地表温度产品，产品生产利用了1986--2023年中国遥感卫星地面站接收存档的青藏高原地区全部的Landsat 5/7/8卫星数据，地表温度产品的空间分辨率为60 m/100 m/120 m，包含了完整的数据文件、质量文件以及元数据文件。分别利用青藏高原区域内的HiWATER站点和青藏高原地气相互作用综合观测数据集提供的实测数据进行精度验证，精度验证结果表明Landsat地表温度产品的RMSE分别为2.46 K和2.92 K。产品可为青藏高原资源调查、生态环境监测等相关领域的研究和应用提供数据产品支撑。},
+  langid = {chinese},
+  keywords = {,No DOI found},
+  file = {D:\Documents\Zotero\storage\Q3X8NGZR\张 等 - 青藏高原Landsat系列卫星地表温度产品（1986-2023）.pdf}
+}
+
+@article{ZhangQuanQiu30MiFenBianLuHuoShaoJiDiChanPin2020,
+  title = {{全球30米分辨率火烧迹地产品}},
+  author = {张, 兆明 and 唐, 朝 and 何, 国金 and 龙, 腾飞 and 魏, 明月},
+  year = 2020,
+  journal = {中国科学数据(中英文网络版)},
+  volume = {5},
+  number = {4},
+  pages = {91--96},
+  issn = {2096-2223},
+  urldate = {2025-01-02},
+  abstract = {火烧迹地是全球变化和碳循环等研究领域的一个重要参量。在全球高精度样本库基础上,基于Landsat 8时序卫星数据和火烧迹地敏感光谱参量,利用机器学习算法生产并发布全球30米分辨率火烧迹地产品。全球30米分辨率火烧迹地产品能够有效反映面积较小的燃烧斑块,同时在火烧迹地位置确定和面积量算上具有优势,可应用于全球火灾监测和评估、碳排放计算、生态环境保护等领域。},
+  langid = {chinese},
+  keywords = {,Landsat 8,No DOI found},
+  file = {D:\Documents\Zotero\storage\QZYZQWBU\张 等 - 2020 - 全球30米分辨率火烧迹地产品.pdf}
+}
+
+@article{zhangRapidGenerationGlobal2020,
+  title = {Rapid Generation of Global Forest Cover Map Using {{Landsat}} Based on the Forest Ecological Zones},
+  author = {Zhang, Xiaomei and Long, Tengfei and He, Guojin and Guo, Yantao and Yin, Ranyu and Zhang, Zhaoming and Xiao, Han and Li, Moxuan and Cheng, Bo},
+  year = 2020,
+  month = mar,
+  journal = {Journal of Applied Remote Sensing},
+  volume = {14},
+  number = {02},
+  pages = {1},
+  issn = {1931-3195},
+  doi = {10.1117/1.JRS.14.022211},
+  urldate = {2022-12-02},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  annotation = {JCR分区: Q3\\
+中科院分区升级版: 地球科学4区\\
+影响因子: 1.4\\
+5年影响因子: 1.4\\
+EI: 是\\
+南农高质量: D\\
+TLDR: An automated pipeline for generating 30-m resolution global-scale forest map from time-series of Landsat images is proposed by utilizing the huge catalog of satellite imagery as well as the high-performance computing capacity of Google Earth Engine.},
+  file = {D:\Documents\Zotero\storage\JQQHTGGE\Zhang et al_2020_Rapid generation of global forest cover map using Landsat based on the forest.pdf}
+}
+
+@article{zhangStudyGlobalBurned2020,
+  title = {Study on {{Global Burned Forest Areas Based}} on {{Landsat Data}}},
+  author = {Zhang, Zhaoming and Long, Tengfei and He, Guojin and Wei, Mingyue and Tang, Chao and Wang, Wei and Wang, Guizhou and She, Wenqing and Zhang, Xiaomei},
+  year = 2020,
+  month = aug,
+  journal = {Photogrammetric Engineering \& Remote Sensing},
+  volume = {86},
+  number = {8},
+  pages = {503--508},
+  issn = {0099-1112},
+  doi = {10.14358/PERS.86.8.503},
+  urldate = {2022-12-02},
+  abstract = {Forests are an extremely valuable natural resource for human development. Satellite remote sensing technology has been widely used in global and regional forest monitoring and management. Accurate data on forest degradation and disturbances due to forest fire is important to understand  forest ecosystem health and forest cover conditions. For a long time, satellite-based global burned area products were only available at coarse native spatial resolution, which was difficult for detecting small and highly fragmented fires. In order to analyze global burned forest areas at  finer spatial resolution, in this study a novel, multi-year 30 meter resolution global burned forest area product was generated and released based on Landsat time series data. Statistics indicate that in 2000, 2005, 2010, 2015, and 2018 the total area of burned forest land in the world was  94.14 million hm               2               , 96.65 million hm               2               , 59.52 million hm               2               , 76.42 million hm               2               , and 83.70 million hm               2               , respectively, with an average value of 82.09 million hm               2               . Spatial distribution patterns of global burned forest areas were investigated  across different continents and climatic domains. It was found that burned forest areas were mainly distributed in Africa and Oceania, which accounted for approximately 73.85\% and 6.81\% of the globe, respectively. By climatic domain, the largest burned forest areas occurred in the tropics,  with proportions between 88.44\% and 95.05\% of the world's total during the study period. Multi-year dynamic analysis shows the global burned forest areas varied considerably due to global climate anomalies, e.g., the La Ni\~na phenomenon.},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  keywords = {notion},
+  annotation = {13 citations (Crossref/DOI) [2024-09-16]\\
+JCR分区: Q4\\
+中科院分区升级版: 地球科学4区\\
+影响因子: 1.0\\
+5年影响因子: 1.2\\
+EI: 是},
+  file = {D:\Documents\Zotero\storage\YW5P5HZR\Zhang 等 - 2020 - Study on Global Burned Forest Areas Based on Landsat Data.pdf}
+}
+
+@article{zhangValidationGeneralizedSinglechannel2016,
+  title = {Validation of the Generalized Single-Channel Algorithm Using {{Landsat}} 8 Imagery and {{SURFRAD}} Ground Measurements},
+  author = {Zhang, Zhaoming and He, Guojin and Wang, Mengmeng and Long, Tengfei and Wang, Guizhou and Zhang, Xiaomei},
+  year = 2016,
+  month = aug,
+  journal = {Remote Sensing Letters},
+  volume = {7},
+  number = {8},
+  pages = {810--816},
+  issn = {2150-704X, 2150-7058},
+  doi = {10.1080/2150704X.2016.1190475},
+  urldate = {2022-12-02},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  annotation = {JCR分区: Q3\\
+中科院分区升级版: 地球科学4区\\
+影响因子: 1.4\\
+5年影响因子: 1.9\\
+EI: 是\\
+南农高质量: C}
+}
+
+@article{ZhangZhongGuoQuYuLandsatDiBiaoWenDuChanPin2020,
+  title = {{中国区域Landsat地表温度产品}},
+  author = {张, 兆明 and 何, 国金 and 彭, 燕 and 龙, 腾飞 and 王, 猛猛 and 魏, 明月},
+  year = 2020,
+  journal = {中国科学数据(中英文网络版)},
+  volume = {5},
+  number = {4},
+  pages = {74--82},
+  issn = {2096-2223},
+  urldate = {2023-08-21},
+  abstract = {地表温度是一个重要的陆地表面参数,广泛应用于农业、林业、生态、全球变化等领域。卫星遥感技术为获取大区域地表温度信息提供了有效手段。Landsat数据热红外波段具有较高的空间分辨率且具有长期的数据积累,为全球变化等需要长时间序列对比分析的研究提供了理想的数据源。基于Landsat数据和普适性单通道算法生产了中国区域1986--2019年长时间序列地表温度产品,可为资源调查、生态环境监测、全球变化研究等相关领域的研究和应用提供数据产品支撑。},
+  copyright = {All rights reserved},
+  langid = {chinese},
+  keywords = {,China,land surface temperature,Landsat satellite,quantitative retrieval},
+  annotation = {复合影响因子: 0.854\\
+综合影响因子: 0.642},
+  file = {D:\Documents\Zotero\storage\UZAYEE6G\张 et al_2020_中国区域Landsat地表温度产品.pdf}
+}
+
+@article{zhaoDeepLearningMethod2022,
+  title = {A {{Deep Learning Method Based}} on {{Two-Stage CNN Framework}} for {{Recognition}} of {{Chinese Reservoirs}} with {{Sentinel-2 Images}}},
+  author = {Zhao, Guodongfang and Yao, Ping and Fu, Li and Zhang, Zhibin and Lu, Shanlong and Long, Tengfei},
+  year = 2022,
+  month = nov,
+  journal = {Water},
+  volume = {14},
+  number = {22},
+  pages = {3755},
+  issn = {2073-4441},
+  doi = {10.3390/w14223755},
+  urldate = {2022-12-02},
+  abstract = {The development of effective and comprehensive methods for mapping and monitoring reservoirs is essential for the utilization of water resources and flood control. Remote sensing has the great advantages of broad spatial coverage and regular revisit to meet the demand of large-scale and long-term tasks of earth observation. Although there already exist some methods for coarse-grained identification of reservoirs at region-level in remote sensing images, it remains a challenge to recognize and localize reservoirs accurately with insufficiency of object details and samples annotated. This study focuses on the fine-grained identification and location of reservoirs with a two-stage CNN framework method, which is comprised of a coarse classification between aquatic and land areas of image patches and a fine detection of reservoirs in aquatic patches with precise geographical coordinates. Moreover, a NIR RCNN detection network is proposed to make use of the multi-spectral characteristics of Sentinel-2 images. To verify the effectiveness of our proposed method, we construct a reservoir and dam dataset of 36 Sentinel-2 images which are sampled in various provinces across China and annotated at the instance level by manual work. The experimental results in the test set show that the two-stage CNN method achieves an average recall of 80.83\% nationwide, and the comparison between reservoirs recognized by the proposed model and those provided by the China Institute of Water Resources and Hydropower Research verifies that the model reaches a recall of about 90\%. Both the indicator evaluation and visualization of identification results have shown the applicability of the proposed method to reservoir recognition in remote sensing images. Being the first attempt to make a fine-grained identification of reservoirs at the instance level, the two-stage CNN framework, which can automatically identify and localize reservoirs in remote sensing images precisely, shows the prospect to be a useful tool for large-scale and long-term reservoir monitoring.},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  annotation = {JCR分区: Q2\\
+中科院分区升级版: 环境科学与生态学3区\\
+影响因子: 3.0\\
+5年影响因子: 3.3\\
+EI: 是\\
+南农高质量: B\\
+TLDR: Being the first attempt to make a fine-grained identification of reservoirs at the instance level, the two-stage CNN framework, which can automatically identify and localize reservoirs in remote sensing images precisely, shows the prospect to be a useful tool for large-scale and long-term reservoir monitoring.},
+  file = {D:\Documents\Zotero\storage\EB8SFT3J\Zhao et al_2022_A Deep Learning Method Based on Two-Stage CNN Framework for Recognition of.pdf}
+}
+
+@article{zhengComparisonSevenMedium2023,
+  title = {A {{Comparison}} of {{Seven Medium Resolution Impervious Surface Products}} on the {{Qinghai}}--{{Tibet Plateau}}, {{China}} from a {{User}}'s {{Perspective}}},
+  author = {Zheng, Kaiyuan and He, Guojin and Yin, Ranyu and Wang, Guizhou and Long, Tengfei},
+  year = 2023,
+  month = apr,
+  journal = {Remote Sensing},
+  volume = {15},
+  number = {9},
+  pages = {2366},
+  issn = {2072-4292},
+  doi = {10.3390/rs15092366},
+  urldate = {2023-05-06},
+  abstract = {As a vital land cover type, impervious surface directly reflects human activities and urbanization, significantly impacting the environment, climate, and biodiversity, especially in ecologically fragile areas such as the Qinghai--Tibet Plateau (QTP) in China. Thus, precise knowledge of impervious surface information on the QTP is essential for its ecological protection and social development. In order to improve the application of products and inform further studies, we assessed the accuracy of seven medium resolution (10--30 m) impervious surface products in the QTP, including GAIA, CISC, GlobalLand30 (GL30), GLC-FCS30 (FCS30), GHS-BUILT-S2 (GHSB), ESA WorldCover10 (WC10), and Dynamic World NRT products (DW). The validation set labeled according to domestic GF-1 images was used to calculate the precision, recall, and F1-Score of these products, and two impervious surface vote maps were generated to analyze their spatial consistency. The results showed that CISC and DW had the highest overall quality among the 30 m and 10 m products, with F1-Scores of 0.5701 and 0.5670, respectively. We also validated the accuracy of different data combinations and their intersection and union sets to provide guidance based on the results for data selection in impervious surface studies on the QTP. For results calculated by the strict validation set, which was exclusive of mixed grids, precision decreased slightly while recall increased significantly for all products, indicating that the omissions were mostly mixed pixels with a smaller percentage of impervious surface. In terms of spatial consistency, the maximum impervious surface range voted by the seven products jointly only accounts for 0.82\% of the QTP, which is 2,786,800 km2 in total. Additionally, the high consistency area (votes {$>$} 4), with a distribution concentrated in large cities and dense buildings, only accounts for 15.18\% of this maximum range. In summary, each product's regional accuracy in the QTP was lower than their published accuracy, and they omitted many impervious surfaces, especially those with a background of bare land.},
+  copyright = {All rights reserved},
+  langid = {english},
+  keywords = {notion},
+  annotation = {JCR分区: Q1\\
+中科院分区升级版: 地球科学2区\\
+影响因子: 4.2\\
+5年影响因子: 4.9\\
+EI: 是\\
+南农高质量: A},
+  file = {D:\Documents\Zotero\storage\66RH4ART\Zheng et al_2023_A Comparison of Seven Medium Resolution Impervious Surface Products on the.pdf}
+}
+
+@article{ZhengKaiYuan2020He2022NianQingCangGaoYuan30MFenBianLuBuTouShuiMianFuGaiShuJuJi2025,
+  title = {{2020和2022年青藏高原30 m分辨率不透水面覆盖数据集}},
+  author = {{郑铠沅} and {尹然宇} and {何国金} and {杨瑞清} and {王桂周} and {龙腾飞} and {贡成娟}},
+  year = 2025,
+  journal = {中国科学数据（中英文网络版）},
+  volume = {10},
+  number = {2},
+  pages = {102--111},
+  issn = {2096-2223},
+  urldate = {2025-07-17},
+  abstract = {2020和2022年青藏高原30 m分辨率不透水面覆盖数据集主要基于Landsat 8年度中值合成数据，结合以高分、资源系列为主的2 m高分辨率数据及30 m分辨率地形数据，采用多特征融合模型提取得到。采用地学知识约束的分层抽样方法构建了不透水面提取样本，模型训练过程中使用了模糊类别训练策略。最终得到的2020及2022年不透水面覆盖数据集准确率分别为99.69\%、98.84\%，召回率分别为84.40\%、79.40\%,F1分数分别为0.91408、0.88059。最终结果以Geo Tiff格式保存。本数据集可为青藏高原地区的生态环境保护、城镇化进程监测等研究提供重要数据支撑。},
+  langid = {chinese},
+  keywords = {,Landsat 8},
+  annotation = {original-container-title: China Scientific Data\\
+foundation: 第二次青藏高原综合考察研究(2019QZKK030701)\textasciitilde\textasciitilde ；\\
+download: 124\\
+album: 基础科学;工程科技I辑\\
+CLC: P237;X87\\
+dbcode: CJFQ\\
+dbname: CJFDAUTO\\
+filename: KXGZ202502009\\
+publicationTag: CSCD, WJCI\\
+CIF: 0.854\\
+AIF: 0.642},
+  file = {D:\Documents\Zotero\storage\Z3ZQM937\郑铠沅 等 - 2025 - 2020和2022年青藏高原30 m分辨率不透水面覆盖数据集.pdf}
+}
+
+@article{zhouLargeScaleMappingScheme2021,
+  title = {A {{Large-Scale Mapping Scheme}} for {{Urban Building From Gaofen-2 Images Using Deep Learning}} and {{Hierarchical Approach}}},
+  author = {Zhou, Dengji and Wang, Guizhou and He, Guojin and Yin, Ranyu and Long, Tengfei and Zhang, Zhaoming and Chen, Sibao and Luo, Bin},
+  year = 2021,
+  journal = {IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
+  volume = {14},
+  pages = {11530--11545},
+  issn = {1939-1404, 2151-1535},
+  doi = {10.1109/JSTARS.2021.3123398},
+  urldate = {2022-12-02},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  annotation = {JCR分区: Q1\\
+中科院分区升级版: 地球科学2区\\
+影响因子: 4.7\\
+5年影响因子: 5.0\\
+EI: 是\\
+南农高质量: A\\
+TLDR: The accuracy assessment shows that the overall accuracy of large-scale urban building mapping using the hierarchical approach proposed in this article reaches 91.5\%, which is 4.8\% higher than that with a traditional method.},
+  file = {D:\Documents\Zotero\storage\59A8UC64\Zhou et al_2021_A Large-Scale Mapping Scheme for Urban Building From Gaofen-2 Images Using Deep.pdf}
+}
+
+@article{zhouRobustBuildingExtraction2020,
+  title = {Robust {{Building Extraction}} for {{High Spatial Resolution Remote Sensing Images}} with {{Self-Attention Network}}},
+  author = {Zhou, Dengji and Wang, Guizhou and He, Guojin and Long, Tengfei and Yin, Ranyu and Zhang, Zhaoming and Chen, Sibao and Luo, Bin},
+  year = 2020,
+  month = dec,
+  journal = {Sensors},
+  volume = {20},
+  number = {24},
+  pages = {7241},
+  issn = {1424-8220},
+  doi = {10.3390/s20247241},
+  urldate = {2022-12-02},
+  abstract = {Building extraction from high spatial resolution remote sensing images is a hot spot in the field of remote sensing applications and computer vision. This paper presents a semantic segmentation model, which is a supervised method, named Pyramid Self-Attention Network (PISANet). Its structure is simple, because it contains only two parts: one is the backbone of the network, which is used to learn the local features (short distance context information around the pixel) of buildings from the image; the other part is the pyramid self-attention module, which is used to obtain the global features (long distance context information with other pixels in the image) and the comprehensive features (includes color, texture, geometric and high-level semantic feature) of the building. The network is an end-to-end approach. In the training stage, the input is the remote sensing image and corresponding label, and the output is probability map (the probability that each pixel is or is not building). In the prediction stage, the input is the remote sensing image, and the output is the extraction result of the building. The complexity of the network structure was reduced so that it is easy to implement. The proposed PISANet was tested on two datasets. The result shows that the overall accuracy reached 94.50 and 96.15\%, the intersection-over-union reached 77.45 and 87.97\%, and F1 index reached 87.27 and 93.55\%, respectively. In experiments on different datasets, PISANet obtained high overall accuracy, low error rate and improved integrity of individual buildings.},
+  copyright = {知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 (CC-BY-NC-ND)},
+  langid = {english},
+  annotation = {JCR分区: Q2\\
+中科院分区升级版: 综合性期刊3区\\
+影响因子: 3.4\\
+5年影响因子: 3.7\\
+EI: 是\\
+南农高质量: B\\
+TLDR: A semantic segmentation model, which is a supervised method, named Pyramid Self-Attention Network (PISANet), which obtained high overall accuracy, low error rate and improved integrity of individual buildings.},
+  file = {D:\Documents\Zotero\storage\VFUEPUN8\Zhou et al_2020_Robust Building Extraction for High Spatial Resolution Remote Sensing Images.pdf}
+}
