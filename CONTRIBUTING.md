@@ -54,6 +54,12 @@ the build uses the existing English files. Chinese updates can still be publishe
 Generated English files are included in the deployed site; the workflow does not commit them back to Git.
 Pushing changes to `.github/workflows/hugo.yaml` requires a token with the `workflow` scope,
 or equivalent permission to update Actions workflow files.
+If GitHub rejects a push with `without workflow scope`, add `workflow` to the
+classic token used by Git, keeping its existing repository permissions. Token settings:
+https://github.com/settings/tokens. If you replace the token, update the stored Git
+credential as well. The local commit is retained after rejection; retry `git push`
+after updating the credential. `scripts/build.py` also retries pushing when there are
+no new changes and returns a nonzero exit code if a Git command fails.
 
 ## Add a Publication detail page
 Publication detail pages are **optional**.
