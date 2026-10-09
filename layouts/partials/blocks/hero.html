@@ -1,0 +1,71 @@
+{{/* IRIS Lab: Hero Block Component */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $content := $block.content | default $block.Params }}
+
+{{ $title := $block.Title | default $content.title }}
+{{ $text := $block.Content | default $content.text }}
+
+{{/* Announcement */}}
+{{ $announcement := $content.announcement }}
+
+{{/* Primary & Secondary actions */}}
+{{ $primary := $content.primary_action }}
+{{ $secondary := $content.secondary_action }}
+{{ $cta := $content.cta }}
+{{ $ctaAlt := $content.cta_alt }}
+
+<div class="row">
+  <div class="col-12 text-left">
+    {{ with $announcement }}
+      <div class="announcement">
+        <span class="announcement-dot"></span>
+        <span class="announcement-text">{{ .text }}</span>
+        {{ with .link }}
+          <a href="{{ .url | relLangURL }}" class="announcement-link">
+            {{ .text }} <i class="fas fa-arrow-right ml-1"></i>
+          </a>
+        {{ end }}
+      </div>
+    {{ end }}
+
+    {{ with $title }}
+      <h1 class="hero-title">{{ . | markdownify }}</h1>
+    {{ end }}
+
+    {{ with $text }}
+      <div class="hero-lead">
+        {{ . | markdownify | emojify }}
+      </div>
+    {{ end }}
+
+    {{ if or $primary $secondary $cta }}
+      <div class="cta-btns mt-4">
+        {{ with $primary }}
+          <a href="{{ .url | relLangURL }}" class="btn btn-primary btn-lg mr-3">
+            <i class="fas fa-book-open mr-1"></i> {{ .text }}
+          </a>
+        {{ end }}
+        {{ with $cta }}
+          {{ if not $primary }}
+            <a href="{{ .url | relLangURL }}" class="btn btn-primary btn-lg mr-3">
+              {{ .label }}
+            </a>
+          {{ end }}
+        {{ end }}
+        {{ with $secondary }}
+          <a href="{{ .url | relLangURL }}" class="btn btn-outline-primary btn-lg">
+            <i class="fas fa-database mr-1"></i> {{ .text }}
+          </a>
+        {{ end }}
+        {{ with $ctaAlt }}
+          {{ if not $secondary }}
+            <a href="{{ .url | relLangURL }}" class="btn btn-outline-primary btn-lg">
+              {{ .label }}
+            </a>
+          {{ end }}
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+</div>
