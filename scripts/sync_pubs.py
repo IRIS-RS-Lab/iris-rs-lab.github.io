@@ -20,6 +20,27 @@ EN_DIR = ROOT_DIR / "content/en/publication"
 DATA_DIR = ROOT_DIR / "data/publications"
 DATA_FILE = DATA_DIR / "generated.json"
 
+def parse_bib_entries(text: str) -> List[Dict[str, Any]]:
+    if hasattr(bibtexparser, "loads"):
+        return bibtexparser.loads(text).entries
+
+    library = bibtexparser.parse_string(text)
+    # Preserve v1's default exclusion of nonstandard entries such as webpage snapshots.
+    standard_types = {
+        "article", "book", "booklet", "conference", "inbook", "incollection",
+        "inproceedings", "manual", "mastersthesis", "misc", "phdthesis",
+        "proceedings", "techreport", "unpublished",
+    }
+    return [
+        {
+            "ID": entry.key,
+            "ENTRYTYPE": entry.entry_type,
+            **{key: field.value for key, field in entry.fields_dict.items()},
+        }
+        for entry in library.entries
+        if entry.entry_type in standard_types
+    ]
+
 def clean_bib_text(text: str) -> str:
     """清理 BibTeX 特殊字符和换行"""
     if not text:
@@ -242,10 +263,10 @@ def main():
 
     print(f"[*] Parsing {BIB_FILE} ...")
     with open(BIB_FILE, 'r', encoding='utf-8') as bibtex_file:
-        bib_database = bibtexparser.load(bibtex_file)
+        entries = parse_bib_entries(bibtex_file.read())
 
     data_entries = []
-    for entry in bib_database.entries:
+    for entry in entries:
         record = build_publication_record(entry)
         if record:
             data_entries.append(record)

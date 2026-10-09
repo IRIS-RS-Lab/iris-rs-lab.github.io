@@ -2,9 +2,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-import bibtexparser
-
-from scripts.sync_pubs import build_publication_record, generate_hugo_bundle
+from scripts.sync_pubs import build_publication_record, generate_hugo_bundle, parse_bib_entries
 
 
 class PublicationExportTests(unittest.TestCase):
@@ -15,10 +13,10 @@ class PublicationExportTests(unittest.TestCase):
         )
         for fields in exports:
             with self.subTest(fields=fields):
-                entry = bibtexparser.loads(
+                entry = parse_bib_entries(
                     '@article{forest2026, title = {Forest cover}, '
                     'author = {Peng, Xue Li}, ' + fields + '}'
-                ).entries[0]
+                )[0]
                 record = build_publication_record(entry)
                 self.assertEqual(record['venue'], 'Scientific Data')
                 self.assertEqual(record['year'], '2026')
@@ -33,6 +31,16 @@ class PublicationExportTests(unittest.TestCase):
                     )
                     self.assertIn('date: 2026-10-01', content)
                     self.assertIn('Published in Scientific Data.', content)
+
+    def test_nonstandard_web_snapshot_is_skipped(self):
+        entries = parse_bib_entries(
+            '@online{snapshot, title = {Forest cover}, '
+            'url = {https://example.com/forest}}\n'
+            '@article{forest2026, title = {Forest cover}, '
+            'date = {2026}, author = {Peng, Xue Li}, '
+            'journaltitle = {Scientific Data}}'
+        )
+        self.assertEqual([entry['ID'] for entry in entries], ['forest2026'])
 
 
 if __name__ == '__main__':
