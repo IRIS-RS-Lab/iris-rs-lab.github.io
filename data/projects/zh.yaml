@@ -40,7 +40,7 @@ entries:
     funding: "100万元"
     members:
       - "龙腾飞"
-    role: "任务（课题）负责人"
+    role: "负责人"
   - title: "沿边地区高精度空间信息基底调查"
     category: "西南及北部湾区综合科学考察第一期"
     start: "2026-04"
@@ -48,7 +48,7 @@ entries:
     funding: "160万元"
     members:
       - "龙腾飞"
-    role: "负责人"
+    role: "任务（课题）负责人"
   - title: "基于新型泛化模型的超大幅宽卫星影像快速高精度几何处理技术研究"
     category: "中国科学院空天信息创新研究院颠覆性项目"
     start: "2023-07"
