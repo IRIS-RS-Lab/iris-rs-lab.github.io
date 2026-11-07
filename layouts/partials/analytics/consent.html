@@ -1,0 +1,13 @@
+{{- if and hugo.IsProduction (partial "analytics/measurement-id" .) -}}
+{{- $zh := eq site.Language.Lang "zh" -}}
+<div id="iris-analytics-consent" class="container" hidden>
+  <button type="button" class="btn btn-link btn-sm" data-consent-settings hidden>{{ cond $zh "访问统计隐私设置" "Analytics privacy settings" }}</button>
+  <section data-consent-banner aria-label="{{ cond $zh "访问统计隐私设置" "Analytics privacy settings" }}" class="my-3 p-3 border rounded text-left">
+    <p>{{ cond $zh "我们仅在你同意后使用 Google Analytics 统计访问情况（包括页面访问、来源以及启用的交互统计），以改进网站。Google 会处理设备、浏览器和访问数据，并可能设置统计 Cookie。拒绝不影响浏览；你可随时在页脚撤回同意。" "With your consent, we use Google Analytics to understand page visits, referrals and enabled interactions to improve this site. Google processes device, browser and usage data and may set analytics cookies. Declining does not affect browsing; you can withdraw consent in the footer at any time." }}</p>
+    <p><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">{{ cond $zh "Google 隐私政策" "Google Privacy Policy" }}</a></p>
+    <p data-consent-signal hidden>{{ cond $zh "已尊重浏览器的“请勿跟踪”或全局隐私控制信号，访问统计保持关闭。" "Your browser's Do Not Track or Global Privacy Control signal is respected. Analytics remains disabled." }}</p>
+    <button type="button" class="btn btn-outline-primary btn-sm" data-consent-reject>{{ cond $zh "拒绝 / 关闭统计" "Decline / disable analytics" }}</button>
+    <button type="button" class="btn btn-primary btn-sm" data-consent-accept>{{ cond $zh "同意访问统计" "Accept analytics" }}</button>
+  </section>
+</div>
+{{- end -}}

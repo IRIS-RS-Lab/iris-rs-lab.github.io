@@ -53,7 +53,15 @@ jobs:
       - name: Sync publication data from publications.bib
         run: python scripts/sync_pubs.py --skip-bundles
 
-      - name: Test content synchronization
+      - name: Setup Node for analytics tests
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Test analytics consent
+        run: node --test tests/test_analytics.cjs
+
+      - name: Test content synchronization and analytics templates
         run: python -m unittest discover -s tests -v
 
       - name: Restore English translations

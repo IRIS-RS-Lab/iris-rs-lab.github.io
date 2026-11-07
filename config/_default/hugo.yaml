@@ -56,3 +56,8 @@ security:
 module:
   imports:
     - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5
+
+# The theme supplies robots.txt; Hugo supplies a multilingual sitemap index.
+enableRobotsTXT: true
+sitemap:
+  filename: sitemap.xml

@@ -56,3 +56,13 @@ hugoblox:
   search:
     enable: true
     suggestions: ["remote sensing", "computer vision", "change detection", "SAR", "segmentation"]
+
+# HugoBlox reads marketing at the TOP LEVEL (not under hugoblox).
+# Empty IDs disable integrations. These are public identifiers, never passwords.
+marketing:
+  analytics:
+    google_analytics: "G-7ZNESBWCZ0" # GA4 web stream measurement ID, e.g. G-XXXXXXXXXX
+  verification:
+    google: "" # Search Console HTML meta tag content only
+    bing: ""   # Bing Webmaster Tools msvalidate.01 content only
+    baidu: ""  # Baidu Search Resource Platform meta tag content only

@@ -73,3 +73,7 @@ Run `pip install -r requirements-dev.txt`, then `python scripts/sync_pubs.py --s
 Commit both `publications.bib` and `data/publications/generated.json`.
 GitHub Actions repeats the sync before building and deploying the site.
 To create optional detail-page stubs without overwriting existing pages, omit `--skip-bundles`.
+
+## Website analytics and webmaster tools
+See [ANALYTICS.md](ANALYTICS.md) for GA4, consent, Search Console, Bing, Baidu,
+and deployment verification. Empty analytics IDs keep tracking disabled.

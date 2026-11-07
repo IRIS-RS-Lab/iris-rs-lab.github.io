@@ -1,0 +1,5 @@
+{{- $id := site.Params.marketing.analytics.google_analytics | default site.Config.Services.GoogleAnalytics.ID | default "" | strings.TrimSpace -}}
+{{- if and hugo.IsProduction $id (not (findRE `^G-[A-Z0-9]+$` $id)) -}}
+  {{- errorf "Google Analytics requires a GA4 measurement ID (G-...), not a UA/GTM ID: %s" $id -}}
+{{- end -}}
+{{- return $id -}}
